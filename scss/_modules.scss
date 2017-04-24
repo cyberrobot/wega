@@ -1,0 +1,18 @@
+.wega-flex-layout {
+    display: flex;
+
+    .wega-align-bottom {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+.wega-skew {
+    transform: skewY(-4deg);
+    overflow: hidden;
+    backface-visibility: hidden;
+    > * {
+        transform: skewY(4deg);
+        backface-visibility: hidden;
+    }
+}

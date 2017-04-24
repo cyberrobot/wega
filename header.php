@@ -25,20 +25,15 @@
                         <img src="img/logo/wega_header_logo.svg" class="header_logo" alt="Wega Partner Logo">
                     </a>
                 </div>
-                <div class="tagline left"><img src="img/logo/tagline.svg" alt="Leading the way"></div>
+                <div class="tagline left"><img src="img/logo/mastercard.svg" alt="Mastercard"></div>
                 <ul id="nav" class="right right_horizontal_menu">
-                    <li>
-                        <a href="login.php" class="btn">Check balance</a>
-                    </li>
-                    <li>
-                        <a href="activate.php" class="btn">Activate Card </a>
                     </li>
                     <li>
                         <a href="apply.php" class="btn blue">Buy now</a>
                     </li>
                     <li>
                         <a href="#" id="ham_button_nav">
-                            <img src="img/Hamburger_Navi_Icon.png" alt="nav button">
+                            <img src="img/hamburger-navi-icon.png" alt="nav button">
                         </a>
                     </li>                    
                 </ul>
