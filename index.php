@@ -3,8 +3,7 @@ include_once "header.php";
 ?>
 <body>
     <div class="container-fluid wega-container-wrapper">
-        <!--Carousel-->
-        <section id="carousel">
+        <!--<section id="carousel">
             <div id="owl-demo" class="owl-carousel owl-theme">
                 <div class="wega-slide wega-slide1">
                     <div class="row">
@@ -69,8 +68,6 @@ include_once "header.php";
                     </div>
                 </div>
 
-                <!-- Slide 4-->
-
                 <div class="wega-slide wega-slide4">
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
@@ -110,9 +107,8 @@ include_once "header.php";
                 </div>
             </div>
 
-        </section>
-        <!-- Section 1-->
-        <section class="wega-section1">
+        </section>-->
+        <!--<section class="wega-section1">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
@@ -131,9 +127,8 @@ include_once "header.php";
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Section 2-->
-        <section class="wega-section2" id="Gift_card">
+        </section>-->
+        <!--<section class="wega-section2" id="Gift_card">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
@@ -173,10 +168,8 @@ include_once "header.php";
                     </div>
                 </div>
             </div>
-        </section>
-       
-        <!-- Section 5-->
-        <section class="wega-section5" id="advantages">
+        </section>-->
+        <!--<section class="wega-section5" id="advantages">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
@@ -215,8 +208,8 @@ include_once "header.php";
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="wega-section-gift-card-value">
+        </section>-->
+        <!--<section class="wega-section-gift-card-value">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
@@ -243,9 +236,8 @@ include_once "header.php";
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Section 6-->
-        <section class="wega-section6" id="giftcardforbusiness">
+        </section>-->
+        <!--<section class="wega-section6" id="giftcardforbusiness">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
@@ -263,7 +255,7 @@ include_once "header.php";
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <section class="wega-footer-top">
             <div class="wega-skew"></div>
             <img class="img-responsive" src="img/wega-footer-top-4-players.jpg" alt="4 football players">

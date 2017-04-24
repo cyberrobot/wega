@@ -64,15 +64,14 @@
         </footer>
     </div>
 <?php
-include_once "modal.php";
 ?>    
-<script id="grv-widget">
+<!--<script id="grv-widget">
 /*<![CDATA[*/
 window.groove = window.groove || {}; groove.widget = function(){ groove._widgetQueue.push(Array.prototype.slice.call(arguments)); }; groove._widgetQueue = [];
 groove.widget('setWidgetId', '72a9d3e0-ed59-657f-89de-71b1fa6a1c2b');
 !function(g,r,v){var a,c,n=r.createElement("iframe");(n.frameElement||n).style.cssText="width: 0; height: 0; border: 0",n.title="",n.role="presentation",n.src="javascript:false",r.body.appendChild(n);try{a=n.contentWindow.document}catch(b){c=r.domain;var d="javascript:document.write('<head><script>document.domain=\""+c+"\";</",i="script></head><body></body>')";n.src=d+i,a=n.contentWindow.document}var s="https:"==r.location.protocol?"https://":"http://",p="https://groove-widget-production.s3.amazonaws.com".replace("http://",s);n.className="grv-widget-tag",a.open()._l=function(){c&&(this.domain=c);var t=this.createElement("script");t.type="text/javascript",t.charset="utf-8",t.async=!0,t.src=p+"/loader.js",this.body.appendChild(t)},a.write("<body onload=\"document._l();\">"),a.close()}(window,document);
 /*]]>*/
-</script>
+</script>-->
 </body>
 
 </html>
