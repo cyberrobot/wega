@@ -120,6 +120,7 @@ ul, ol {
 
 .btn {
   padding: 10px 35px;
+  font-weight: bold;
   border-radius: 2px;
   border: none;
   background-color: rgba(0, 0, 0, 0);
@@ -130,13 +131,7 @@ ul, ol {
   text-align: center;
   display: inline-block;
   min-width: 100px;
-  /*border-bottom: 1px transparent solid;*/
-  &:hover {
-    /*border-bottom: 1px white solid;*/
-  }
-  &:active {
-    /*border-bottom: 1px #79B2E1 solid;*/
-  }
+  
   &.blue {
     background-color: #79B2E1;
   }

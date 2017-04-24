@@ -94,10 +94,6 @@
       float: left;
       margin: 0 5px;
 
-      .btn {
-          font-weight: bold;
-      }
-
       &:not(:last-child) {
           @media screen and (max-width: $screen-sm-max) {
               display: none;
@@ -129,10 +125,6 @@
     }
 
     @media screen and (max-width: $screen-sm-max) {
-        padding: 14px 0;
-    }
-
-    @media screen and (max-width: $screen-xs-max) {
         padding: 14px 0;
     }
 }
