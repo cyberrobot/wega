@@ -3,7 +3,6 @@ include_once "header.php";
 ?>
 <body>
     <div class="container-fluid wega-container-wrapper">
-        <div class="row">
             <section id="carousel">
                 <div id="owl-demo" class="owl-carousel owl-theme">
                     <div class="wega-slide wega-slide1">
@@ -75,7 +74,6 @@ include_once "header.php";
                             </div>
                         </div>
                     </div>-->
-                </div>
             <div>
         </section>
         <!--<section class="wega-section1">
