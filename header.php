@@ -29,7 +29,7 @@
                 <ul id="nav" class="right right_horizontal_menu">
                     </li>
                     <li>
-                        <a href="apply.php" class="btn blue">Buy now</a>
+                        <a href="apply.php" class="btn blue">Get Started</a>
                     </li>
                     <li>
                         <a href="#" id="ham_button_nav">
