@@ -128,3 +128,257 @@
         padding: 14px 0;
     }
 }
+
+#carousel {
+    .owl-carousel {
+        // margin-bottom: -80px;
+
+        .wega-slide {
+            h1 {
+                color: #fff;
+
+                @media screen and (max-width: $screen-md-max) {
+                    font-size: 4rem;
+                }
+
+                @media screen and (max-width: $screen-sm-max) {
+                    font-size: 3.2rem;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    font-size: 2.4rem;
+                }
+            }
+
+            // .wega-image-container {
+            //     img {
+            //         @media screen and (max-width: $screen-md-max) {
+            //             display: inline;
+            //             width: 60%;
+            //         }
+            //     }
+
+            //     @media screen and (max-width: $screen-md-max) {
+            //         text-align: center;
+            //     }
+            // }
+
+            // .wega-flex-layout {
+            //     .wega-align-bottom {
+            //         @media screen and (max-width: $screen-sm-max) {
+            //             display: block;
+            //         }
+            //     }
+
+            //     @media screen and (max-width: $screen-sm-max) {
+            //         display: block;
+            //     }
+            // }
+        }
+
+        .wega-slide1 {
+            background: url('../img/slider/waves.png') no-repeat center center;
+            background-size: 100% auto;
+
+            .wega-align {
+                text-align: center;
+            }
+
+            .wega-image-container {
+                text-align: center;
+
+                img {
+                    display: inline-block;
+
+                    @media screen and (max-width: $screen-md-max) {
+                        max-width: 70%;
+                    }
+
+                    @media screen and (max-width: $screen-sm-max) {
+                        max-width: 60%;
+                    }
+
+                    @media screen and (max-width: $screen-xs-max) {
+                        max-width: 90%;
+                    }
+                }
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                background-size: 250% auto;
+            }
+
+            @media screen and (max-width: $screen-xs-min) {
+                background-size: 350% auto;
+            }
+        }
+
+        .wega-slide3 {
+            background: url('../img/sliders/wega-slide3-pitch-bg.jpg') no-repeat right top;
+
+            p {
+                span {
+                    display: block;
+
+                    @media screen and (max-width: $screen-md-max) {
+                        display: inline;
+                    }
+                }
+            }
+
+            .wega-align {
+                text-align: left;
+
+                h1,
+                h2,
+                p {
+                    display: inline-block;
+                }
+
+                @media screen and (max-width: $screen-sm-max) {
+                    text-align: center;
+                }
+            }
+
+            .wega-content {
+                margin-top: 160px;
+                margin-bottom: 260px;
+
+                @media screen and (max-width: $screen-md-max) {
+                    margin-top: 140px;
+                    margin-bottom: 210px;
+                }
+
+                @media screen and (max-width: $screen-sm-max) {
+                    margin-top: 0;
+                    margin-bottom: 80px;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-top: 0;
+                    margin-bottom: 120px;
+                }
+
+                @media screen and (max-width: $screen-xs-min) {
+                    margin-top: 0;
+                    margin-bottom: 80px;
+                }
+            }
+
+            @media screen and (max-width: 1318px) {
+                background-size: 100% auto;
+                background-position-x: 200px;
+            }
+
+            @media screen and (max-width: $screen-sm-max) {
+                background-position-x: center;
+                background-position-y: 150px;
+                background-size: 150% auto;
+            }
+
+            @media screen and (max-width: $screen-sm-max) {
+                background-position-y: 200px;
+                background-size: 180% auto;
+            }
+        }
+
+        .wega-slide4 {
+            background: url('../img/sliders/wega-crowd.jpg') no-repeat top left;
+            background-size: 105% auto;
+
+            .wega-align {
+                text-align: left;
+
+                * {
+                    display: inline-block;
+                }
+
+                p {
+                    span {
+                        display: inline;
+                    }
+                }
+
+                @media screen and (max-width: $screen-sm-max) {
+                    text-align: center;
+                }
+            }
+
+            .wega-content {
+                margin-bottom: 410px;
+
+                @media screen and (max-width: $screen-md-max) {
+                    margin-bottom: 310px;
+                }
+
+                @media screen and (max-width: $screen-sm-max) {
+                    margin-bottom: 0;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-bottom: 40px;
+                }
+
+                @media screen and (max-width: $screen-xs-min) {
+                    margin-bottom: 0;
+                }
+            }
+
+            .wega-image-container {
+                img {
+                    @media screen and (max-width: $screen-sm-max) {
+                        max-width: 110%;
+                    }
+
+                    @media screen and (max-width: $screen-xs-max) {
+                        max-width: 140%;
+                    }
+
+                    @media screen and (max-width: $screen-xs-min) {
+                        max-width: 140%;
+                    }
+                }
+            }
+
+            h2 {
+                margin-bottom: 0;
+
+                span {
+                    display: block;
+
+                    @media screen and (max-width: $screen-xs-min) {
+                        display: inline;
+                    }
+                }
+            }
+
+            @media screen and (max-width: $screen-md-max) {
+                background-size: 110% auto;
+            }
+
+            @media screen and (max-width: $screen-sm-max) {
+                background: none;
+            }
+        }
+
+        // @media screen and (max-width: $screen-sm-max) {
+        //     margin-bottom: -100px;
+        // }
+
+        // @media screen and (max-width: $screen-xs-max) {
+        //     margin-bottom: -80px;
+        // }
+
+        // @media screen and (max-width: $screen-xs-min) {
+        //     margin-bottom: -50px;
+        // }
+    }
+
+    .owl-controls {
+        bottom: 40%;
+
+        @media screen and (max-width: $screen-md-max) {
+            bottom: 35%;
+        }
+    }
+}

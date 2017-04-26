@@ -3,41 +3,26 @@ include_once "header.php";
 ?>
 <body>
     <div class="container-fluid wega-container-wrapper">
-        <!--<section id="carousel">
+        <section id="carousel">
             <div id="owl-demo" class="owl-carousel owl-theme">
                 <div class="wega-slide wega-slide1">
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 wega-sm-padding">
-                            <h1 class="wega-align"><span>Manchester City</span> Wega Gift Card</h1>
-                            <h2 class="wega-align">A Winning Gift</h2>
-                            <div class="row">
-                                <div class="wega-flex-layout">
-                                <div class="col-md-5 col-md-push-7">
-                                    <div class="wega-content">
-                                        <div class="wega-align"><span class="split"></span></div>
-                                        <div class="wega-align"><span class="discount-line">10% discount on city store purchases</span></div>
-                                        <div class="wega-align"><img class="gift-card img-responsive" src="img/wega-gift-card.png" alt="Wega Gift Card"></div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="#Gift_card" class="btn blue scroll-link">Find out more</a>
-                                            </li>
-                                            <li>
-                                                <a href="apply.php" class="btn blue">Buy Now</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            <h1 class="wega-align">Introducing the world’s first acoustic card</h1>
+                                <div class="wega-image-container">
+                                    <img class="img-responsive" src="img/slider/worlds-first-acoustic-card.png" alt="Introducing the world’s first acoustic card">
                                 </div>
-                                <div class="col-md-6 col-md-pull-5 wega-align-bottom">
-                                    <div class="wega-image-container">
-                                        <img class="img-responsive" src="img/sliders/wega-3-players.png" alt="Players image">
-                                    </div>
-                                </div>
+                                <ul class="horizontal-menu wega-align">
+                                    <li>
+                                        <a href="apply.php" class="btn blue">Learn More</a>
+                                    </li>
+                                </ul>
                             </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="wega-slide wega-slide3">
+                <!--<div class="wega-slide wega-slide3">
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                             <div class="row">
@@ -104,10 +89,10 @@ include_once "header.php";
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
 
-        </section>-->
+        </section>
         <!--<section class="wega-section1">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
