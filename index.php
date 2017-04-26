@@ -6,7 +6,7 @@ include_once "header.php";
         <div class="row">
             <section id="carousel">
                 <div id="owl-demo" class="owl-carousel owl-theme">
-                    <!--<div class="wega-slide wega-slide1">
+                    <div class="wega-slide wega-slide1">
                         <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                             <h1 class="wega-align">Introducing the world’s first acoustic card</h1>
                             <div class="wega-image-container">
@@ -18,7 +18,7 @@ include_once "header.php";
                                 </li>
                             </ul>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="wega-slide wega-slide2">
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 wega-sm-padding">
                             <div class="col-sm-6">
