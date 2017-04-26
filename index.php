@@ -3,95 +3,80 @@ include_once "header.php";
 ?>
 <body>
     <div class="container-fluid wega-container-wrapper">
-        <section id="carousel">
-            <div id="owl-demo" class="owl-carousel owl-theme">
-                <div class="wega-slide wega-slide1">
-                    <div class="row">
+        <div class="row">
+            <section id="carousel">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <!--<div class="wega-slide wega-slide1">
                         <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                             <h1 class="wega-align">Introducing the world’s first acoustic card</h1>
+                            <div class="wega-image-container">
+                                <img class="img-responsive" src="img/slider/worlds-first-acoustic-card.png" alt="Introducing the world’s first acoustic card">
+                            </div>
+                            <ul class="horizontal-menu wega-align">
+                                <li>
+                                    <a href="apply.php" class="btn blue">Learn More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>-->
+                    <div class="wega-slide wega-slide2">
+                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 wega-sm-padding">
+                            <div class="col-sm-6">
                                 <div class="wega-image-container">
-                                    <img class="img-responsive" src="img/slider/worlds-first-acoustic-card.png" alt="Introducing the world’s first acoustic card">
+                                    <img class="img-responsive gift-card" src="img/slider/iphone-card-account.png" alt="The safest way 
+    to shop online">
                                 </div>
-                                <ul class="horizontal-menu wega-align">
-                                    <li>
-                                        <a href="apply.php" class="btn blue">Learn More</a>
-                                    </li>
-                                </ul>
                             </div>
+                            <div class="col-sm-6">
+                                <div class="wega-shop-online">
+                                    <h1>Manchester City Wega Gift Card</h1>
+                                    <div class="app-store"><img src="img/app-store.png" alt="Download from App Store"></div>
+                                    <div class="google-play"><img src="img/google-play.png" alt="Download from Google Play"></div>
+                                    <a href="apply.php" class="btn blue">Learn More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!--<div class="wega-slide wega-slide3">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1 wega-sm-padding">
-                            <div class="row">
-                                <div class="wega-flex-layout">
-                                <div class="col-md-5">
-                                    <div class="wega-content">
-                                        <h1 class="wega-align">Unique</h1>
-                                        <h2 class="wega-align">benefits</h2>
-                                        <div class="wega-align"><span class="split"></span></div>
-                                        <div class="wega-align">
-                                            <p><span>Get access to unique advantages exclusive</span> to the Wega Manchester City Gift Card</p>
-                                        </div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="#advantages" class="btn blue scroll-link">Find out more</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-7 wega-align-bottom">
-                                    <div class="wega-image-container">
-                                        <img class="img-responsive" src="img/sliders/wega-slide3-3-players.png" alt="Players image">
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="wega-slide wega-slide4">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <h1 class="wega-align"><span>Manchester City&nbsp;</span><span>Wega Gift Cards</span></h1>
-                            <div class="row">
-                                <div class="wega-flex-layout">
-                                    <div class="col-md-6 col-lg-5 wega-sm-padding">
-                                        <div class="wega-content">
-                                            <h2 class="wega-align">For business</h2>
-                                            <div class="wega-align"><span class="split"></span></div>
-                                            <div class="wega-align">
-                                                <p>
-                                                    <span>Motivate your teammates or thank you clients with&nbsp;</span>
-                                                    <span>a customised Manchester City Wega Gift&nbsp;</span>
-                                                    <span>One gift. anything they want. anywhere in the world.</span>
-                                                </p>
+                    <!--<div class="wega-slide wega-slide4">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <h1 class="wega-align"><span>Manchester City&nbsp;</span><span>Wega Gift Cards</span></h1>
+                                <div class="row">
+                                    <div class="wega-flex-layout">
+                                        <div class="col-md-6 col-lg-5 wega-sm-padding">
+                                            <div class="wega-content">
+                                                <h2 class="wega-align">For business</h2>
+                                                <div class="wega-align"><span class="split"></span></div>
+                                                <div class="wega-align">
+                                                    <p>
+                                                        <span>Motivate your teammates or thank you clients with&nbsp;</span>
+                                                        <span>a customised Manchester City Wega Gift&nbsp;</span>
+                                                        <span>One gift. anything they want. anywhere in the world.</span>
+                                                    </p>
+                                                </div>
+                                                <ul class="horizontal-menu wega-align">
+                                                    <li>
+                                                        <a href="corporate.php" class="btn blue">Corporate orders</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#giftcardforbusiness" class="btn blue scroll-link">Find out more</a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                            <ul class="horizontal-menu wega-align">
-                                                <li>
-                                                    <a href="corporate.php" class="btn blue">Corporate orders</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#giftcardforbusiness" class="btn blue scroll-link">Find out more</a>
-                                                </li>
-                                            </ul>
                                         </div>
-                                    </div>
-                                    <div class="col-md-7 wega-align-bottom">
-                                        <div class="wega-image-container hidden-md hidden-lg">
-                                            <img class="img-responsive" src="img/sliders/wega-crowd.jpg" alt="Crowd of fans image">
+                                        <div class="col-md-7 wega-align-bottom">
+                                            <div class="wega-image-container hidden-md hidden-lg">
+                                                <img class="img-responsive" src="img/sliders/wega-crowd.jpg" alt="Crowd of fans image">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>-->
-            </div>
-
+                    </div>-->
+                </div>
+            <div>
         </section>
         <!--<section class="wega-section1">
             <div class="wega-skew">

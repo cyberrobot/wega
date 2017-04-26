@@ -4,7 +4,7 @@
         $("#owl-demo").owlCarousel({
 
             autoPlay: 7000,
-            navigation: true, // Show next and prev buttons
+            navigation: false, // Show next and prev buttons
             slideSpeed: 300,
             paginationSpeed: 400,
             singleItem: true
@@ -17,11 +17,11 @@
             modalNav.fadeIn('slow');
         });
         //close blue nav
-        var modalNavClose = $('#close-button-nav');
-        modalNavClose.on('click', function(e) {
-            e.preventDefault();
-            modalNav.fadeOut('fast');
-        });
+        // var modalNavClose = $('#close-button-nav');
+        // modalNavClose.on('click', function(e) {
+        //     e.preventDefault();
+        //     modalNav.fadeOut('fast');
+        // });
         $(document).on('click', '.scroll-link', function(event) {
             event.stopPropagation();
             modalNav.fadeOut('fast');

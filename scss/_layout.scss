@@ -131,24 +131,10 @@
 
 #carousel {
     .owl-carousel {
-        // margin-bottom: -80px;
+        padding-bottom: 40px;
 
         .wega-slide {
-            h1 {
-                color: #fff;
-
-                @media screen and (max-width: $screen-md-max) {
-                    font-size: 4rem;
-                }
-
-                @media screen and (max-width: $screen-sm-max) {
-                    font-size: 3.2rem;
-                }
-
-                @media screen and (max-width: $screen-xs-max) {
-                    font-size: 2.4rem;
-                }
-            }
+            overflow: hidden;
 
             // .wega-image-container {
             //     img {
@@ -213,26 +199,30 @@
             }
         }
 
-        .wega-slide3 {
+        .wega-slide2 {
             background: url('../img/sliders/wega-slide3-pitch-bg.jpg') no-repeat right top;
 
-            p {
-                span {
-                    display: block;
+            .wega-image-container {
+                text-align: right;
+
+                img {
+                    display: inline-block;
 
                     @media screen and (max-width: $screen-md-max) {
-                        display: inline;
+                        max-width: 80%;
                     }
-                }
-            }
 
-            .wega-align {
-                text-align: left;
+                    @media screen and (max-width: $screen-sm-max) {
+                        max-width: 85%;
+                    }
 
-                h1,
-                h2,
-                p {
-                    display: inline-block;
+                    @media screen and (max-width: $screen-xs-max) {
+                        max-width: 50%;
+                    }
+
+                    @media screen and (max-width: $screen-xs-min) {
+                        max-width: 65%;
+                    }
                 }
 
                 @media screen and (max-width: $screen-sm-max) {
@@ -240,45 +230,38 @@
                 }
             }
 
-            .wega-content {
-                margin-top: 160px;
-                margin-bottom: 260px;
+            .wega-shop-online {
+                .app-store {
+                    margin-bottom: 20px;
 
-                @media screen and (max-width: $screen-md-max) {
-                    margin-top: 140px;
-                    margin-bottom: 210px;
+                    img {
+                        @media screen and (max-width: $screen-xs-max) {
+                            max-width: 50%;
+                        }
+                    }
                 }
 
-                @media screen and (max-width: $screen-sm-max) {
-                    margin-top: 0;
-                    margin-bottom: 80px;
+                .google-play {
+                    margin-bottom: 60px;
+
+                    img {
+                        @media screen and (max-width: $screen-xs-max) {
+                            max-width: 50%;
+                        }
+                    }
+
+                    @media screen and (max-width: $screen-xs-max) {
+                        margin-bottom: 30px;
+                    }
                 }
 
                 @media screen and (max-width: $screen-xs-max) {
-                    margin-top: 0;
-                    margin-bottom: 120px;
+                    text-align: center;
                 }
 
                 @media screen and (max-width: $screen-xs-min) {
-                    margin-top: 0;
-                    margin-bottom: 80px;
+                    margin-top: -20px;
                 }
-            }
-
-            @media screen and (max-width: 1318px) {
-                background-size: 100% auto;
-                background-position-x: 200px;
-            }
-
-            @media screen and (max-width: $screen-sm-max) {
-                background-position-x: center;
-                background-position-y: 150px;
-                background-size: 150% auto;
-            }
-
-            @media screen and (max-width: $screen-sm-max) {
-                background-position-y: 200px;
-                background-size: 180% auto;
             }
         }
 
@@ -375,10 +358,6 @@
     }
 
     .owl-controls {
-        bottom: 40%;
-
-        @media screen and (max-width: $screen-md-max) {
-            bottom: 35%;
-        }
+        bottom: 0;
     }
 }
