@@ -201,6 +201,7 @@
 
         .wega-slide2 {
             background: url('../img/slider/field-with-lights.jpg') no-repeat center center;
+            background-size: 100% auto;
 
             .wega-image-container {
                 text-align: right;
@@ -263,98 +264,58 @@
                     margin-top: -20px;
                 }
             }
+
+            @media screen and (max-width: $screen-xs-max) {
+                background-size: 150% auto;
+            }
+
+            @media screen and (max-width: $screen-xs-min) {
+                background-size: 200% auto;
+            }
         }
 
-        .wega-slide4 {
-            background: url('../img/sliders/wega-crowd.jpg') no-repeat top left;
-            background-size: 105% auto;
+        .wega-slide3 {
+            background: url('../img/slider/pitch-light-top-bg.jpg') no-repeat right top;
+            background-size: 100% auto;
 
-            .wega-align {
-                text-align: left;
-
-                * {
-                    display: inline-block;
-                }
-
-                p {
+            .wega-content {
+                h1 {
                     span {
-                        display: inline;
+                        display: block;
+
+                        @media screen and (max-width: $screen-xs-max) {
+                            display: inline;
+                        }
                     }
                 }
 
-                @media screen and (max-width: $screen-sm-max) {
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-bottom: 20px;
                     text-align: center;
                 }
             }
 
-            .wega-content {
-                margin-bottom: 410px;
-
-                @media screen and (max-width: $screen-md-max) {
-                    margin-bottom: 310px;
-                }
-
-                @media screen and (max-width: $screen-sm-max) {
-                    margin-bottom: 0;
-                }
-
-                @media screen and (max-width: $screen-xs-max) {
-                    margin-bottom: 40px;
-                }
-
-                @media screen and (max-width: $screen-xs-min) {
-                    margin-bottom: 0;
-                }
-            }
-
             .wega-image-container {
+                text-align: center;
+
                 img {
-                    @media screen and (max-width: $screen-sm-max) {
-                        max-width: 110%;
-                    }
+                    display: inline-block;
 
                     @media screen and (max-width: $screen-xs-max) {
-                        max-width: 140%;
+                        max-width: 85%;
                     }
 
                     @media screen and (max-width: $screen-xs-min) {
-                        max-width: 140%;
+                        max-width: 100%;
                     }
                 }
             }
 
-            h2 {
-                margin-bottom: 0;
-
-                span {
-                    display: block;
-
-                    @media screen and (max-width: $screen-xs-min) {
-                        display: inline;
-                    }
-                }
-            }
-
-            @media screen and (max-width: $screen-md-max) {
-                background-size: 110% auto;
-            }
-
-            @media screen and (max-width: $screen-sm-max) {
-                background: none;
+            @media screen and (max-width: $screen-xs-max) {
+                background-position-y: center;
+                background-size: 150% auto;
             }
         }
-
-        // @media screen and (max-width: $screen-sm-max) {
-        //     margin-bottom: -100px;
-        // }
-
-        // @media screen and (max-width: $screen-xs-max) {
-        //     margin-bottom: -80px;
-        // }
-
-        // @media screen and (max-width: $screen-xs-min) {
-        //     margin-bottom: -50px;
-        // }
     }
 
     .owl-controls {
