@@ -52,6 +52,21 @@ include_once "header.php";
                 </div>
             </div>
         </section>
+        <section class="collapsible-items">
+            <div class="wega-skew">
+                <div class="wega-bg"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 wega-sm-padding">
+                    <div class="wega-content center-text">
+                        <h1>Wega 3DSA Card</h1>
+                        <div class="wega-image-container">
+                            <img class="img-responsive" src="img/wega-mastercard-face.png" alt="Gift Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 <?php
 include_once "footer.php";
 ?>

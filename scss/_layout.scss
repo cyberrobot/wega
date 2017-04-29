@@ -322,3 +322,65 @@
         bottom: 0;
     }
 }
+
+.collapsible-items {
+    position: relative;
+
+    .wega-skew {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        .wega-bg {
+            background: #0a1b2b url('../img/wega-gift-card-pitch-bg.jpg') no-repeat bottom center;
+            background-size: 110% auto;
+            position: absolute;
+            top: -70px;
+            right: 0;
+            bottom: -70px;
+            left: 0;
+
+            @media screen and (max-width: $screen-md-max) {
+                background-size: 140% auto;
+            }
+
+            @media screen and (max-width: $screen-sm-max) {
+                background-size: 170% auto;
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                background-size: 250% auto;
+            }
+        }
+    }
+
+    .wega-content {
+        margin: 160px 0;
+
+        @media screen and (max-width: $screen-md-max) {
+            margin: 140px 0;
+        }
+
+        @media screen and (max-width: $screen-sm-max) {
+            margin: 100px 0;
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            margin: 80px 0;
+        }
+
+        @media screen and (max-width: $screen-xs-min) {
+            margin: 60px 0;
+        }
+    }
+
+    .wega-image-container {
+        text-align: center;
+        
+        img {
+            display: inline-block;
+        }
+    }
+}
