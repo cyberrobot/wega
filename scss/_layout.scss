@@ -437,6 +437,27 @@
 }
 
 .collapsible-content {
+    .close {
+        width: 60px;
+        height: 60px;
+        margin: 0 0 60px -30px;
+        display: inline-block;
+        background: url('../img/icons/close.png') no-repeat 0 0;
+        background-size: 100% auto;
+        position: relative;
+        left: 50%;
+
+        @media screen and (max-width: $screen-sm-max) {
+            margin-bottom: 30px
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 20px;
+            margin-left: -25px;
+        }
+    }
     .pane {
         overflow: hidden;
         display: none;

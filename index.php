@@ -98,6 +98,7 @@ include_once "header.php";
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
                     <div class="wega-content">
+                        <span class="close"></span>
                         <div class="pane">
                             <div class="flex-layout-align-center">
                                 <div class="col-sm-6">
