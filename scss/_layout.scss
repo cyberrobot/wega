@@ -438,23 +438,10 @@
 .collapsible-content {
     .pane {
         overflow: hidden;
-        
-        h3 {
-            color: #fff;
-        }
+        display: none;
 
-        .wega-image-container {
-            margin-right: 40px;
-            text-align: right;
-
-            img {
-                display: inline-block;
-            }
-
-            @media screen and (max-width: $screen-sm-max) {
-                margin-right: 0;
-                text-align: center;
-            }
+        &.is-visible {
+            display: block;
         }
     }
 
@@ -466,15 +453,20 @@
             }
         }
 
-        .pane {
+        .pane {            
             .wega-image-container {
+                margin-right: 40px;
+                text-align: right;
+
                 img {
+                    display: inline-block;
+
                     @media screen and (max-width: $screen-md-max) {
-                        max-width: 80%;
+                        max-width: 70%;
                     }
 
                     @media screen and (max-width: $screen-sm-max) {
-                        max-width: 85%;
+                        max-width: 60%;
                     }
 
                     @media screen and (max-width: $screen-xs-max) {
@@ -484,6 +476,20 @@
                     @media screen and (max-width: $screen-xs-min) {
                         max-width: 65%;
                     }
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-right: 0;
+                    margin-bottom: 40px;
+                    text-align: center;
+                }
+            }
+
+            .wega-text-container {
+                margin-top: -100px;
+
+                h1 {
+                    margin-top: 0;
                 }
             }
         }
@@ -503,6 +509,39 @@
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: 100% auto;
+            }
+        }
+
+        .wega-image-container {
+            margin-right: 40px;
+            text-align: right;
+
+            img {
+                display: inline-block;
+
+                @media screen and (max-width: $screen-lg-min) {
+                    max-width: 80%;
+                }
+
+                @media screen and (max-width: $screen-md-max) {
+                    max-width: 90%;
+                }
+
+                @media screen and (max-width: $screen-sm-max) {
+                    max-width: 100%;
+                }
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                margin-right: 0;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+        }
+
+        .wega-text-container {
+            h1 {
+                margin-top: 0;
             }
         }
     }

@@ -7,6 +7,16 @@
     }
 }
 
+.flex-layout-align-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @media screen and (max-width: $screen-xs-max) {
+        flex-direction: column;
+    }
+} 
+
 .wega-skew {
     transform: skewY(-4deg);
     overflow: hidden;

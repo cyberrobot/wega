@@ -98,29 +98,37 @@ include_once "header.php";
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
                     <div class="wega-content">
-                        <!--<div class="pane">
-                            <div class="col-sm-6">
-                                <div class="wega-image-container">
-                                    <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
+                        <div class="pane">
+                            <div class="flex-layout-align-center">
+                                <div class="col-sm-6">
+                                    <div class="wega-image-container">
+                                        <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-md-5">
-                                <h1>Transfer money as fast as light speed.</h1>
-                                <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
+                                <div class="col-sm-6 col-md-5">
+                                    <div class="wega-text-container">
+                                        <h1>Transfer money as fast as light speed.</h1>
+                                        <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="pane">
-                            <div class="col-sm-6">
-                                <div class="wega-image-container">
-                                    <img class="img-responsive" src="img/wega-mastercard-face.png" alt="What if your card could play a song?">
+                            <div class="flex-layout-align-center">
+                                <div class="col-sm-6">
+                                    <div class="wega-image-container">
+                                        <img class="img-responsive" src="img/wega-mastercard-face.png" alt="What if your card could play a song?">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-5">
+                                    <div class="wega-text-container">
+                                        <h1>What if your card could play a song?</h1>
+                                        <h3>The Wega® 3DSA 2.0 Secure Certified AudioCard offers cutting-edge audio technology, allowing you to securely authenticate your identity online and make payments without ever having to transmit your payment card information.</h3>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-5">
-                                <h1>What if your card could play a song?</h1>
-                                <h3>The Wega® 3DSA 2.0 Secure Certified AudioCard offers cutting-edge audio technology, allowing you to securely authenticate your identity online and make payments without ever having to transmit your payment card information.</h3>
-                            </div>
-                        </div>-->
-                        <div class="pane">
+                        </div>
+                        <div class="pane is-visible">
                             <h1>Get the most out of your Wega card</h1>
                             <div class="row">
                                 <div class="col-sm-6">
