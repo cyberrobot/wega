@@ -382,6 +382,15 @@
             }
         }
     }
+
+    h1 {
+        margin-bottom: 60px;
+
+        @media screen and (max-width: $screen-xs-max) {
+            margin-bottom: 30px;
+        }
+    }
+
     .wega-image-container {
         text-align: center;
         
@@ -397,6 +406,14 @@
 
     .tabs {
         .tab {
+            .icon {
+                background-size: 100% auto;
+
+                @media screen and (max-width: $screen-xs-max) {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
             .tab-title {
                 font-size: 1.6rem;
                 color: #fff;
