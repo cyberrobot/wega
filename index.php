@@ -91,14 +91,14 @@ include_once "header.php";
                 </div>
             </div>
         </section>
-        <section class="collapsible-content transfer-money section">
+        <section class="collapsible-content more section">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
                     <div class="wega-content">
-                        <div class="pane">
+                        <!--<div class="pane">
                             <div class="col-sm-6">
                                 <div class="wega-image-container">
                                     <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
@@ -109,7 +109,7 @@ include_once "header.php";
                                 <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
                             </div>
                         </div>
-                        <!--<div class="pane">
+                        <div class="pane">
                             <div class="col-sm-6">
                                 <div class="wega-image-container">
                                     <img class="img-responsive" src="img/wega-mastercard-face.png" alt="What if your card could play a song?">
@@ -120,6 +120,47 @@ include_once "header.php";
                                 <h3>The Wega® 3DSA 2.0 Secure Certified AudioCard offers cutting-edge audio technology, allowing you to securely authenticate your identity online and make payments without ever having to transmit your payment card information.</h3>
                             </div>
                         </div>-->
+                        <div class="pane">
+                            <h1>Get the most out of your Wega card</h1>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="media-with-text">
+                                        <div class="media-container">
+                                            <i class="icon icon-crown"></i>
+                                        </div>
+                                        <div class="text-container">
+                                            <h3>Become a Mastercard member and access over 2 million ATMs and 35.9 million locations worldwide</h3>
+                                        </div>
+                                    </div>
+                                    <div class="media-with-text">
+                                        <div class="media-container">
+                                            <i class="icon icon-crown"></i>
+                                        </div>
+                                        <div class="text-container">
+                                            <h3>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="media-with-text">
+                                        <div class="media-container">
+                                            <i class="icon icon-crown"></i>
+                                        </div>
+                                        <div class="text-container">
+                                            <h3>5 day delivery in the SEPA zone</h3>
+                                        </div>
+                                    </div>
+                                    <div class="media-with-text">
+                                        <div class="media-container">
+                                            <i class="icon icon-crown"></i>
+                                        </div>
+                                        <div class="text-container">
+                                            <h3>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
