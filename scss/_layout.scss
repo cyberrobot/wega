@@ -449,22 +449,6 @@
 
             img {
                 display: inline-block;
-
-                @media screen and (max-width: $screen-md-max) {
-                    max-width: 80%;
-                }
-
-                @media screen and (max-width: $screen-sm-max) {
-                    max-width: 85%;
-                }
-
-                @media screen and (max-width: $screen-xs-max) {
-                    max-width: 50%;
-                }
-
-                @media screen and (max-width: $screen-xs-min) {
-                    max-width: 65%;
-                }
             }
 
             @media screen and (max-width: $screen-sm-max) {
@@ -479,6 +463,46 @@
             .wega-bg {
                 background: url('../img/light-speed-bg.jpg') no-repeat center center;
                 background-size: auto 100%;
+            }
+        }
+
+        .pane {
+            .wega-image-container {
+                img {
+                    @media screen and (max-width: $screen-md-max) {
+                        max-width: 80%;
+                    }
+
+                    @media screen and (max-width: $screen-sm-max) {
+                        max-width: 85%;
+                    }
+
+                    @media screen and (max-width: $screen-xs-max) {
+                        max-width: 50%;
+                    }
+
+                    @media screen and (max-width: $screen-xs-min) {
+                        max-width: 65%;
+                    }
+                }
+            }
+        }
+    }
+
+    &.sing-a-song {
+        .wega-skew {
+            .wega-bg {
+                background: -webkit-linear-gradient(#0e2f60, #6096c5);
+                background: -moz-linear-gradient(#0e2f60, #6096c5);
+                background: -o-linear-gradient(#0e2f60, #6096c5);
+                background: linear-gradient(#0e2f60, #6096c5);
+                background-image: url('../img/waves.png'), -webkit-linear-gradient(#0e2f60, #6096c5);
+                background-image: url('../img/waves.png'), -moz-linear-gradient(#0e2f60, #6096c5);
+                background-image: url('../img/waves.png'), -o-linear-gradient(#0e2f60, #6096c5);
+                background-image: url('../img/waves.png'), linear-gradient(#0e2f60, #6096c5);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: 100% auto;
             }
         }
     }
