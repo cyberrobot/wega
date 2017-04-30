@@ -323,7 +323,7 @@
     }
 }
 
-.collapsible-items {
+.section {
     position: relative;
 
     .wega-skew {
@@ -334,25 +334,11 @@
         left: 0;
 
         .wega-bg {
-            background: #0a1b2b url('../img/wega-gift-card-pitch-bg.jpg') no-repeat bottom center;
-            background-size: 110% auto;
             position: absolute;
             top: -70px;
             right: 0;
             bottom: -70px;
             left: 0;
-
-            @media screen and (max-width: $screen-md-max) {
-                background-size: 140% auto;
-            }
-
-            @media screen and (max-width: $screen-sm-max) {
-                background-size: 170% auto;
-            }
-
-            @media screen and (max-width: $screen-xs-max) {
-                background-size: 250% auto;
-            }
         }
     }
 
@@ -375,12 +361,125 @@
             margin: 60px 0;
         }
     }
+}
 
+.wega-3dsa-card {
+    .wega-skew {
+        .wega-bg {
+            background: #0a1b2b url('../img/section-3dsa-pitch-bg.jpg') no-repeat bottom center;
+            background-size: 110% auto;
+
+            @media screen and (max-width: $screen-md-max) {
+                background-size: 140% auto;
+            }
+
+            @media screen and (max-width: $screen-sm-max) {
+                background-size: 170% auto;
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                background-size: 250% auto;
+            }
+        }
+    }
     .wega-image-container {
         text-align: center;
         
         img {
             display: inline-block;
+        }
+    }
+}
+
+.collapsible-items {
+    overflow: hidden;
+    padding: 60px 0;
+
+    .tabs {
+        .tab {
+            .tab-icon {
+                width: 94px;
+                height: 94px;
+                display: inline-block;
+
+                &.crown {
+                    background: url('../img/icon-sprite.png') no-repeat 0 0;
+                    background-size: 100% auto;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+
+            .tab-title {
+                font-size: 1.6rem;
+                color: #fff;
+                display: block;
+                margin: 15px 0 0;
+            }
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            margin: 0 -15px;
+        }
+    }
+
+    @media screen and (max-width: $screen-sm-max) {
+        padding: 40px 0;
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+        padding: 30px 0;
+    }
+}
+
+.collapsible-content {
+    .pane {
+        overflow: hidden;
+        
+        h3 {
+            color: #fff;
+        }
+
+        .wega-image-container {
+            margin-right: 40px;
+            text-align: right;
+
+            img {
+                display: inline-block;
+
+                @media screen and (max-width: $screen-md-max) {
+                    max-width: 80%;
+                }
+
+                @media screen and (max-width: $screen-sm-max) {
+                    max-width: 85%;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    max-width: 50%;
+                }
+
+                @media screen and (max-width: $screen-xs-min) {
+                    max-width: 65%;
+                }
+            }
+
+            @media screen and (max-width: $screen-sm-max) {
+                margin-right: 0;
+                text-align: center;
+            }
+        }
+    }
+
+    &.transfer-money {
+        .wega-skew {
+            .wega-bg {
+                background: url('../img/light-speed-bg.jpg') no-repeat center center;
+                background-size: auto 100%;
+            }
         }
     }
 }

@@ -52,7 +52,7 @@ include_once "header.php";
                 </div>
             </div>
         </section>
-        <section class="collapsible-items">
+        <section class="wega-3dsa-card section">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
@@ -62,6 +62,52 @@ include_once "header.php";
                         <h1>Wega 3DSA Card</h1>
                         <div class="wega-image-container">
                             <img class="img-responsive" src="img/wega-mastercard-face.png" alt="Gift Card image">
+                        </div>
+                        <div class="collapsible-items">
+                            <div class="tabs col-sm-8 col-sm-offset-2">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="tab">
+                                            <i class="tab-icon crown"></i>
+                                            <span class="tab-title">Exclusive Services</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="tab">
+                                            <i class="tab-icon crown"></i>
+                                            <span class="tab-title">Cutting-edge acoustic technology</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="tab">
+                                            <i class="tab-icon crown"></i>
+                                            <span class="tab-title">More</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="collapsible-content transfer-money section">
+            <div class="wega-skew">
+                <div class="wega-bg"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 wega-sm-padding">
+                    <div class="wega-content">
+                        <div class="pane">
+                            <div class="col-sm-6">
+                                <div class="wega-image-container">
+                                    <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-5">
+                                <h1>Transfer money as fast as light speed.</h1>
+                                <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
