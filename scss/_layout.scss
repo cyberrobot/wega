@@ -397,22 +397,6 @@
 
     .tabs {
         .tab {
-            .tab-icon {
-                width: 94px;
-                height: 94px;
-                display: inline-block;
-
-                &.crown {
-                    background: url('../img/icon-sprite.png') no-repeat 0 0;
-                    background-size: 100% auto;
-                }
-
-                @media screen and (max-width: $screen-xs-max) {
-                    width: 70px;
-                    height: 70px;
-                }
-            }
-
             .tab-title {
                 font-size: 1.6rem;
                 color: #fff;

@@ -68,19 +68,19 @@ include_once "header.php";
                                 <div class="row">
                                     <div class="col-xs-4">
                                         <div class="tab">
-                                            <i class="tab-icon crown"></i>
+                                            <i class="icon icon-crown"></i>
                                             <span class="tab-title">Exclusive Services</span>
                                         </div>
                                     </div>
                                     <div class="col-xs-4">
                                         <div class="tab">
-                                            <i class="tab-icon crown"></i>
+                                            <i class="icon icon-speaker"></i>
                                             <span class="tab-title">Cutting-edge acoustic technology</span>
                                         </div>
                                     </div>
                                     <div class="col-xs-4">
                                         <div class="tab">
-                                            <i class="tab-icon crown"></i>
+                                            <i class="icon icon-more"></i>
                                             <span class="tab-title">More</span>
                                         </div>
                                     </div>
@@ -91,14 +91,14 @@ include_once "header.php";
                 </div>
             </div>
         </section>
-        <section class="collapsible-content transfer-money section">
+        <section class="collapsible-content more section">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
                     <div class="wega-content">
-                        <div class="pane is-visible">
+                        <div class="pane">
                             <div class="flex-layout-align-center">
                                 <div class="col-sm-6">
                                     <div class="wega-image-container">
@@ -128,13 +128,13 @@ include_once "header.php";
                                 </div>
                             </div>
                         </div>
-                        <div class="pane">
+                        <div class="pane is-visible">
                             <h1>Get the most out of your Wega card</h1>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="media-with-text">
                                         <div class="media-container">
-                                            <i class="icon icon-crown"></i>
+                                            <i class="icon icon-globe"></i>
                                         </div>
                                         <div class="text-container">
                                             <p>Become a Mastercard member and access over 2 million ATMs and 35.9 million locations worldwide</p>
@@ -142,7 +142,7 @@ include_once "header.php";
                                     </div>
                                     <div class="media-with-text">
                                         <div class="media-container">
-                                            <i class="icon icon-crown"></i>
+                                            <i class="icon icon-people"></i>
                                         </div>
                                         <div class="text-container">
                                             <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
@@ -152,7 +152,7 @@ include_once "header.php";
                                 <div class="col-sm-6">
                                     <div class="media-with-text">
                                         <div class="media-container">
-                                            <i class="icon icon-crown"></i>
+                                            <i class="icon icon-package"></i>
                                         </div>
                                         <div class="text-container">
                                             <p>5 day delivery in the SEPA zone</p>
@@ -160,7 +160,7 @@ include_once "header.php";
                                     </div>
                                     <div class="media-with-text">
                                         <div class="media-container">
-                                            <i class="icon icon-crown"></i>
+                                            <i class="icon icon-phone"></i>
                                         </div>
                                         <div class="text-container">
                                             <p>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad</p>

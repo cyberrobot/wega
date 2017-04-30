@@ -33,7 +33,31 @@
     display: inline-block;
 
     &.icon-crown {
-        background: url('../img/icon-sprite.png') no-repeat 0 0;
+        background: url('../img/icons/crown.png') no-repeat 0 0;
+    }
+
+    &.icon-speaker {
+        background: url('../img/icons/speaker.png') no-repeat 0 0;
+    }
+
+    &.icon-more {
+        background: url('../img/icons/more.png') no-repeat 0 0;
+    }
+
+    &.icon-globe {
+        background: url('../img/icons/globe.png') no-repeat 0 0;
+    }
+
+    &.icon-people {
+        background: url('../img/icons/people.png') no-repeat 0 0;
+    }
+
+    &.icon-package {
+        background: url('../img/icons/package.png') no-repeat 0 0;
+    }
+
+    &.icon-phone {
+        background: url('../img/icons/phone.png') no-repeat 0 0;
     }
 }
 
