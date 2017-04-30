@@ -91,14 +91,14 @@ include_once "header.php";
                 </div>
             </div>
         </section>
-        <section class="collapsible-content more section">
+        <section class="collapsible-content transfer-money section">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
                     <div class="wega-content">
-                        <div class="pane">
+                        <div class="pane is-visible">
                             <div class="flex-layout-align-center">
                                 <div class="col-sm-6">
                                     <div class="wega-image-container">
@@ -128,7 +128,7 @@ include_once "header.php";
                                 </div>
                             </div>
                         </div>
-                        <div class="pane is-visible">
+                        <div class="pane">
                             <h1>Get the most out of your Wega card</h1>
                             <div class="row">
                                 <div class="col-sm-6">
@@ -137,7 +137,7 @@ include_once "header.php";
                                             <i class="icon icon-crown"></i>
                                         </div>
                                         <div class="text-container">
-                                            <h3>Become a Mastercard member and access over 2 million ATMs and 35.9 million locations worldwide</h3>
+                                            <p>Become a Mastercard member and access over 2 million ATMs and 35.9 million locations worldwide</p>
                                         </div>
                                     </div>
                                     <div class="media-with-text">
@@ -145,7 +145,7 @@ include_once "header.php";
                                             <i class="icon icon-crown"></i>
                                         </div>
                                         <div class="text-container">
-                                            <h3>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</h3>
+                                            <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
                                         </div>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ include_once "header.php";
                                             <i class="icon icon-crown"></i>
                                         </div>
                                         <div class="text-container">
-                                            <h3>5 day delivery in the SEPA zone</h3>
+                                            <p>5 day delivery in the SEPA zone</p>
                                         </div>
                                     </div>
                                     <div class="media-with-text">
@@ -163,7 +163,7 @@ include_once "header.php";
                                             <i class="icon icon-crown"></i>
                                         </div>
                                         <div class="text-container">
-                                            <h3>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad</h3>
+                                            <p>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad</p>
                                         </div>
                                     </div>
                                 </div>
