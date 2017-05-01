@@ -355,22 +355,19 @@
     }
 }
 
-.wega-3dsa-card {
+.wega-3dsa-card,
+.wega-virtual-card {
     .wega-skew {
         .wega-bg {
-            background: #0a1b2b url('../img/section-3dsa-pitch-bg.jpg') no-repeat bottom center;
-            background-size: 110% auto;
-
-            @media screen and (max-width: $screen-md-max) {
-                background-size: 140% auto;
-            }
+            background: #0a1b2b url('../img/section-3dsa-pitch-bg.jpg') no-repeat center center;
+            background-size: 100% auto;
 
             @media screen and (max-width: $screen-sm-max) {
-                background-size: 170% auto;
+                background-size: 120% auto;
             }
 
             @media screen and (max-width: $screen-xs-max) {
-                background-size: 250% auto;
+                background-size: 200% auto;
             }
         }
     }
@@ -389,6 +386,12 @@
         img {
             display: inline-block;
         }
+    }
+}
+
+.wega-virtual-card {
+    .collapsible-tabs {
+        padding-top: 0;
     }
 }
 
@@ -578,6 +581,26 @@
             @media screen and (max-width: $screen-xs-max) {
                 margin-left: 30px;
                 margin-right: 30px;
+            }
+        }
+
+        .pane {
+            margin: 0 -30px;
+
+            .media-with-text {
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+        }
+    }
+
+    &[data-tab-style="data-protection"] {
+        .wega-skew {
+            .wega-bg {
+                background: -webkit-linear-gradient(#0e2f60, #6096c5);
+                background: -moz-linear-gradient(#0e2f60, #6096c5);
+                background: -o-linear-gradient(#0e2f60, #6096c5);
+                background: linear-gradient(#0e2f60, #6096c5);
             }
         }
 

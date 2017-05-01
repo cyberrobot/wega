@@ -22,7 +22,7 @@ include_once "header.php";
                     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 wega-sm-padding">
                         <div class="col-sm-6">
                             <div class="wega-image-container">
-                                <img class="img-responsive gift-card" src="img/slider/iphone-card-account.png" alt="The safest way to shop online">
+                                <img class="img-responsive gift-card" src="img/iphone-card-account.png" alt="The safest way to shop online">
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -172,6 +172,88 @@ include_once "header.php";
                                             </div>
                                             <div class="text-container">
                                                 <p>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div data-tabs-component>
+            <section class="wega-virtual-card section" data-tabs-container>
+                <div class="wega-skew">
+                    <div class="wega-bg"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 wega-sm-padding">
+                        <div class="wega-content center-text">
+                            <h1>Wega Virtual Card</h1>
+                            <div class="wega-image-container">
+                                <img class="img-responsive" src="img/iphone-card-account.png" alt="Wega card online account">
+                            </div>
+                            <div class="collapsible-tabs" >
+                                <div class="tabs col-sm-8 col-sm-offset-2">
+                                    <div class="row">
+                                        <!--<div class="col-xs-3">
+                                            <div class="tab" data-name="transfer-money">
+                                                <i class="icon icon-crown"></i>
+                                                <span class="tab-title">Exclusive Services</span>
+                                            </div>
+                                        </div>-->
+                                        <div class="col-xs-6">
+                                            <div class="tab" data-name="transfer-money">
+                                                <i class="icon icon-rocket"></i>
+                                                <span class="tab-title">Instant Money Transfer</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="tab" data-name="data-protection">
+                                                <i class="icon icon-padlock"></i>
+                                                <span class="tab-title">Data Protection</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="collapsible-content section">
+                <div class="wega-skew">
+                    <div class="wega-bg"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
+                        <div class="wega-content">
+                            <span class="close" data-target="collapsible-content"></span>
+                            <div class="pane">
+                                <div class="flex-layout-align-center">
+                                    <div class="col-sm-6">
+                                        <div class="wega-image-container">
+                                            <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>Transfer money as fast as light speed.</h1>
+                                            <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-padlock"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>The worldwide cost on credit card fraud represents $24.71 billion in 2016. With Wega Virtual Card, instantly generate a single-use card when making a purchase online and never share your card details again.</p>
                                             </div>
                                         </div>
                                     </div>

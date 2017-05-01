@@ -36,7 +36,9 @@
             }
         });
 
-        collapsibleItems($('[data-tabs-component]'));
+        $('[data-tabs-component]').each(function() {
+            new collapsibleItems($(this));
+        })
     });
 
     function collapsibleItems(tabsComponent) {
@@ -51,13 +53,13 @@
         }
 
         component.showTabContent = function() {
-            collapsibleTabs.on('click', '.tab', selectTab);
+            collapsibleTabs.on('click', '.tab', component.selectTab);
         }
 
         component.selectTab = function(e) {
             var tab = $(this),
                 tabName = tab.attr('data-name'),
-                tabIndex = tab.index('.tab');
+                tabIndex = collapsibleTabs.find('.tab').index(tab);
             
             component.scrollToSection();
             component.switchTab(tabIndex, tabName);
