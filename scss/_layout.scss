@@ -400,7 +400,7 @@
     }
 }
 
-.collapsible-items {
+.collapsible-tabs {
     overflow: hidden;
     padding: 60px 0;
 
@@ -437,6 +437,8 @@
 }
 
 .collapsible-content {
+    display: none;
+
     .close {
         width: 60px;
         height: 60px;
@@ -467,7 +469,7 @@
         }
     }
 
-    &.transfer-money {
+    &[data-tab-style="transfer-money"] {
         .wega-skew {
             .wega-bg {
                 background: url('../img/light-speed-bg.jpg') no-repeat center center;
@@ -517,7 +519,7 @@
         }
     }
 
-    &.sing-a-song {
+    &[data-tab-style="sing-a-song"] {
         .wega-skew {
             .wega-bg {
                 background: -webkit-linear-gradient(#0e2f60, #6096c5);
@@ -568,7 +570,7 @@
         }
     }
 
-    &.more {
+    &[data-tab-style="more"] {
         .wega-skew {
             .wega-bg {
                 background: -webkit-linear-gradient(#0e2f60, #6096c5);

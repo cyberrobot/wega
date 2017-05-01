@@ -35,5 +35,58 @@
 
             }
         });
+
+        collapsibleItems();
     });
+
+    function collapsibleItems() {
+        var component = this,
+            collapsibleTabs = $('.collapsible-tabs'),
+            collapsibleTabsContainer = collapsibleTabs.closest('[data-tabs-container]'),
+            collapsibleContent = $('.collapsible-content');
+
+        component.init = function() {
+            component.showTabContent();
+            component.closeTabContent();
+        }
+
+        component.showTabContent = function() {
+            collapsibleTabs.on('click', '.tab', selectTab);
+        }
+
+        component.selectTab = function(e) {
+            var tab = $(this),
+                tabName = tab.attr('data-name'),
+                tabIndex = tab.index('.tab');
+            
+            component.scrollToSection();
+            component.switchTab(tabIndex, tabName);
+        }
+
+        component.scrollToSection = function() {
+            collapsibleContent.fadeIn();
+            $("html, body").animate({
+                scrollTop: collapsibleContent.offset().top
+            });
+        }
+
+        component.switchTab = function(tabIndex, tabName) {
+            var pane = collapsibleContent.find('.pane').hide();
+            collapsibleContent.attr('data-tab-style', tabName);
+            pane.eq(tabIndex).fadeIn(800);
+        }
+
+        component.closeTabContent = function() {
+            var closeBtn = collapsibleContent.find('.close[data-target]');
+
+            closeBtn.on('click', function() {
+                $("html, body").animate({
+                    scrollTop: collapsibleTabsContainer.offset().top
+                });
+                collapsibleContent.fadeOut();
+            })
+        }
+
+        component.init();
+    }
 })()

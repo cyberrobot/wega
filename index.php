@@ -52,7 +52,7 @@ include_once "header.php";
                 </div>
             </div>
         </section>
-        <section class="wega-3dsa-card section">
+        <section class="wega-3dsa-card section" data-tabs-container>
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
@@ -63,23 +63,23 @@ include_once "header.php";
                         <div class="wega-image-container">
                             <img class="img-responsive" src="img/wega-mastercard-face.png" alt="Gift Card image">
                         </div>
-                        <div class="collapsible-items">
+                        <div class="collapsible-tabs">
                             <div class="tabs col-sm-8 col-sm-offset-2">
                                 <div class="row">
                                     <div class="col-xs-4">
-                                        <div class="tab">
+                                        <div class="tab" data-name="transfer-money">
                                             <i class="icon icon-crown"></i>
                                             <span class="tab-title">Exclusive Services</span>
                                         </div>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="tab">
+                                        <div class="tab" data-name="sing-a-song">
                                             <i class="icon icon-speaker"></i>
                                             <span class="tab-title">Cutting-edge acoustic technology</span>
                                         </div>
                                     </div>
                                     <div class="col-xs-4">
-                                        <div class="tab">
+                                        <div class="tab" data-name="more">
                                             <i class="icon icon-more"></i>
                                             <span class="tab-title">More</span>
                                         </div>
@@ -91,14 +91,14 @@ include_once "header.php";
                 </div>
             </div>
         </section>
-        <section class="collapsible-content more section">
+        <section class="collapsible-content section">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
                     <div class="wega-content">
-                        <span class="close"></span>
+                        <span class="close" data-target="collapsible-content"></span>
                         <div class="pane">
                             <div class="flex-layout-align-center">
                                 <div class="col-sm-6">
@@ -129,7 +129,7 @@ include_once "header.php";
                                 </div>
                             </div>
                         </div>
-                        <div class="pane is-visible">
+                        <div class="pane">
                             <h1>Get the most out of your Wega card</h1>
                             <div class="row">
                                 <div class="col-sm-6">
