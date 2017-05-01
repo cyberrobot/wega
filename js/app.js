@@ -36,14 +36,14 @@
             }
         });
 
-        collapsibleItems();
+        collapsibleItems($('[data-tabs-component]'));
     });
 
-    function collapsibleItems() {
+    function collapsibleItems(tabsComponent) {
         var component = this,
-            collapsibleTabs = $('.collapsible-tabs'),
-            collapsibleTabsContainer = collapsibleTabs.closest('[data-tabs-container]'),
-            collapsibleContent = $('.collapsible-content');
+            collapsibleTabs = tabsComponent.find('.collapsible-tabs'),
+            collapsibleContent = tabsComponent.find('.collapsible-content'),
+            collapsibleTabsContainer = tabsComponent.find('[data-tabs-container]');
 
         component.init = function() {
             component.showTabContent();

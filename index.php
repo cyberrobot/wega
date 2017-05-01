@@ -52,125 +52,127 @@ include_once "header.php";
                 </div>
             </div>
         </section>
-        <section class="wega-3dsa-card section" data-tabs-container>
-            <div class="wega-skew">
-                <div class="wega-bg"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 wega-sm-padding">
-                    <div class="wega-content center-text">
-                        <h1>Wega 3DSA Card</h1>
-                        <div class="wega-image-container">
-                            <img class="img-responsive" src="img/wega-mastercard-face.png" alt="Gift Card image">
+        <div data-tabs-component>
+            <section class="wega-3dsa-card section" data-tabs-container>
+                <div class="wega-skew">
+                    <div class="wega-bg"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 wega-sm-padding">
+                        <div class="wega-content center-text">
+                            <h1>Wega 3DSA Card</h1>
+                            <div class="wega-image-container">
+                                <img class="img-responsive" src="img/wega-mastercard-face.png" alt="Gift Card image">
+                            </div>
+                            <div class="collapsible-tabs" >
+                                <div class="tabs col-sm-8 col-sm-offset-2">
+                                    <div class="row">
+                                        <!--<div class="col-xs-3">
+                                            <div class="tab" data-name="transfer-money">
+                                                <i class="icon icon-crown"></i>
+                                                <span class="tab-title">Exclusive Services</span>
+                                            </div>
+                                        </div>-->
+                                        <div class="col-xs-4">
+                                            <div class="tab" data-name="transfer-money">
+                                                <i class="icon icon-rocket"></i>
+                                                <span class="tab-title">Instant Money Transfer</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="tab" data-name="sing-a-song">
+                                                <i class="icon icon-speaker"></i>
+                                                <span class="tab-title">Cutting-edge acoustic technology</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="tab" data-name="more">
+                                                <i class="icon icon-more"></i>
+                                                <span class="tab-title">More</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="collapsible-tabs">
-                            <div class="tabs col-sm-8 col-sm-offset-2">
+                    </div>
+                </div>
+            </section>
+            <section class="collapsible-content section">
+                <div class="wega-skew">
+                    <div class="wega-bg"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
+                        <div class="wega-content">
+                            <span class="close" data-target="collapsible-content"></span>
+                            <div class="pane">
+                                <div class="flex-layout-align-center">
+                                    <div class="col-sm-6">
+                                        <div class="wega-image-container">
+                                            <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>Transfer money as fast as light speed.</h1>
+                                            <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <div class="flex-layout-align-center">
+                                    <div class="col-sm-6">
+                                        <div class="wega-image-container">
+                                            <img class="img-responsive" src="img/wega-mastercard-face.png" alt="What if your card could play a song?">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>What if your card could play a song?</h1>
+                                            <h3>The Wega® 3DSA 2.0 Secure Certified AudioCard offers cutting-edge audio technology, allowing you to securely authenticate your identity online and make payments without ever having to transmit your payment card information.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <h1>Get the most out of your Wega card</h1>
                                 <div class="row">
-                                    <!--<div class="col-xs-3">
-                                        <div class="tab" data-name="transfer-money">
-                                            <i class="icon icon-crown"></i>
-                                            <span class="tab-title">Exclusive Services</span>
+                                    <div class="col-sm-6">
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-globe"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Become a Mastercard member and access over 2 million ATMs and 35.9 million locations worldwide</p>
+                                            </div>
                                         </div>
-                                    </div>-->
-                                    <div class="col-xs-4">
-                                        <div class="tab" data-name="transfer-money">
-                                            <i class="icon icon-rocket"></i>
-                                            <span class="tab-title">Instant Money Transfer</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="tab" data-name="sing-a-song">
-                                            <i class="icon icon-speaker"></i>
-                                            <span class="tab-title">Cutting-edge acoustic technology</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="tab" data-name="more">
-                                            <i class="icon icon-more"></i>
-                                            <span class="tab-title">More</span>
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-people"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="collapsible-content section">
-            <div class="wega-skew">
-                <div class="wega-bg"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
-                    <div class="wega-content">
-                        <span class="close" data-target="collapsible-content"></span>
-                        <div class="pane">
-                            <div class="flex-layout-align-center">
-                                <div class="col-sm-6">
-                                    <div class="wega-image-container">
-                                        <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-5">
-                                    <div class="wega-text-container">
-                                        <h1>Transfer money as fast as light speed.</h1>
-                                        <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pane">
-                            <div class="flex-layout-align-center">
-                                <div class="col-sm-6">
-                                    <div class="wega-image-container">
-                                        <img class="img-responsive" src="img/wega-mastercard-face.png" alt="What if your card could play a song?">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-5">
-                                    <div class="wega-text-container">
-                                        <h1>What if your card could play a song?</h1>
-                                        <h3>The Wega® 3DSA 2.0 Secure Certified AudioCard offers cutting-edge audio technology, allowing you to securely authenticate your identity online and make payments without ever having to transmit your payment card information.</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pane">
-                            <h1>Get the most out of your Wega card</h1>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="media-with-text">
-                                        <div class="media-container">
-                                            <i class="icon icon-globe"></i>
+                                    <div class="col-sm-6">
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-package"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>5 day delivery in the SEPA zone</p>
+                                            </div>
                                         </div>
-                                        <div class="text-container">
-                                            <p>Become a Mastercard member and access over 2 million ATMs and 35.9 million locations worldwide</p>
-                                        </div>
-                                    </div>
-                                    <div class="media-with-text">
-                                        <div class="media-container">
-                                            <i class="icon icon-people"></i>
-                                        </div>
-                                        <div class="text-container">
-                                            <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="media-with-text">
-                                        <div class="media-container">
-                                            <i class="icon icon-package"></i>
-                                        </div>
-                                        <div class="text-container">
-                                            <p>5 day delivery in the SEPA zone</p>
-                                        </div>
-                                    </div>
-                                    <div class="media-with-text">
-                                        <div class="media-container">
-                                            <i class="icon icon-phone"></i>
-                                        </div>
-                                        <div class="text-container">
-                                            <p>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad</p>
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-phone"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -178,8 +180,8 @@ include_once "header.php";
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 <?php
 include_once "footer.php";
 ?>
