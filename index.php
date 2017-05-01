@@ -66,10 +66,16 @@ include_once "header.php";
                         <div class="collapsible-tabs">
                             <div class="tabs col-sm-8 col-sm-offset-2">
                                 <div class="row">
-                                    <div class="col-xs-4">
+                                    <!--<div class="col-xs-3">
                                         <div class="tab" data-name="transfer-money">
                                             <i class="icon icon-crown"></i>
                                             <span class="tab-title">Exclusive Services</span>
+                                        </div>
+                                    </div>-->
+                                    <div class="col-xs-4">
+                                        <div class="tab" data-name="transfer-money">
+                                            <i class="icon icon-rocket"></i>
+                                            <span class="tab-title">Instant Money Transfer</span>
                                         </div>
                                     </div>
                                     <div class="col-xs-4">
