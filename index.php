@@ -3,7 +3,7 @@ include_once "header.php";
 ?>
 <body>
     <div class="container-fluid wega-container-wrapper">
-        <section id="carousel">
+        <section id="carousel" class="section">
             <div id="owl-demo" class="owl-carousel owl-theme">
                 <div class="wega-slide wega-slide1">
                     <div class="col-md-10 col-md-offset-1 wega-sm-padding">
@@ -28,8 +28,8 @@ include_once "header.php";
                         <div class="col-sm-6">
                             <div class="wega-shop-online">
                                 <h1>Manchester City Wega Gift Card</h1>
-                                <div class="app-store"><img src="img/app-store.png" alt="Download from App Store"></div>
-                                <div class="google-play"><img src="img/google-play.png" alt="Download from Google Play"></div>
+                                <div class="app-store"><img class="img-responsive" src="img/app-store.png" alt="Download from App Store"></div>
+                                <div class="google-play"><img class="img-responsive" src="img/google-play.png" alt="Download from Google Play"></div>
                                 <a href="apply.php" class="btn blue">Learn More</a>
                             </div>
                         </div>
@@ -37,15 +37,15 @@ include_once "header.php";
                 </div>
                 <div class="wega-slide wega-slide3">
                     <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 wega-sm-padding">
-                        <div class="col-sm-4 col-sm-offset-1 col-md-5 col-md-offset-0 col-lg-4">
-                            <div class="wega-content">
+                        <div class="row">
+                            <div class="col-sm-4 col-sm-offset-1 col-md-5 col-md-offset-0 col-lg-4 spacer">
                                 <h1 class="wega-align">Become an unconditional <span>citizen</span></h1>
                                 <a href="#advantages" class="btn blue scroll-link">Discover</a>
                             </div>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="wega-image-container">
-                                <img class="img-responsive" src="img/slider/3-players-hugging.png" alt="Players image">
+                            <div class="col-sm-7">
+                                <div class="wega-image-container">
+                                    <img class="img-responsive" src="img/slider/3-players-hugging.png" alt="Players image">
+                                </div>
                             </div>
                         </div>
                     </div>

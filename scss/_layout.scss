@@ -1,20 +1,8 @@
+$screen-xl-max: 1440px;
+
 .wega-container-wrapper {
     padding: 0;
     overflow: hidden;
-} 
-
-.wega-sticky-header {
-    + .wega-container-wrapper {
-        margin: 140px 0 0;
-
-        @media screen and (max-width: $screen-sm-max) {
-            margin: 80px 0 0;
-        }
-
-        @media screen and (max-width: $screen-xs-max) {
-            margin: 60px 0 0;
-        }
-    }
 }
 
 .wega-sm-padding {
@@ -131,35 +119,10 @@
 
 #carousel {
     .owl-carousel {
-        padding-bottom: 40px;
+        margin: 100px 0 -60px;
 
         .wega-slide {
             overflow: hidden;
-
-            // .wega-image-container {
-            //     img {
-            //         @media screen and (max-width: $screen-md-max) {
-            //             display: inline;
-            //             width: 60%;
-            //         }
-            //     }
-
-            //     @media screen and (max-width: $screen-md-max) {
-            //         text-align: center;
-            //     }
-            // }
-
-            // .wega-flex-layout {
-            //     .wega-align-bottom {
-            //         @media screen and (max-width: $screen-sm-max) {
-            //             display: block;
-            //         }
-            //     }
-
-            //     @media screen and (max-width: $screen-sm-max) {
-            //         display: block;
-            //     }
-            // }
         }
 
         .wega-slide1 {
@@ -175,9 +138,10 @@
 
                 img {
                     display: inline-block;
+                    max-width: 50%;
 
                     @media screen and (max-width: $screen-md-max) {
-                        max-width: 70%;
+                        max-width: 60%;
                     }
 
                     @media screen and (max-width: $screen-sm-max) {
@@ -185,8 +149,25 @@
                     }
 
                     @media screen and (max-width: $screen-xs-max) {
-                        max-width: 90%;
+                        max-width: 100%;
                     }
+                }
+            }
+
+            .horizontal-menu {
+                margin: -40px 0 140px;
+
+                @media screen and (max-width: $screen-xl-max) {
+                    margin-bottom: 100px;
+                }
+
+                @media screen and (max-width: $screen-md-max) {
+                    margin-bottom: 140px;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-top: 0;
+                    margin-bottom: 100px;
                 }
             }
 
@@ -209,6 +190,10 @@
                 img {
                     display: inline-block;
 
+                    @media screen and (max-width: $screen-xl-max) {
+                        max-width: 65%;
+                    }
+
                     @media screen and (max-width: $screen-md-max) {
                         max-width: 80%;
                     }
@@ -220,14 +205,18 @@
                     @media screen and (max-width: $screen-xs-max) {
                         max-width: 50%;
                     }
-
-                    @media screen and (max-width: $screen-xs-min) {
-                        max-width: 65%;
-                    }
                 }
 
                 @media screen and (max-width: $screen-sm-max) {
                     text-align: center;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-bottom: -60px;
+                }
+
+                @media screen and (max-width: $screen-xs-min) {
+                    margin-bottom: -40px;
                 }
             }
 
@@ -235,24 +224,24 @@
                 .app-store {
                     margin-bottom: 20px;
 
-                    img {
-                        @media screen and (max-width: $screen-xs-max) {
-                            max-width: 50%;
-                        }
+                    @media screen and (max-width: $screen-xl-max) {
+                        width: 48%;
+                        float: left;
+                        margin-right: 4%;
                     }
                 }
 
                 .google-play {
                     margin-bottom: 60px;
 
-                    img {
-                        @media screen and (max-width: $screen-xs-max) {
-                            max-width: 50%;
-                        }
+                    @media screen and (max-width: $screen-xl-max) {
+                        width: 48%;
+                        float: left;
+                        margin-bottom: 30px;
                     }
 
                     @media screen and (max-width: $screen-xs-max) {
-                        margin-bottom: 30px;
+                        margin-bottom: 20px;
                     }
                 }
 
@@ -278,25 +267,29 @@
             background: url('../img/slider/pitch-light-top-bg.jpg') no-repeat right top;
             background-size: 100% auto;
 
-            .wega-content {
-                h1 {
-                    span {
-                        display: block;
+            .spacer {
+                margin: 140px 0 350px;
 
-                        @media screen and (max-width: $screen-xs-max) {
-                            display: inline;
-                        }
-                    }
+                @media screen and (max-width: $screen-xl-max) {
+                    margin: 80px 0 260px;
+                }
+
+                @media screen and (max-width: $screen-md-max) {
+                    margin: 60px 0 200px;
                 }
 
                 @media screen and (max-width: $screen-xs-max) {
-                    margin-bottom: 20px;
-                    text-align: center;
+                    margin: 100px 0 80px;
+                }
+
+                @media screen and (max-width: $screen-xs-min) {
+                    margin: 60px 0 120px;
                 }
             }
 
             .wega-image-container {
                 text-align: center;
+                margin-top: 40px;
 
                 img {
                     display: inline-block;
@@ -309,6 +302,18 @@
                         max-width: 100%;
                     }
                 }
+
+                @media screen and (max-width: $screen-xl-max) {
+                    margin-top: 70px;
+                }
+
+                @media screen and (max-width: $screen-md-max) {
+                    margin-top: 120px;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-top: 0;
+                }
             }
 
             @media screen and (max-width: $screen-xs-max) {
@@ -316,10 +321,26 @@
                 background-size: 150% auto;
             }
         }
+
+        @media screen and (max-width: $screen-md-max) {
+            margin: 80px 0 -80px;
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            margin: 60px 0 -20px;
+        }
     }
 
     .owl-controls {
-        bottom: 0;
+        bottom: 80px;
+
+        @media screen and (max-width: $screen-md-max) {
+            bottom: 100px;
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            bottom: 20px;
+        }
     }
 }
 
