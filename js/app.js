@@ -3,25 +3,16 @@
 
         $("#owl-demo").owlCarousel({
 
-            autoPlay: 150000,
+            autoPlay: 7000,
             navigation: false, // Show next and prev buttons
             slideSpeed: 300,
             paginationSpeed: 400,
             singleItem: true
 
         });
-        //button hamburger
-        var hamburger = $('#ham_button_nav');
-        hamburger.on('click', function(e) {
-            e.preventDefault();
-            modalNav.fadeIn('slow');
-        });
-        //close blue nav
-        // var modalNavClose = $('#close-button-nav');
-        // modalNavClose.on('click', function(e) {
-        //     e.preventDefault();
-        //     modalNav.fadeOut('fast');
-        // });
+        
+        new navMenu();
+                
         $(document).on('click', '.scroll-link', function(event) {
             event.stopPropagation();
             modalNav.fadeOut('fast');
@@ -87,6 +78,33 @@
                 });
                 collapsibleContent.fadeOut();
             })
+        }
+
+        component.init();
+    };
+
+    function navMenu() {
+        var component = this,
+            modalNav = $('#nav-primary');
+
+        component.init = function () {
+            component.showMenu();
+            component.hideMenu();
+        }
+
+        component.showMenu = function () {
+            var hamburger = $('#ham_button_nav');
+            hamburger.on('click', function(e) {
+                modalNav.addClass('is-visible');
+                return false;
+            });
+        };
+
+        component.hideMenu = function () {
+            var modalNavClose = $('#close-button-nav');
+            modalNavClose.on('click', function(e) {
+                modalNav.removeClass('is-visible');
+            });
         }
 
         component.init();

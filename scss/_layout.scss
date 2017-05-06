@@ -819,3 +819,55 @@ $screen-xl-max: 1440px;
         margin-top: -20px;
     }
 }
+
+.nav-primary {
+    width: 340px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    background: #060f18;
+    z-index: 101;
+    transition: transform 0.35s;
+    transform: translate(100%, 0);
+
+    &.is-visible {
+        transform: translate(0, 0);
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .icon-close {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        background: url('../img/cross.png') no-repeat 0 0; 
+        background-size: 24px auto;
+    }
+
+    .nav ul {
+        padding: 120px 0 20px 30px;
+        
+        li {
+            border-top: 1px solid #2a333c;
+            padding: 20px 0;
+
+            &:last-child {
+                border-bottom: 1px solid #2a333c;
+            }
+
+            a {
+                font-size: 1.8rem;
+                color: #fff;
+            }
+        }
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+        width: 90%;
+    }
+}

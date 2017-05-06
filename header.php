@@ -7,16 +7,28 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <!--Include CSS-->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=ce37f8f9cad10d004bac21826d9ed00d">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=ed72ba5f3d37d8924a0917405ed10655">
 
     <!-- Include js -->
 
     <script src="js/jquery-3.1.1.min.js?v=e071abda8fe61194711cfc2ab99fe104" defer=""></script>
     <script src="js/owl.carousel.min.js?v=88d0fe722f04973e2888b58a63aa0570" defer=""></script>
-    <script src="js/app.js?v=d3a0cec83a88f2eb033ed7a52f938b30" defer=""></script>
+    <script src="js/app.js?v=37bde0c0f451280139c8f994213d0154" defer=""></script>
 </head>
 
 <body>
+    <div id="nav-primary" class="nav-primary">
+        <i id="close-button-nav" class="icon icon-close"></i>
+        <nav class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">3DSA Card</a></li>
+                <li><a href="">WEGA Digital</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Get the App</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="wega-sticky-header">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 wega-sm-padding">
