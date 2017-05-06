@@ -182,7 +182,7 @@ $screen-xl-max: 1440px;
 
         .wega-slide2 {
             background: url('../img/slider/field-with-lights.jpg') no-repeat center center;
-            background-size: 100% auto;
+            background-size: 1574px auto;
 
             .wega-image-container {
                 text-align: right;
@@ -254,6 +254,10 @@ $screen-xl-max: 1440px;
                 }
             }
 
+            @media screen and (max-width: $screen-lg-min) {
+                background-size: auto 100%;
+            }
+
             @media screen and (max-width: $screen-xs-max) {
                 background-size: 150% auto;
             }
@@ -265,10 +269,10 @@ $screen-xl-max: 1440px;
 
         .wega-slide3 {
             background: url('../img/slider/pitch-light-top-bg.jpg') no-repeat right top;
-            background-size: 100% auto;
+            background-size: 1318px auto;
 
             .spacer {
-                margin: 140px 0 350px;
+                margin: 140px 0 200px;
 
                 @media screen and (max-width: $screen-xl-max) {
                     margin: 80px 0 260px;
@@ -385,7 +389,7 @@ $screen-xl-max: 1440px;
     .wega-skew {
         .wega-bg {
             background: #0a1b2b url('../img/section-3dsa-pitch-bg.jpg') no-repeat center center;
-            background-size: 100% auto;
+            background-size: 1600px auto;
 
             @media screen and (max-width: $screen-sm-max) {
                 background-size: 120% auto;
@@ -660,6 +664,7 @@ $screen-xl-max: 1440px;
     background-color: #151b22;
     position: relative;
     margin-top: -80px;
+    padding: 30px 0;
 
     a {
         color: #79b2e1;
@@ -789,7 +794,6 @@ $screen-xl-max: 1440px;
 
     .footer_bottom {
         margin-top: 80px;
-        margin-bottom: 30px;
 
         a {
             cursor: pointer;
