@@ -1,78 +1,80 @@
 
         <footer class="wega-primary-footer">
-            <div class="col-md-10 col-md-offset-1 wega-sm-padding">
-                <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="content vertical-line">
-                                <h3 class="title">Company</h3>
-                                <ul>
-                                    <li><a href="" class="subtitle">Wega / ManCity info</a></li>
-                                    <li><a href="" class="subtitle">Truxtun</a></li>
-                                    <li><a href="" class="subtitle">wegamastercard.com</a></li>
-                                    <li><a href="" class="subtitle">Corporate Orders</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="content vertical-line">
-                                <h3 class="title">Help</h3>
-                                <ul>
-                                    <li><a href="" class="subtitle">FAQ</a></li>
-                                    <li><a href="" class="subtitle">Chat support</a></li>
-                                </ul>
-                            </div>
-                        </div>
-    
-                        <div class="col-md-3 col-sm-6">
-                            <div class="content vertical-line">
-                                <h3 class="title">Contact</h3>
-                                <ul>
-                                    <li>
-                                        <div class="subtitle address">
-                                            <span>TRUXTUN Capital SA</span>
-                                            <span>Limited Company</span>
-                                            <span>RCS Geneva</span> 
-                                            <span>CH-249 542 214</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="subtitle">
-                                            <a href="" class="subtitle ">Contact form</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="content right-text">
-                                <div class="email">
-                                    <i class="icon icon-mail"></i>
-                                    <a href="mailto:email@wegamastercard.com" class="subtitle">email@wegamastercard.com</a>
-                                </div>
-                                <div class="phone clear">
-                                    <i class="icon icon-phone"></i>
-                                    <a href="tel:+442034565878" class="subtitle white">+44 20 345 658 78</a>
-                                </div>
-                                <div class="social">
-                                    <a href="#"><img src="img/logo/facebook.png" class="facebook" alt="facebook logo"></a>
-                                    <a href="#"><img src="img/logo/twitter.png" class="twitter" alt="twitter logo"></a>
-                                </div>
-                                <div class="apps clear">
-                                    <a href="#"><img src="img/google-play.png" class="google-play" alt="Download from Google Play"></a>
-                                    <a href="#"><img src="img/app-store.png" class="app-store" alt="Download from App Store"></a>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 wega-sm-padding">
+                    <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="content vertical-line">
+                                    <h3 class="title">Company</h3>
+                                    <ul>
+                                        <li><a href="" class="subtitle">Wega / ManCity info</a></li>
+                                        <li><a href="" class="subtitle">Truxtun</a></li>
+                                        <li><a href="" class="subtitle">wegamastercard.com</a></li>
+                                        <li><a href="" class="subtitle">Corporate Orders</a></li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div>
-                </div>  
-                <div class="footer_bottom clear">
-                    <ul class="center_horizontal_menu horizontal-line">
-                        <li><a href="terms_and_conditions.php">T&C</a></li>
-                        <li><a href="disclaimer.php">Disclaimer</a></li>
-                        <li><a href="privacy_policy.php">Privacy policy</a></li>
-                    </ul>
-                    <p class="center-text">
-                        MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. The ManCity Wega Gift MasterCard is issued by Prepaid Financial Services pursuant to a license from MasterCard International Incorporated. Prepaid Financial Services is regulated and authorised by the Financial Conduct Authority, registration number 900036. Registered office: 36 Carnaby Street, London, W1F7DR, United Kingdom. The ManCity Wega Gift MasterCard program is managed by Truxtun Capital SA. Exclusive distributor United Kingdon: Gleevest Capital Limited.
-                    </p>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="content vertical-line">
+                                    <h3 class="title">Help</h3>
+                                    <ul>
+                                        <li><a href="" class="subtitle">FAQ</a></li>
+                                        <li><a href="" class="subtitle">Chat support</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-3 col-sm-6">
+                                <div class="content vertical-line">
+                                    <h3 class="title">Contact</h3>
+                                    <ul>
+                                        <li>
+                                            <div class="subtitle address">
+                                                <span>TRUXTUN Capital SA</span>
+                                                <span>Limited Company</span>
+                                                <span>RCS Geneva</span> 
+                                                <span>CH-249 542 214</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="subtitle">
+                                                <a href="" class="subtitle ">Contact form</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="content right-text">
+                                    <div class="email">
+                                        <i class="icon icon-mail"></i>
+                                        <a href="mailto:email@wegamastercard.com" class="subtitle">email@wegamastercard.com</a>
+                                    </div>
+                                    <div class="phone clear">
+                                        <i class="icon icon-phone"></i>
+                                        <a href="tel:+442034565878" class="subtitle white">+44 20 345 658 78</a>
+                                    </div>
+                                    <div class="social">
+                                        <a href="#"><img src="img/logo/facebook.png" class="facebook" alt="facebook logo"></a>
+                                        <a href="#"><img src="img/logo/twitter.png" class="twitter" alt="twitter logo"></a>
+                                    </div>
+                                    <div class="apps clear">
+                                        <a href="#"><img src="img/google-play.png" class="google-play" alt="Download from Google Play"></a>
+                                        <a href="#"><img src="img/app-store.png" class="app-store" alt="Download from App Store"></a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>  
+                    <div class="footer_bottom clear">
+                        <ul class="center_horizontal_menu horizontal-line">
+                            <li><a href="terms_and_conditions.php">T&C</a></li>
+                            <li><a href="disclaimer.php">Disclaimer</a></li>
+                            <li><a href="privacy_policy.php">Privacy policy</a></li>
+                        </ul>
+                        <p class="center-text">
+                            MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. The ManCity Wega Gift MasterCard is issued by Prepaid Financial Services pursuant to a license from MasterCard International Incorporated. Prepaid Financial Services is regulated and authorised by the Financial Conduct Authority, registration number 900036. Registered office: 36 Carnaby Street, London, W1F7DR, United Kingdom. The ManCity Wega Gift MasterCard program is managed by Truxtun Capital SA. Exclusive distributor United Kingdon: Gleevest Capital Limited.
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>
