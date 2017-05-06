@@ -1,65 +1,79 @@
 
         <footer class="wega-primary-footer">
-                <div class="row ">
-                    <ul class="left_horizontal_menu">
-                        <li class="col-3">
-                            <div class="content vertical_line">
-                                <div class="title">CORPORATE ORDERS</div>
-                                <a href="partner.php" class="subtitle">Wega Partners</a>
-                                <a href="corporate.php" class="subtitle">Corporate orders</a>
+            <div class="col-md-10 col-md-offset-1 wega-sm-padding">
+                <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="content vertical-line">
+                                <h3 class="title">Company</h3>
+                                <ul>
+                                    <li><a href="" class="subtitle">Wega / ManCity info</a></li>
+                                    <li><a href="" class="subtitle">Truxtun</a></li>
+                                    <li><a href="" class="subtitle">wegamastercard.com</a></li>
+                                    <li><a href="" class="subtitle">Corporate Orders</a></li>
+                                </ul>
                             </div>
-                        </li>
-                        <li class="col-3">
-                            <div class="content vertical_line">
-                                <div class="title">HELP</div>
-                                <a href="how_it_works.php" class="subtitle">How it works</a>
-                                <a href="how_it_works.php#sms" class="subtitle scroll-link">SMS Instructions</a>
-                                <a href="faq.php" class="subtitle">FAQ</a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="content vertical-line">
+                                <h3 class="title">Help</h3>
+                                <ul>
+                                    <li><a href="" class="subtitle">FAQ</a></li>
+                                    <li><a href="" class="subtitle">Chat support</a></li>
+                                </ul>
                             </div>
-                        </li>
-
-                        <li class="col-3">
-                            <div class="content vertical_line">
-                                <div class="title">Support</div>
-                                <div class="mail">
-                                    <!--<img src="img/logo/mail.png" class="" alt="mail">-->
-                                    <a href="mailto:support@wegagiftcard.com" class="subtitle ">support@wegagiftcard.com</a>
+                        </div>
+    
+                        <div class="col-md-3 col-sm-6">
+                            <div class="content vertical-line">
+                                <h3 class="title">Contact</h3>
+                                <ul>
+                                    <li>
+                                        <div class="subtitle address">
+                                            <span>TRUXTUN Capital SA</span>
+                                            <span>Limited Company</span>
+                                            <span>RCS Geneva</span> 
+                                            <span>CH-249 542 214</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="subtitle">
+                                            <a href="" class="subtitle ">Contact form</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="content right-text">
+                                <div class="email">
+                                    <i class="icon icon-mail"></i>
+                                    <a href="mailto:email@wegamastercard.com" class="subtitle">email@wegamastercard.com</a>
                                 </div>
                                 <div class="phone clear">
-                                    <!--<img src="img/logo/phone.png" class="" alt="phone">-->
-                                    <a href="tel:+44203637-6280" class="subtitle white "> +44 (0) 203 637-6280</a>
+                                    <i class="icon icon-phone"></i>
+                                    <a href="tel:+442034565878" class="subtitle white">+44 20 345 658 78</a>
                                 </div>
-                                <div class="subtitle white clear"> (UK office hours)</div>
-                                <!--<a href="contact.php" class="subtitle">Contact</a>-->
-                                <!--<div class="logo">
-                                    <a href="#" class="left"><img src="img/logo/twitter.png" alt="twitter logo"></a>
-                                    <a href="#" class="left"><img src="img/logo/facebook.png" alt="facebook logo"></a>
-                                </div>-->
-                                <!--<div class="mobile clear">
-                                    <a href=" # " class="right "><img src="img/logo/mobile_android.png" alt="mobile android "></a>
-                                    <a href="# " class="right "><img src="img/logo/mobile_iphone.png" alt="mobile iphone "></a>
-                                </div>-->
+                                <div class="social">
+                                    <a href="#"><img src="img/logo/facebook.png" class="facebook" alt="facebook logo"></a>
+                                    <a href="#"><img src="img/logo/twitter.png" class="twitter" alt="twitter logo"></a>
+                                </div>
+                                <div class="apps clear">
+                                    <a href="#"><img src="img/google-play.png" class="google-play" alt="Download from Google Play"></a>
+                                    <a href="#"><img src="img/app-store.png" class="app-store" alt="Download from App Store"></a>
+                                </div>
                             </div>
-
-                        </li>
-
-                    </ul>
+                        </div>
                 </div>  
-            <div class="footer_bottom clear">
-                <ul class="center_horizontal_menu">
-                    <li><a href="terms_and_conditions.php">Terms and Conditions</a></li>
-                    <li><a href="disclaimer.php">Disclaimer</a></li>
-                    <li><a href="privacy_policy.php">Privacy policy</a></li>
-                </ul>
-                <p class="center-text">
-                    The Manchester City Wega Gift Mastercard is issued by Prepaid Financial Services Limited pursuant to a license from Mastercard International Incorporated. Prepaid Financial Services Limited is regulated and authorized by the Financial Conduct Authority, registration number 900036. Registered office: 36 Carnaby Street, London W1F 7DR.
-                </p>
-                <p class="center-text">
-                    This program is sponsored by Truxtun Capital SA, member of FIDO Alliance. Exclusive UK distributor: Gleevest Capital Limited.
-                </p>
-                <p class="center-text">
-                    Wega © - All Rights Reserved - 2016-2017
-                </p>
+                <div class="footer_bottom clear">
+                    <ul class="center_horizontal_menu horizontal-line">
+                        <li><a href="terms_and_conditions.php">T&C</a></li>
+                        <li><a href="disclaimer.php">Disclaimer</a></li>
+                        <li><a href="privacy_policy.php">Privacy policy</a></li>
+                    </ul>
+                    <p class="center-text">
+                        MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. The ManCity Wega Gift MasterCard is issued by Prepaid Financial Services pursuant to a license from MasterCard International Incorporated. Prepaid Financial Services is regulated and authorised by the Financial Conduct Authority, registration number 900036. Registered office: 36 Carnaby Street, London, W1F7DR, United Kingdom. The ManCity Wega Gift MasterCard program is managed by Truxtun Capital SA. Exclusive distributor United Kingdon: Gleevest Capital Limited.
+                    </p>
+                </div>
             </div>
         </footer>
     </div>

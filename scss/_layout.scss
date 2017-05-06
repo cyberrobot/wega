@@ -635,3 +635,155 @@ $screen-xl-max: 1440px;
         }
     }
 }
+
+.wega-primary-footer {
+    background-color: #151b22;
+    position: relative;
+    margin-top: -80px;
+    overflow: hidden;
+
+    a {
+        color: #79b2e1;
+        font-weight: bold;
+    }
+
+    .content {
+        li {
+            display: block;
+            margin-bottom: 10px;
+
+            a {
+                cursor: pointer;
+                font-size: 1.6rem;
+            }
+        }
+
+        .address {
+            margin-bottom: 10px;
+
+            span {
+                display: block;
+                color: #fff;
+                font-size: 1.6rem;
+            }
+        }
+
+        .email {
+            margin-top: 25px;
+
+            .icon {
+                width: 50px;
+                height: 30px;
+                vertical-align: middle;
+                margin-right: 10px;
+
+                &.icon-mail {
+                    background: url('../img/logo/mail.png') no-repeat 0 5px;
+                    background-size: 30px auto;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    display: none;
+                }
+            }
+
+            .subtitle {
+                font-size: 1.6rem;
+            }
+        }
+
+        .phone {
+            margin-top: 10px;
+
+            .icon {
+                width: 30px;
+                height: 30px;
+                vertical-align: middle;
+                margin-right: 10px;
+
+                &.icon-phone {
+                    background: url('../img/logo/phone.png') no-repeat 0 0;
+                    background-size: 100% auto;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    display: none;
+                }
+            }
+            .subtitle {
+                font-size: 2.6rem;
+                color: #fff;
+            }
+        }
+
+        .social {
+            margin-top: 10px;
+            
+            .twitter,
+            .facebook {
+                width: 50px;
+                height: 50px;
+
+            }
+            
+            .facebook {
+                margin-right: 10px;
+            }
+        }
+
+        .apps {
+            .app-store,
+            .google-play {
+                margin: 20px 0 0 10px;
+            }
+        }
+    }
+
+    .vertical-line {
+        position: relative;
+        padding-left: 30px;
+
+        &::before {
+            position: absolute;
+            top: 8px;
+            left: 0;
+            content: '';
+            background-color: #4b5a6c;
+            height: 35px;
+            width: 1px;
+
+            @media screen and (max-width: $screen-xs-max) {
+                width: 0;
+            }
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            padding-left: 0;;
+        }
+    }
+
+    .col-md-10 .row .col-sm-6:nth-child(odd) {
+        @media screen and (max-width: $screen-sm-max) {
+            clear: both;
+        }
+    }
+
+    .footer_bottom {
+        margin-top: 80px;
+
+        a {
+            cursor: pointer;
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: #60748a;
+        }
+
+        .horizontal-line {
+            border-bottom: 1px solid #60748a;
+            padding-bottom: 20px;
+        }
+    }
+}
