@@ -107,7 +107,7 @@ include_once "header.php";
                         <div class="wega-content">
                             <span class="close" data-target="collapsible-content"></span>
                             <div class="pane">
-                                <div class="flex-layout-align-center">
+                                <div class="flex-layout-align-center row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
                                             <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
@@ -122,7 +122,7 @@ include_once "header.php";
                                 </div>
                             </div>
                             <div class="pane">
-                                <div class="flex-layout-align-center">
+                                <div class="flex-layout-align-center row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
                                             <img class="img-responsive" src="img/wega-mastercard-face.png" alt="What if your card could play a song?">
@@ -231,7 +231,7 @@ include_once "header.php";
                         <div class="wega-content compensate-footer">
                             <span class="close" data-target="collapsible-content"></span>
                             <div class="pane">
-                                <div class="flex-layout-align-center">
+                                <div class="flex-layout-align-center row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
                                             <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
