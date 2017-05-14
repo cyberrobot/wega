@@ -31,41 +31,49 @@
     width: 94px;
     height: 94px;
     display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+
+    @media screen and (max-width: $screen-xl-max) {
+        width: 70px;
+        height: 70px;
+    }
 
     &.icon-crown {
-        background: url('../img/icons/crown.png') no-repeat 0 0;
+        background-image: url('../img/icons/crown.png');
     }
 
     &.icon-speaker {
-        background: url('../img/icons/speaker.png') no-repeat 0 0;
+        background-image: url('../img/icons/speaker.png');
     }
 
     &.icon-more {
-        background: url('../img/icons/more.png') no-repeat 0 0;
+        background-image: url('../img/icons/more.png');
     }
 
     &.icon-globe {
-        background: url('../img/icons/globe.png') no-repeat 0 0;
+        background-image: url('../img/icons/globe.png');
     }
 
     &.icon-people {
-        background: url('../img/icons/people.png') no-repeat 0 0;
+        background-image: url('../img/icons/people.png');
     }
 
     &.icon-package {
-        background: url('../img/icons/package.png') no-repeat 0 0;
+        background-image: url('../img/icons/package.png');
     }
 
     &.icon-phone {
-        background: url('../img/icons/phone.png') no-repeat 0 0;
+        background-image: url('../img/icons/phone.png');
     }
 
     &.icon-rocket {
-        background: url('../img/icons/rocket.png') no-repeat 0 0;
+        background-image: url('../img/icons/rocket.png');
     }
 
     &.icon-padlock {
-        background: url('../img/icons/padlock.png') no-repeat 0 0;
+        background-image: url('../img/icons/padlock.png');
     }
 }
 
@@ -79,16 +87,7 @@
         width: 94px;
         height: 94px;
 
-        .icon {
-            background-size: 100% auto;
-
-            @media screen and (max-width: $screen-xs-max) {
-                width: 70px;
-                height: 70px;
-            }
-        }
-
-        @media screen and (max-width: $screen-xs-max) {
+        @media screen and (max-width: $screen-xl-max) {
             width: 70px;
             height: 70px;
         }

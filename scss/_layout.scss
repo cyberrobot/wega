@@ -420,6 +420,10 @@ $screen-xl-max: 1440px;
     h1 {
         margin-bottom: 60px;
 
+        @media screen and (max-width: $screen-xl-max) {
+            margin-bottom: 40px;
+        }
+
         @media screen and (max-width: $screen-xs-max) {
             margin-bottom: 30px;
         }
@@ -434,6 +438,27 @@ $screen-xl-max: 1440px;
     }
 }
 
+.wega-3dsa-card {
+    .wega-image-container {        
+        img {
+            display: inline-block;
+            max-width: 40%;            
+
+            @media screen and (max-width: $screen-xl-max) {
+                max-width: 35%;
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                max-width: 55%;
+            }
+
+            @media screen and (max-width: $screen-xs-min) {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
 .wega-virtual-card {
     .collapsible-tabs {
         padding-top: 0;
@@ -441,9 +466,14 @@ $screen-xl-max: 1440px;
 
     .wega-image-container {
         text-align: center;
+        margin-bottom: -30px;
         
         img {
             display: inline-block;
+
+            @media screen and (max-width: $screen-xl-max) {
+                max-width: 22%;
+            }
 
             @media screen and (max-width: $screen-sm-max) {
                 max-width: 35%;
@@ -462,14 +492,6 @@ $screen-xl-max: 1440px;
 
     .tabs {
         .tab {
-            .icon {
-                background-size: 100% auto;
-
-                @media screen and (max-width: $screen-xs-max) {
-                    width: 70px;
-                    height: 70px;
-                }
-            }
             .tab-title {
                 font-size: 1.6rem;
                 color: #fff;
@@ -483,7 +505,7 @@ $screen-xl-max: 1440px;
         }
     }
 
-    @media screen and (max-width: $screen-sm-max) {
+    @media screen and (max-width: $screen-xl-max) {
         padding: 40px 0;
     }
 
