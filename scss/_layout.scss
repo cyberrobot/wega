@@ -439,13 +439,19 @@ $screen-xl-max: 1440px;
 }
 
 .wega-3dsa-card {
+    h1 {
+        @media screen and (max-width: $screen-xl-max) {
+            margin-bottom: 30px;
+        }
+    }
+
     .wega-image-container {        
         img {
             display: inline-block;
             max-width: 40%;            
 
             @media screen and (max-width: $screen-xl-max) {
-                max-width: 35%;
+                max-width: 30%;
             }
 
             @media screen and (max-width: $screen-xs-max) {
@@ -571,6 +577,10 @@ $screen-xl-max: 1440px;
                 img {
                     display: inline-block;
 
+                    @media screen and (max-width: $screen-xl-max) {
+                        max-width: 65%;
+                    }
+
                     @media screen and (max-width: $screen-md-max) {
                         max-width: 70%;
                     }
@@ -628,6 +638,10 @@ $screen-xl-max: 1440px;
 
             img {
                 display: inline-block;
+
+                @media screen and (max-width: $screen-xl-max) {
+                    max-width: 90%;
+                }
 
                 @media screen and (max-width: $screen-lg-min) {
                     max-width: 80%;
