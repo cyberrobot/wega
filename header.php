@@ -39,9 +39,11 @@
                 </div>
                 <div class="tagline left"><img src="img/logo/mastercard.svg" alt="Mastercard"></div>
                 <ul id="nav" class="right right_horizontal_menu">
+                    <li>
+                        <a href="login.php" class="btn">Login</a>
                     </li>
                     <li>
-                        <a href="apply.php" class="btn blue">Get Started</a>
+                        <a href="register.php" class="btn blue">Sign Up</a>
                     </li>
                     <li>
                         <a href="#" id="ham_button_nav">
