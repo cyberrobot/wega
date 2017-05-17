@@ -27,7 +27,7 @@ include_once "header.php";
                         </div>
                         <div class="col-sm-6">
                             <div class="wega-shop-online">
-                                <h1>Manchester City Wega Gift Card</h1>
+                                <h1>The safest way to shop online</h1>
                                 <div class="app-store"><img class="img-responsive" src="img/app-store.png" alt="Download from App Store"></div>
                                 <div class="google-play"><img class="img-responsive" src="img/google-play.png" alt="Download from Google Play"></div>
                                 <a href="#wega-virtual-card" class="btn blue scroll-link">Learn More</a>
