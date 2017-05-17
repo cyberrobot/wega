@@ -12,25 +12,24 @@
         });
         
         new navMenu();
-                
-        $(document).on('click', '.scroll-link', function(event) {
-            event.stopPropagation();
-            modalNav.fadeOut('fast');
-            var headerHeight = $('.wega-sticky-header').height();
-            try {
-                $('html, body').animate({
-                    scrollTop: $($.attr(this, 'href')).offset().top - headerHeight - headerHeight / 3
-                }, 1500);
 
-            } catch (err) {
-
-            }
-        });
+        scrollLink();
 
         $('[data-tabs-component]').each(function() {
             new collapsibleItems($(this));
         })
     });
+
+    function scrollLink() {
+        $(document).on('click', '.scroll-link', function(event) {
+            event.preventDefault();
+            $('#nav-primary').removeClass('is-visible');
+            var headerHeight = $('.wega-sticky-header').height();
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top 
+            }, 1500);
+        });
+    }
 
     function collapsibleItems(tabsComponent) {
         var component = this,

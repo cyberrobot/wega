@@ -13,7 +13,7 @@ include_once "header.php";
                         </div>
                         <ul class="horizontal-menu wega-align">
                             <li>
-                                <a href="apply.php" class="btn blue">Learn More</a>
+                                <a href="#wega-3dsa-card" class="btn blue scroll-link">Learn More</a>
                             </li>
                         </ul>
                     </div>
@@ -30,7 +30,7 @@ include_once "header.php";
                                 <h1>Manchester City Wega Gift Card</h1>
                                 <div class="app-store"><img class="img-responsive" src="img/app-store.png" alt="Download from App Store"></div>
                                 <div class="google-play"><img class="img-responsive" src="img/google-play.png" alt="Download from Google Play"></div>
-                                <a href="apply.php" class="btn blue">Learn More</a>
+                                <a href="#wega-virtual-card" class="btn blue scroll-link">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ include_once "header.php";
             </div>
         </section>
         <div data-tabs-component>
-            <section class="wega-3dsa-card section" data-tabs-container>
+            <section id="wega-3dsa-card" class="wega-3dsa-card section" data-tabs-container>
                 <div class="wega-skew">
                     <div class="wega-bg"></div>
                 </div>
@@ -183,7 +183,7 @@ include_once "header.php";
             </section>
         </div>
         <div data-tabs-component>
-            <section class="wega-virtual-card section" data-tabs-container>
+            <section id="wega-virtual-card" class="wega-virtual-card section" data-tabs-container>
                 <div class="wega-skew">
                     <div class="wega-bg"></div>
                 </div>

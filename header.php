@@ -21,9 +21,9 @@
         <i id="close-button-nav" class="icon icon-close"></i>
         <nav class="nav">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">3DSA Card</a></li>
-                <li><a href="">WEGA Digital</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="#wega-3dsa-card" class="scroll-link">3DSA Card</a></li>
+                <li><a href="#wega-virtual-card" class="scroll-link">WEGA Digital</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Get the App</a></li>
             </ul>
@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                 <div id="logo" class="left">
-                    <a href="index.php">
+                    <a href="/">
                         <img src="img/logo/wega_header_logo.svg" class="header_logo" alt="Wega Partner Logo">
                     </a>
                 </div>
