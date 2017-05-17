@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                     <div class="row">
-                            <div class="col-md-4 col-sm-6">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="content vertical-line">
                                     <h3 class="title">Company</h3>
                                     <ul>
@@ -54,6 +54,8 @@
                                     </div>
                                     <div class="phone clear">
                                         Support phone:&nbsp;&nbsp;<a href="tel:+441618831501" class="subtitle white">+44 (0) 161 883 1501</a>
+                                    </div>
+                                    <div class="phone clear">
                                         Lost or stolen card:&nbsp;&nbsp;<a href="tel:08004337015" class="subtitle white">0800 433 7015</a>
                                     </div>
                                     <div class="social">

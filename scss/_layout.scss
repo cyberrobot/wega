@@ -831,12 +831,6 @@ $screen-xl-max: 1440px;
         }
     }
 
-    .col-md-10 .row .col-sm-6:nth-child(odd) {
-        @media screen and (max-width: $screen-sm-max) {
-            clear: both;
-        }
-    }
-
     .footer_bottom {
         margin-top: 80px;
 
