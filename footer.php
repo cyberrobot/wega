@@ -3,56 +3,58 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                     <div class="row">
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-4 col-sm-6">
                                 <div class="content vertical-line">
                                     <h3 class="title">Company</h3>
                                     <ul>
-                                        <li><a href="" class="subtitle">Wega / ManCity info</a></li>
-                                        <li><a href="" class="subtitle">Truxtun</a></li>
-                                        <li><a href="" class="subtitle">wegamastercard.com</a></li>
-                                        <li><a href="" class="subtitle">Corporate Orders</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="content vertical-line">
-                                    <h3 class="title">Help</h3>
-                                    <ul>
+                                        <li><a href="" class="subtitle">Contact & Support</a></li>
                                         <li><a href="" class="subtitle">FAQ</a></li>
-                                        <li><a href="" class="subtitle">Chat support</a></li>
+                                        <li><a href="" class="subtitle">Press</a></li>
                                     </ul>
                                 </div>
-                            </div>
-        
-                            <div class="col-md-3 col-sm-6">
+                            </div>        
+                            <div class="col-md-4 col-sm-6">
                                 <div class="content vertical-line">
                                     <h3 class="title">Contact</h3>
                                     <ul>
                                         <li>
+                                            <p>
+                                                We are on-hand to help you.
+                                                Do you have queries about our services or products?
+                                                Do you have suggestions to help us improve our services or would you like to propose a partnership?
+                                                Do you need assistance?
+                                            </p>
+                                        </li>
+                                        <li>
                                             <div class="subtitle address">
+                                                <span>Mail:</span>
                                                 <span>TRUXTUN Capital SA</span>
-                                                <span>Limited Company</span>
-                                                <span>RCS Geneva</span> 
-                                                <span>CH-249 542 214</span>
+                                                <span>Rue du Nant 6</span>
+                                                <span>1207 Geneva</span> 
+                                                <span>Switzerland</span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="subtitle">
-                                                <a href="" class="subtitle ">Contact form</a>
+                                                Chat:&nbsp;&nbsp;<a href="" class="subtitle">click here</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="subtitle">
+                                                Contact Form: &nbsp;&nbsp;<a href="" class="subtitle">click here</a>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-4 col-sm-6">
                                 <div class="content right-text">
                                     <div class="email">
-                                        <i class="icon icon-mail"></i>
-                                        <a href="mailto:email@wegamastercard.com" class="subtitle">email@wegamastercard.com</a>
+                                        Email:&nbsp;&nbsp;<a href="mailto:support@wegamc.com" class="subtitle">support@wegamc.com</a>
                                     </div>
                                     <div class="phone clear">
-                                        <i class="icon icon-phone"></i>
-                                        <a href="tel:+442034565878" class="subtitle white">+44 20 345 658 78</a>
+                                        Support phone:&nbsp;&nbsp;<a href="tel:+441618831501" class="subtitle white">+44 (0) 161 883 1501</a>
+                                        Lost or stolen card:&nbsp;&nbsp;<a href="tel:08004337015" class="subtitle white">0800 433 7015</a>
                                     </div>
                                     <div class="social">
                                         <a href="#"><img src="img/logo/facebook.png" class="facebook" alt="facebook logo"></a>

@@ -732,6 +732,8 @@ $screen-xl-max: 1440px;
     }
 
     .content {
+        color: #fff;
+        
         li {
             display: block;
             margin-bottom: 10px;
@@ -754,22 +756,7 @@ $screen-xl-max: 1440px;
 
         .email {
             margin-top: 25px;
-
-            .icon {
-                width: 50px;
-                height: 30px;
-                vertical-align: middle;
-                margin-right: 10px;
-
-                &.icon-mail {
-                    background: url('../img/logo/mail.png') no-repeat 0 5px;
-                    background-size: 30px auto;
-                }
-
-                @media screen and (max-width: $screen-xs-max) {
-                    display: none;
-                }
-            }
+            color: #fff;
 
             .subtitle {
                 font-size: 1.6rem;
@@ -778,22 +765,8 @@ $screen-xl-max: 1440px;
 
         .phone {
             margin-top: 10px;
+            color: #fff;
 
-            .icon {
-                width: 30px;
-                height: 30px;
-                vertical-align: middle;
-                margin-right: 10px;
-
-                &.icon-phone {
-                    background: url('../img/logo/phone.png') no-repeat 0 0;
-                    background-size: 100% auto;
-                }
-
-                @media screen and (max-width: $screen-xs-max) {
-                    display: none;
-                }
-            }
             .subtitle {
                 font-size: 2.6rem;
                 color: #fff;
@@ -805,8 +778,8 @@ $screen-xl-max: 1440px;
             
             .twitter,
             .facebook {
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 40px;
 
             }
             
