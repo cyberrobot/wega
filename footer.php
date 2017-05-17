@@ -76,7 +76,10 @@
                             <li><a href="privacy_policy.php">Privacy policy</a></li>
                         </ul>
                         <p class="center-text">
-                            MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. The ManCity Wega Gift MasterCard is issued by Prepaid Financial Services pursuant to a license from MasterCard International Incorporated. Prepaid Financial Services is regulated and authorised by the Financial Conduct Authority, registration number 900036. Registered office: 36 Carnaby Street, London, W1F7DR, United Kingdom. The ManCity Wega Gift MasterCard program is managed by Truxtun Capital SA. Exclusive distributor United Kingdon: Gleevest Capital Limited.
+                            The Manchester City Wega 3DSA Prepaid Mastercard is issued by Transact Payments Limited pursuant to licence by Mastercard International. Transact Payments Limited is authorised and regulated by the Gibraltar Financial Services Commission. Registered Office: Unit 4A- 4th Floor, Leisure Island Business Centre, 23 Ocean Village Promenade, Gibraltar. Registered No. 108217. This program is managed by Truxtun Capital SA,  Member of Fido Alliance and Technical Associate of EMVCo. Exclusive UK distributor: Gleevest Capital Limited.
+                        </p>
+                        <p class="center-text">
+                            All Rights reserved Wega© 2017
                         </p>
                     </div>
                 </div>
