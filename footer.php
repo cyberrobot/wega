@@ -9,7 +9,7 @@
                                     <ul>
                                         <li><a href="" class="subtitle">Contact & Support</a></li>
                                         <li><a href="faq.php" class="subtitle">FAQ</a></li>
-                                        <li><a href="" class="subtitle">Press</a></li>
+                                        <li><a href="press.php" class="subtitle">Press</a></li>
                                     </ul>
                                 </div>
                             </div>        

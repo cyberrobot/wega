@@ -131,15 +131,15 @@ h2 {
     font-weight: 300;
 
     @media screen and (max-width: $screen-xl-max) {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 
     @media screen and (max-width: $screen-sm-max) {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
     @media screen and (max-width: $screen-xs-max) {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -165,15 +165,10 @@ p {
 }
 
 p,
-ul.point {
+ul.point,
+a {
     font-size: 16px;
-    list-style: disc;
     letter-spacing: -0.3px;
-
-    li {
-        color: #fff;
-        margin-left: 31px;
-    }
 
     @media screen and (min-width: 1201px) {
         font-size: 18px;
@@ -187,7 +182,9 @@ ul.point {
 }
 
 ul.point {
+    padding-left: 30px;
     margin: 0 0 50px;
+    list-style: disc;
 
     @media screen and (min-width: $screen-lg-min) {
         margin: 0 0 50px;
@@ -202,6 +199,8 @@ ul.point {
     }
 }
 
-.point a, p a {
-  color: #54a8f0;
+ul.point {
+    li {
+        color: #fff;
+    }
 }
