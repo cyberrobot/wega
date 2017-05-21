@@ -73,7 +73,7 @@
                         <ul class="center_horizontal_menu horizontal-line">
                             <li><a href="terms-and-conditions.php">T&C</a></li>
                             <li><a href="disclaimer.php">Disclaimer</a></li>
-                            <li><a href="privacy_policy.php">Privacy policy</a></li>
+                            <li><a href="privacy-policy.php">Privacy policy</a></li>
                         </ul>
                         <p class="center-text">
                             The Manchester City Wega 3DSA Prepaid Mastercard is issued by Transact Payments Limited pursuant to licence by Mastercard International. Transact Payments Limited is authorised and regulated by the Gibraltar Financial Services Commission. Registered Office: Unit 4A- 4th Floor, Leisure Island Business Centre, 23 Ocean Village Promenade, Gibraltar. Registered No. 108217. This program is managed by Truxtun Capital SA,  Member of Fido Alliance and Technical Associate of EMVCo. Exclusive UK distributor: Gleevest Capital Limited.
