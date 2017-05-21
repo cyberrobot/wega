@@ -148,14 +148,6 @@ include_once "header.php";
                                                 <p>Become a Mastercard member and access over 2 million ATMs and 35.9 million locations worldwide</p>
                                             </div>
                                         </div>
-                                        <div class="media-with-text">
-                                            <div class="media-container">
-                                                <i class="icon icon-people"></i>
-                                            </div>
-                                            <div class="text-container">
-                                                <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
-                                            </div>
-                                        </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="media-with-text">
@@ -166,6 +158,18 @@ include_once "header.php";
                                                 <p>5 day delivery in the SEPA zone</p>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="col-sm-6 clear">
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-people"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
                                         <div class="media-with-text">
                                             <div class="media-container">
                                                 <i class="icon icon-phone"></i>

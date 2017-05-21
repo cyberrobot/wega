@@ -78,14 +78,13 @@
 }
 
 .media-with-text {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 30px 0 60px;
+    margin: 30px 0;
+    overflow: hidden;
 
     .media-container {
         width: 94px;
         height: 94px;
+        float: left;
 
         @media screen and (max-width: $screen-xl-max) {
             width: 70px;
@@ -94,7 +93,7 @@
     }
 
     .text-container {
-        margin-left: 30px;
+        margin-left: 124px;
 
         p {
             margin: 0;
@@ -113,17 +112,21 @@
             }
 
             @media screen and (max-width: $screen-xs-max) {
-                font-size: 1.5rem;
+                font-size: 1.6rem;
             }
         }
 
+        @media screen and (max-width: $screen-xl-max) {
+            margin-left: 104px;
+        }
+
         @media screen and (max-width: $screen-xs-max) {
-            margin-left: 20px;
+            margin-left: 94px;
         }
     }
 
     @media screen and (max-width: $screen-xs-max) {
-        margin: 20px 0 30px;
+        margin: 20px 0;
     }
 }
 
