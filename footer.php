@@ -71,7 +71,7 @@
                     </div>  
                     <div class="footer_bottom clear">
                         <ul class="center_horizontal_menu horizontal-line">
-                            <li><a href="terms_and_conditions.php">T&C</a></li>
+                            <li><a href="terms-and-conditions.php">T&C</a></li>
                             <li><a href="disclaimer.php">Disclaimer</a></li>
                             <li><a href="privacy_policy.php">Privacy policy</a></li>
                         </ul>
