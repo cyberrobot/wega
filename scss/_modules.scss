@@ -151,3 +151,57 @@
         top: 53px;
     }
 }
+
+.form-control {
+    height: 46px;
+    font-size: 1.8rem;
+
+    &::-webkit-input-placeholder {
+        font-size: 1.8rem;
+    }
+
+    &::-moz-placeholder { /* Firefox 19+ */
+       font-size: 1.8rem;
+    }
+
+    &:-ms-input-placeholder { /* IE 10+ */
+        font-size: 1.8rem;
+    }
+}
+
+.input-group-btn {
+    display: table-cell;
+
+    .btn {
+        height: 46px; 
+    }
+}
+
+.with-country-code {
+    max-width: 450px;
+    margin-bottom: 20px;
+
+    .country-code {
+        @extend .form-control;
+        width: 1%;
+        position: relative;
+        vertical-align: middle;
+        height: 46px;
+        display: table-cell;
+        border-width: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0; 
+        line-height: 1;
+        color: #333;
+        padding-left: 42px;
+        padding-right: 0;
+        background: #fff url('../img/union-jack.png') no-repeat 10px center;
+        background-size: 24px auto;
+    }
+
+    .form-control,
+    .form-control:focus {
+        border-width: 0;
+        box-shadow: 0 0;
+    }
+}

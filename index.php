@@ -268,6 +268,40 @@ include_once "header.php";
                 </div>
             </section>
         </div>
+        <section class="section get-the-app">
+            <div class="wega-skew">
+                <div class="wega-bg"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 wega-sm-padding">
+                    <div class="wega-content">
+                        <div class="row flex-layout-align-center">
+                            <div class="col-sm-6">
+                                <div class="wega-text-container">
+                                    <h1>Get The App</h1>
+                                    <div class="input-group with-country-code">
+                                        <span class="country-code uk">
+                                            +44
+                                        </span>
+                                        <input type="tel" class="form-control" placeholder="Your Phone Number">
+                                        <span class="input-group-btn">
+                                            <button class="btn blue" type="button">Download</button>
+                                        </span>
+                                    </div>
+                                    <div class="app-store"><img class="img-responsive" src="img/app-store.png" alt="Download from App Store"></div>
+                                    <div class="google-play"><img class="img-responsive" src="img/google-play.png" alt="Download from Google Play"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="wega-image-container">
+                                    <img class="img-responsive gift-card" src="img/iphone-card-account.png" alt="The safest way to shop online">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 <?php
 include_once "footer.php";
 ?>

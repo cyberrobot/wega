@@ -750,6 +750,144 @@ $screen-xl-max: 1440px;
     }
 }
 
+.get-the-app {
+    .wega-skew {
+        .wega-bg {
+            background: #121e2e url('../img/slider/waves.png') no-repeat center center;
+            background-size: 100% auto;
+        }
+    }
+
+    .flex-layout-align-center {
+        @media screen and (max-width: $screen-xs-max) {
+            display: inline;
+        }
+    }
+
+    .with-country-code {
+        .country-code {
+            @media screen and (max-width: $screen-sm-max) {
+                font-size: 1.6rem;
+                background-image: none;
+                padding-left: 10px;
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                font-size: 1.4rem;
+            }
+        }
+
+        input.form-control {
+            @media screen and (max-width: $screen-sm-max) {
+                font-size: 1.6rem;
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                font-size: 1.4rem;
+                padding-left: 5px;
+            }
+        }
+
+        .btn {
+            @media screen and (max-width: $screen-sm-max) {
+                font-size: 1.6rem;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                font-size: 1.4rem;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .wega-text-container {
+        margin-top: -80px;
+
+        @media screen and (max-width: $screen-xs-max) {
+            text-align: center;
+            margin-top: -40px;
+        }
+    }
+
+    .wega-image-container {
+        img {
+            display: inline-block;
+
+            @media screen and (max-width: $screen-xl-max) {
+                max-width: 40%;
+            }
+
+            @media screen and (max-width: $screen-lg-min) {
+                max-width: 60%;
+            }
+
+            @media screen and (max-width: $screen-md-max) {
+                max-width: 60%;
+            }
+
+            @media screen and (max-width: $screen-sm-max) {
+                max-width: 50%;
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                max-width: 30%;
+            }
+
+            @media screen and (max-width: $screen-xs-min) {
+                max-width: 50%;
+            }
+        }
+
+        @media screen and (max-width: $screen-sm-max) {
+            text-align: center;
+            margin-bottom: -40px;
+        }
+    }
+
+    .app-store {
+        margin-bottom: 20px;
+        display: inline-block;
+        margin-right: 20px;
+
+        img {
+            display: inline-block;
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            width: 48%;
+            float: left;
+            margin-right: 2%;
+            text-align: right;
+        }
+    }
+
+    .google-play {
+        margin-bottom: 30px;
+        display: inline-block;
+
+        img {
+            display: inline-block;
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            margin-bottom: 20px;
+            text-align: center;
+            width: 48%;
+            float: left;
+            margin-left: 2%;
+            text-align: left;
+        }
+    }
+}
+
 .wega-primary-footer {
     background-color: #151b22;
     position: relative;
