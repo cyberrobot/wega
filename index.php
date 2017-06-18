@@ -273,7 +273,7 @@ include_once "header.php";
                 <div class="wega-bg"></div>
             </div>
             <div class="row">
-                <div class="col-md-10 col-md-offset-1 wega-sm-padding">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 wega-sm-padding">
                     <div class="wega-content">
                         <div class="row flex-layout-align-center">
                             <div class="col-sm-6">
