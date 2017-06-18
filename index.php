@@ -116,7 +116,7 @@ include_once "header.php";
                                     <div class="col-sm-6 col-md-5">
                                         <div class="wega-text-container">
                                             <h1>Transfer money as fast as light speed.</h1>
-                                            <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
+                                            <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -244,7 +244,7 @@ include_once "header.php";
                                     <div class="col-sm-6 col-md-5">
                                         <div class="wega-text-container">
                                             <h1>Transfer money as fast as light speed.</h1>
-                                            <h3>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</h3>
+                                            <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</p>
                                         </div>
                                     </div>
                                 </div>
