@@ -797,6 +797,7 @@ $screen-xl-max: 1440px;
         .country-code {
             @media screen and (max-width: $screen-sm-max) {
                 font-size: 1.6rem;
+                line-height: 16px;
                 background-image: none;
                 padding-left: 10px;
             }
@@ -807,36 +808,43 @@ $screen-xl-max: 1440px;
         }
 
         input.form-control {
+            padding-top: 0;
+            padding-bottom: 0;
+            
             @media screen and (max-width: $screen-sm-max) {
-                font-size: 1.6rem;
+                font-size: 1.7rem;
+                line-height: 16px;
 
                 &::-webkit-input-placeholder {
-                    font-size: 1.6rem;
+                    font-size: 1.7rem;
+                    line-height: 16px;
                 }
 
                 &::-moz-placeholder { /* Firefox 19+ */
-                font-size: 1.6rem;
+                    font-size: 1.7rem;
+                    line-height: 16px;
                 }
 
                 &:-ms-input-placeholder { /* IE 10+ */
-                    font-size: 1.6rem;
+                    font-size: 1.7rem;
+                    line-height: 16px;
                 }
             }
 
             @media screen and (max-width: $screen-xs-max) {
-                font-size: 1.4rem;
+                font-size: 1.5rem;
                 padding-left: 5px;
 
                 &::-webkit-input-placeholder {
-                    font-size: 1.4rem;
+                    font-size: 1.5rem;
                 }
 
                 &::-moz-placeholder { /* Firefox 19+ */
-                font-size: 1.4rem;
+                font-size: 1.5rem;
                 }
 
                 &:-ms-input-placeholder { /* IE 10+ */
-                    font-size: 1.4rem;
+                    font-size: 1.5rem;
                 }
             }
         }
