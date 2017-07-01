@@ -28,6 +28,7 @@
                 <li><a href="">Get the App</a></li>
                 <li class="visible-sm"><a href="login.php">Login</a></li>
                 <li class="visible-sm"><a href="register.php">Sign up</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </div>
