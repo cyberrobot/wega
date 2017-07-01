@@ -27,7 +27,7 @@ include_once "header.php";
                         </div>
                         <div class="col-sm-6">
                             <div class="wega-shop-online">
-                                <h1>Shop safely with Wega <span>Virtual payment Card</span></h1>
+                                <h1>Shop safely with <span>Wega Virtual payment Card</span></h1>
                                 <!--<div class="app-store"><img class="img-responsive" src="img/app-store.png" alt="Download from App Store"></div>
                                 <div class="google-play"><img class="img-responsive" src="img/google-play.png" alt="Download from Google Play"></div>-->
                                 <ul class="horizontal-menu wega-align">
@@ -75,31 +75,27 @@ include_once "header.php";
                                 <img class="img-responsive" src="img/wega-mastercard-face.png" alt="Gift Card image">
                             </div>
                             <div class="collapsible-tabs" >
-                                <div class="tabs col-sm-8 col-sm-offset-2">
+                                <div class="tabs col-sm-10 col-sm-offset-1">
                                     <div class="row">
-                                        <!--<div class="col-xs-3">
-                                            <div class="tab" data-name="transfer-money">
-                                                <i class="icon icon-crown"></i>
-                                                <span class="tab-title">Exclusive Services</span>
-                                            </div>
-                                        </div>-->
-                                        <div class="col-xs-4">
-                                            <div class="tab" data-name="transfer-money">
-                                                <i class="icon icon-rocket"></i>
-                                                <span class="tab-title">Instant Money Transfer</span>
-                                            </div>
+                                        <div class="tab" data-name="horizontal-media-text">
+                                            <i class="icon icon-more"></i>
+                                            <span class="tab-title">Bank card</span>
                                         </div>
-                                        <div class="col-xs-4">
-                                            <div class="tab" data-name="sing-a-song">
-                                                <i class="icon icon-speaker"></i>
-                                                <span class="tab-title">Cutting-edge acoustic technology</span>
-                                            </div>
+                                        <div class="tab" data-name="vertical-media-text">
+                                            <i class="icon icon-more"></i>
+                                            <span class="tab-title">3DSA</span>
                                         </div>
-                                        <div class="col-xs-4">
-                                            <div class="tab" data-name="more">
-                                                <i class="icon icon-more"></i>
-                                                <span class="tab-title">More</span>
-                                            </div>
+                                        <div class="tab" data-name="horizontal-media-text">
+                                            <i class="icon icon-more"></i>
+                                            <span class="tab-title">Services</span>
+                                        </div>
+                                        <div class="tab" data-name="vertical-media-text">
+                                            <i class="icon icon-more"></i>
+                                            <span class="tab-title">Features</span>
+                                        </div>
+                                        <div class="tab" data-name="horizontal-media-text">
+                                            <i class="icon icon-more"></i>
+                                            <span class="tab-title">Facebox</span>
                                         </div>
                                     </div>
                                 </div>
@@ -113,81 +109,173 @@ include_once "header.php";
                     <div class="wega-bg"></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
+                    <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                         <div class="wega-content">
                             <span class="close" data-target="collapsible-content"></span>
                             <div class="pane">
-                                <div class="flex-layout-align-center row">
-                                    <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-5">
-                                        <div class="wega-text-container">
-                                            <h1>Transfer money as fast as light speed.</h1>
-                                            <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pane">
-                                <div class="flex-layout-align-center row">
-                                    <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/wega-mastercard-face.png" alt="What if your card could play a song?">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-5">
-                                        <div class="wega-text-container">
-                                            <h1>What if your card could play a song?</h1>
-                                            <h3>The Wega® 3DSA 2.0 Secure Certified AudioCard offers cutting-edge audio technology, allowing you to securely authenticate your identity online and make payments without ever having to transmit your payment card information.</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pane">
-                                <h1>Get the most out of your Wega card</h1>
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <div class="media-with-text">
-                                            <div class="media-container">
-                                                <i class="icon icon-globe"></i>
-                                            </div>
-                                            <div class="text-container">
-                                                <p>Become a Mastercard member and access over 2 million ATMs and 35.9 million locations worldwide</p>
-                                            </div>
+                                        <div class="wega-image-container">
+                                            <img src="img/wega-mastercard-face.png" alt="Unbelievably more than just a bank card.">
                                         </div>
                                     </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>Unbelievably more than just a bank card</h1>
+                                            <p>The Wega® prepaid payment card integrates
+                                            audio technology that endows it with the most
+                                            optimal cutting-edge bank card security.
+                                            And, it is the only one in the world to propose
+                                            an across-the-board range of benefits and
+                                            services that will make your life much easier.
+                                            You can use Wega® for your everyday banking
+                                            transactions such as direct payment with over
+                                            30 million merchants or cash withdrawal from
+                                            over a million MasterCard International®
+                                            network-connected ATMs across the globe.
+                                            Unbelievable service and security for
+                                            everyone, everywhere. Condition-free. You can
+                                            become a prepaid Wega MasterCard® card
+                                            holder, whether you have a bank account or
+                                            not.</p>
+                                            <ul class="horizontal-menu wega-align">
+                                                <li>
+                                                    <a href="" class="btn blue scroll-link">Get started</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <div class="row">
                                     <div class="col-sm-6">
-                                        <div class="media-with-text">
-                                            <div class="media-container">
-                                                <i class="icon icon-package"></i>
-                                            </div>
-                                            <div class="text-container">
-                                                <p>5 day delivery in the SEPA zone</p>
-                                            </div>
+                                        <div class="wega-image-container">
+                                            <img class="img-responsive" src="img/iphone-card-transfer.png" alt="3DSA 2.0 Secure Certified, enhanced protection">
                                         </div>
                                     </div>
-                                    <div class="col-sm-6 clear">
-                                        <div class="media-with-text">
-                                            <div class="media-container">
-                                                <i class="icon icon-people"></i>
-                                            </div>
-                                            <div class="text-container">
-                                                <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
-                                            </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>3DSA 2.0 Secure Certified, enhanced protection</h1>
+                                            <p>Secured payments are no longer something
+                                            out-of-the-ordinary.
+                                            Your acoustic and contactless Manchester City
+                                            Wega Prepaid Mastercard marks the start of a
+                                            new era in the payment card history.
+                                            For the very first time you will be able to
+                                            authenticate your transactions by using
+                                            multiple technologies in addition to your usual
+                                            secured PIN code.
+                                            You can choose among different FIDO®
+                                            Certified payment authentications built in your
+                                            Wega App such as Acoustic card, Finger print,
+                                            Voice and Face recognition.
+                                            With your Wega Mastercard you have a secure
+                                            payment card that combines state-of- the-art
+                                            fraud prevention technology for In App, In Web
+                                            and In Store acceptance.</p>
                                         </div>
+                                        <ul class="horizontal-menu wega-align">
+                                            <li>
+                                                <a href="" class="btn blue scroll-link">Get started</a>
+                                            </li>
+                                        </ul>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <div class="row">
                                     <div class="col-sm-6">
-                                        <div class="media-with-text">
-                                            <div class="media-container">
-                                                <i class="icon icon-phone"></i>
-                                            </div>
-                                            <div class="text-container">
-                                                <p>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad</p>
-                                            </div>
+                                        <div class="wega-image-container">
+                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
                                         </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>An unparalleled realm of on-the-go services</h1>
+                                            <p>And, what if your most unexpected wishes
+                                            were to come true for the first time ever? It’s
+                                            now absolutely possible with the Wega®
+                                            prepaid payment card.
+                                            You can transfer money to your loved ones,
+                                            top up your mobile, purchase online and enjoy
+                                            exclusive advantages, check your accounts
+                                            remotely, all totally securely...
+                                            The Wega MasterCard® audio bank card
+                                            allows you to be decisively mobile and to
+                                            access all the advantages of the digital world
+                                            online via your smartphone or your tablet,
+                                            easily, rapidly and safely.
+                                            When you register for a Wega® offer, you will
+                                            have access to a WegaBox® service where
+                                            you can archive and store all your data in your
+                                            personal space securely.
+                                            You may also take advantage of a 24/7 voice
+                                            server to carry out all these transactions and
+                                            actions.</p>
+                                        </div>
+                                        <ul class="horizontal-menu wega-align">
+                                            <li>
+                                                <a href="" class="btn blue scroll-link">Get started</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="wega-image-container">
+                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>Features</h1>
+                                            <p>Content awaiting approval</p>
+                                        </div>
+                                        <ul class="horizontal-menu wega-align">
+                                            <li>
+                                                <a href="" class="btn blue scroll-link">Get started</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="wega-image-container">
+                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>Facebox</h1>
+                                            <p>1 Wega® is not just a bank card. It is also the key that opens your digital safe where you can store your sensitive and
+                                            confidential documents and data that can only be accessed via
+                                            strong authentication with your Wega® audio payment card.
+                                            ( Wega 3DSA card ?)
+                                            FaceBox® is a one-of-a-kind, secure sensitive data collection
+                                            and sharing service, accessible 24/7, where you can: √ Save your passwords, credit card codes, bank accounts, etc.<br> 
+                                            2 √ Keep your pay slips, copies of your ID, legal documents,
+                                            etc. safe <br>
+                                            3 √ Share your organ donor pledge forms, insurance policies,
+                                            etc. in case of emergency <br>
+                                            4 √ Disclose your will, your organ donor pledge forms,
+                                            medical documents, inheritance planning in the event of death.
+                                            Your loved ones will not need to spend time looking for your
+                                            documents or figuring out your last wishes.
+                                            FaceBox® is a genuine secret space that provides an
+                                            incomparable level of service that protects the authenticity,
+                                            integrity, confidentiality and privacy of your personal and
+                                            confidential data.</p>
+                                        </div>
+                                        <ul class="horizontal-menu wega-align">
+                                            <li>
+                                                <a href="" class="btn blue scroll-link">Get started</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -209,25 +297,19 @@ include_once "header.php";
                                 <img class="img-responsive" src="img/iphone-card-account.png" alt="Wega card online account">
                             </div>
                             <div class="collapsible-tabs" >
-                                <div class="tabs col-sm-8 col-sm-offset-2">
+                                <div class="tabs col-sm-10 col-sm-offset-1">
                                     <div class="row">
-                                        <!--<div class="col-xs-3">
-                                            <div class="tab" data-name="transfer-money">
-                                                <i class="icon icon-crown"></i>
-                                                <span class="tab-title">Exclusive Services</span>
-                                            </div>
-                                        </div>-->
-                                        <div class="col-xs-6">
-                                            <div class="tab" data-name="transfer-money">
-                                                <i class="icon icon-rocket"></i>
-                                                <span class="tab-title">Instant Money Transfer</span>
-                                            </div>
+                                        <div class="tab" data-name="vertical-media-text">
+                                            <i class="icon icon-more"></i>
+                                            <span class="tab-title">Features</span>
                                         </div>
-                                        <div class="col-xs-6">
-                                            <div class="tab" data-name="data-protection">
-                                                <i class="icon icon-padlock"></i>
-                                                <span class="tab-title">Data Protection</span>
-                                            </div>
+                                        <div class="tab" data-name="vertical-media-text">
+                                            <i class="icon icon-more"></i>
+                                            <span class="tab-title">Facebox</span>
+                                        </div>
+                                        <div class="tab" data-name="vertical-media-text">
+                                            <i class="icon icon-more"></i>
+                                            <span class="tab-title">Data Protection</span>
                                         </div>
                                     </div>
                                 </div>
@@ -245,31 +327,82 @@ include_once "header.php";
                         <div class="wega-content compensate-footer">
                             <span class="close" data-target="collapsible-content"></span>
                             <div class="pane">
-                                <div class="flex-layout-align-center row">
+                                <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
-                                            <img src="img/iphone-card-transfer.png" alt="Wega App Transfer Screen">
+                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-5">
                                         <div class="wega-text-container">
-                                            <h1>Transfer money as fast as light speed.</h1>
-                                            <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</p>
+                                            <h1>Features</h1>
+                                            <p>Content awaiting approval</p>
                                         </div>
+                                        <ul class="horizontal-menu wega-align">
+                                            <li>
+                                                <a href="" class="btn blue scroll-link">Get started</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="pane">
                                 <div class="row">
-                                    <div class="col-sm-8 col-sm-offset-2">
-                                        <div class="media-with-text">
-                                            <div class="media-container">
-                                                <i class="icon icon-padlock"></i>
-                                            </div>
-                                            <div class="text-container">
-                                                <p>The worldwide cost on credit card fraud represents $24.71 billion in 2016. With Wega Virtual Card, instantly generate a single-use card when making a purchase online and never share your card details again.</p>
-                                            </div>
+                                    <div class="col-sm-6">
+                                        <div class="wega-image-container">
+                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
                                         </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>Facebox</h1>
+                                            <p>1 Wega® is not just a bank card. It is also the key that opens your digital safe where you can store your sensitive and
+                                            confidential documents and data that can only be accessed via
+                                            strong authentication with your Wega® audio payment card.
+                                            ( Wega 3DSA card ?)
+                                            FaceBox® is a one-of-a-kind, secure sensitive data collection
+                                            and sharing service, accessible 24/7, where you can: √ Save your passwords, credit card codes, bank accounts, etc.<br> 
+                                            2 √ Keep your pay slips, copies of your ID, legal documents,
+                                            etc. safe <br>
+                                            3 √ Share your organ donor pledge forms, insurance policies,
+                                            etc. in case of emergency <br>
+                                            4 √ Disclose your will, your organ donor pledge forms,
+                                            medical documents, inheritance planning in the event of death.
+                                            Your loved ones will not need to spend time looking for your
+                                            documents or figuring out your last wishes.
+                                            FaceBox® is a genuine secret space that provides an
+                                            incomparable level of service that protects the authenticity,
+                                            integrity, confidentiality and privacy of your personal and
+                                            confidential data.</p>
+                                        </div>
+                                        <ul class="horizontal-menu wega-align">
+                                            <li>
+                                                <a href="" class="btn blue scroll-link">Get started</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="wega-image-container">
+                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="Data Protection">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container">
+                                            <h1>Data Protection</h1>
+                                            <p>$24.71 billion is the worldwide cost on credit
+                                            card fraud in 2016. One answer never to
+                                            reveal your card number when paying online?
+                                            Instantly generate a Wega single-use card.</p>
+                                        </div>
+                                        <ul class="horizontal-menu wega-align">
+                                            <li>
+                                                <a href="" class="btn blue scroll-link">Find out more</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

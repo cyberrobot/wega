@@ -566,6 +566,16 @@ $screen-xl-max: 1440px;
             }
         }
     }
+
+    .tabs {
+        .tab {
+            width: 20%;
+
+            @media screen and (max-width: $screen-xs-max) {
+                width: 33.33%;
+            }
+        }
+    }
 }
 
 .wega-virtual-card {
@@ -601,6 +611,12 @@ $screen-xl-max: 1440px;
             }
         }
     }
+
+    .tabs {
+        .tab {
+            width: 33.33%;
+        }
+    }
 }
 
 .collapsible-tabs {
@@ -609,6 +625,9 @@ $screen-xl-max: 1440px;
 
     .tabs {
         .tab {
+            float: left;
+            margin-bottom: 20px;
+
             .tab-title {
                 font-size: 1.6rem;
                 color: #fff;
@@ -662,13 +681,19 @@ $screen-xl-max: 1440px;
         &.is-visible {
             display: block;
         }
+
+        .horizontal-menu {
+            margin-top: 30px;
+        }
     }
 
-    &[data-tab-style="transfer-money"] {
+    &[data-tab-style="vertical-media-text"] {
         .wega-skew {
             .wega-bg {
-                background: url('../img/light-speed-bg.jpg') no-repeat center center;
-                background-size: auto 100%;
+                background: -webkit-linear-gradient(#0e2f60, #6096c5);
+                background: -moz-linear-gradient(#0e2f60, #6096c5);
+                background: -o-linear-gradient(#0e2f60, #6096c5);
+                background: linear-gradient(#0e2f60, #6096c5);
             }
         }
 
@@ -681,23 +706,19 @@ $screen-xl-max: 1440px;
                     display: inline-block;
 
                     @media screen and (max-width: $screen-xl-max) {
-                        max-width: 65%;
+                        max-width: 90%;
+                    }
+
+                    @media screen and (max-width: $screen-lg-min) {
+                        max-width: 80%;
                     }
 
                     @media screen and (max-width: $screen-md-max) {
-                        max-width: 70%;
+                        max-width: 90%;
                     }
 
                     @media screen and (max-width: $screen-sm-max) {
-                        max-width: 60%;
-                    }
-
-                    @media screen and (max-width: $screen-xs-max) {
-                        max-width: 50%;
-                    }
-
-                    @media screen and (max-width: $screen-xs-min) {
-                        max-width: 65%;
+                        max-width: 100%;
                     }
                 }
 
@@ -709,7 +730,9 @@ $screen-xl-max: 1440px;
             }
 
             .wega-text-container {
-                margin-top: -100px;
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-top: -60px;
+                }
 
                 h1 {
                     margin-top: 0;
@@ -718,20 +741,13 @@ $screen-xl-max: 1440px;
         }
     }
 
-    &[data-tab-style="sing-a-song"] {
+    &[data-tab-style="horizontal-media-text"] {
         .wega-skew {
             .wega-bg {
                 background: -webkit-linear-gradient(#0e2f60, #6096c5);
                 background: -moz-linear-gradient(#0e2f60, #6096c5);
                 background: -o-linear-gradient(#0e2f60, #6096c5);
                 background: linear-gradient(#0e2f60, #6096c5);
-                background-image: url('../img/waves.png'), -webkit-linear-gradient(#0e2f60, #6096c5);
-                background-image: url('../img/waves.png'), -moz-linear-gradient(#0e2f60, #6096c5);
-                background-image: url('../img/waves.png'), -o-linear-gradient(#0e2f60, #6096c5);
-                background-image: url('../img/waves.png'), linear-gradient(#0e2f60, #6096c5);
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: 100% auto;
             }
         }
 
@@ -769,35 +785,6 @@ $screen-xl-max: 1440px;
         .wega-text-container {
             h1 {
                 margin-top: 0;
-            }
-        }
-    }
-
-    &[data-tab-style="more"] {
-        .wega-skew {
-            .wega-bg {
-                background: -webkit-linear-gradient(#0e2f60, #6096c5);
-                background: -moz-linear-gradient(#0e2f60, #6096c5);
-                background: -o-linear-gradient(#0e2f60, #6096c5);
-                background: linear-gradient(#0e2f60, #6096c5);
-            }
-        }
-
-        h1 {
-            text-align: center;
-
-            @media screen and (max-width: $screen-xs-max) {
-                margin-left: 30px;
-                margin-right: 30px;
-            }
-        }
-
-        .pane {
-            margin: 0 -30px;
-
-            .media-with-text {
-                margin-left: 30px;
-                margin-right: 30px;
             }
         }
     }
