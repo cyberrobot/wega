@@ -7,7 +7,7 @@ include_once "header.php";
             <div id="owl-demo" class="owl-carousel owl-theme">
                 <div class="wega-slide wega-slide1">
                     <div class="col-md-10 col-md-offset-1 wega-sm-padding">
-                        <h1 class="wega-align">Introducing the world’s first acoustic card</h1>
+                        <h1 class="wega-align">Pay with the world's first acoustic card</h1>
                         <div class="wega-image-container">
                             <img class="img-responsive" src="img/slider/worlds-first-acoustic-card.png" alt="Introducing the world’s first acoustic card">
                         </div>
@@ -27,7 +27,7 @@ include_once "header.php";
                         </div>
                         <div class="col-sm-6">
                             <div class="wega-shop-online">
-                                <h1>The safest way <span>to shop online</span></h1>
+                                <h1>Shop safely with Wega <span>Virtual payment Card</span></h1>
                                 <!--<div class="app-store"><img class="img-responsive" src="img/app-store.png" alt="Download from App Store"></div>
                                 <div class="google-play"><img class="img-responsive" src="img/google-play.png" alt="Download from Google Play"></div>-->
                                 <ul class="horizontal-menu wega-align">
