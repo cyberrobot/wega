@@ -177,7 +177,7 @@ include_once "header.php";
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
+                                            <img class="img-responsive" src="img/realm-of-on-the-go-services.png" alt="An unparalleled realm of on-the-go services">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-5">
@@ -195,8 +195,8 @@ include_once "header.php";
                                             allows you to be decisively mobile and to
                                             access all the advantages of the digital world
                                             online via your smartphone or your tablet,
-                                            easily, rapidly and safely.
-                                            When you register for a Wega® offer, you will
+                                            easily, rapidly and safely.</p>
+                                            <p>When you register for a Wega® offer, you will
                                             have access to a WegaBox® service where
                                             you can archive and store all your data in your
                                             personal space securely.
@@ -204,11 +204,6 @@ include_once "header.php";
                                             server to carry out all these transactions and
                                             actions.</p>
                                         </div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="" class="btn blue scroll-link">Get started</a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
