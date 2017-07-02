@@ -35,6 +35,7 @@
         var component = this,
             collapsibleTabs = tabsComponent.find('.collapsible-tabs'),
             collapsibleContent = tabsComponent.find('.collapsible-content'),
+            collapsibleContentClass = collapsibleContent.attr('class'),
             collapsibleTabsContainer = tabsComponent.find('[data-tabs-container]');
 
         component.init = function() {
@@ -48,11 +49,11 @@
 
         component.selectTab = function(e) {
             var tab = $(this),
-                tabName = tab.attr('data-name'),
+                tabStyle = tab.attr('data-style'),
                 tabIndex = collapsibleTabs.find('.tab').index(tab);
             
             component.scrollToSection();
-            component.switchTab(tabIndex, tabName);
+            component.switchTab(tabIndex, tabStyle);
         }
 
         component.scrollToSection = function() {
@@ -62,9 +63,9 @@
             });
         }
 
-        component.switchTab = function(tabIndex, tabName) {
+        component.switchTab = function(tabIndex, tabStyle) {
             var pane = collapsibleContent.find('.pane').hide();
-            collapsibleContent.attr('data-tab-style', tabName);
+            collapsibleContent.attr('class', collapsibleContentClass + ' ' + tabStyle);
             pane.eq(tabIndex).fadeIn(800);
         }
 

@@ -28,13 +28,14 @@
 }
 
 .media-with-text {
-    margin: 30px 0;
+    margin: 0 0 60px;
     overflow: hidden;
 
     .media-container {
         width: 94px;
         height: 94px;
         float: left;
+        margin-top: 10px;
 
         @media screen and (max-width: $screen-xl-max) {
             width: 70px;
@@ -44,6 +45,11 @@
 
     .text-container {
         margin-left: 124px;
+
+        h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
 
         p {
             margin: 0;
@@ -75,8 +81,30 @@
         }
     }
 
-    @media screen and (max-width: $screen-xs-max) {
-        margin: 20px 0;
+    &.icon-right {
+        @media screen and (min-width: $screen-md-min) {
+            .media-container {
+                float: right;
+            }
+
+            .text-container {
+                margin-left: 0;
+                margin-right: 124px;
+                text-align: right;
+
+                @media screen and (max-width: $screen-xl-max) {
+                    margin-right: 104px;
+                }
+
+                @media screen and (max-width: $screen-xs-max) {
+                    margin-right: 94px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: $screen-sm-max) {
+        margin: 0 0 20px;
     }
 }
 

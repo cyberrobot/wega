@@ -74,26 +74,26 @@ include_once "header.php";
                             <div class="wega-image-container">
                                 <img class="img-responsive" src="img/wega-mastercard-face.png" alt="Gift Card image">
                             </div>
-                            <div class="collapsible-tabs" >
+                            <div class="collapsible-tabs">
                                 <div class="tabs col-sm-10 col-sm-offset-1">
                                     <div class="row">
-                                        <div class="tab" data-name="horizontal-media-text">
+                                        <div class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-speaker"></i>
                                             <span class="tab-title">More than a Bank Card</span>
                                         </div>
-                                        <div class="tab" data-name="vertical-media-text">
+                                        <div class="tab" data-style="vertical-media-text">
                                             <i class="icon icon-padlock"></i>
                                             <span class="tab-title">Enhanced security with 3DSA 2.0</span>
                                         </div>
-                                        <div class="tab" data-name="horizontal-media-text">
+                                        <div class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-gears"></i>
                                             <span class="tab-title">Services</span>
                                         </div>
-                                        <div class="tab" data-name="vertical-media-text">
+                                        <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-check-list"></i>
                                             <span class="tab-title">Features</span>
                                         </div>
-                                        <div class="tab" data-name="horizontal-media-text">
+                                        <div class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-safe"></i>
                                             <span class="tab-title">Facebox</span>
                                         </div>
@@ -209,21 +209,73 @@ include_once "header.php";
                             </div>
                             <div class="pane">
                                 <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-5">
+                                    <div class="col-sm-12">
                                         <div class="wega-text-container">
                                             <h1>Features</h1>
-                                            <p>Content awaiting approval</p>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="media-with-text icon-right">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-rocket"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Instant Money Transfer</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="media-with-text icon-right">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-single-use"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Single Use</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="media-with-text icon-right">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-nfc"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>NFC</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6 hidden-xs hidden-sm">
+                                                <div class="wega-image-container">
+                                                    <img class="img-responsive" src="img/iphone-card-account.png" alt="Features">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="media-with-text">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-control"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Control</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="media-with-text">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-people"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Family Pack</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="media-with-text">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-chat"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Chat Support</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="" class="btn blue scroll-link">Get started</a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
