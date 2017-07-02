@@ -116,7 +116,7 @@ include_once "header.php";
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
-                                            <img src="img/wega-mastercard-face.png" alt="Unbelievably more than just a bank card.">
+                                            <img src="img/more-than-just-a-bank-card.png" alt="Unbelievably more than just a bank card.">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-5">
@@ -138,11 +138,6 @@ include_once "header.php";
                                             become a prepaid Wega MasterCard® card
                                             holder, whether you have a bank account or
                                             not.</p>
-                                            <ul class="horizontal-menu wega-align">
-                                                <li>
-                                                    <a href="" class="btn blue scroll-link">Get started</a>
-                                                </li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
