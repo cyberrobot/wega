@@ -26,7 +26,7 @@
             $('#nav-primary').removeClass('is-visible');
             var headerHeight = $('.wega-sticky-header').height();
             $('html, body').animate({
-                scrollTop: $($.attr(this, 'href')).offset().top 
+                scrollTop: $($.attr(this, 'href')).offset().top - headerHeight / 2
             }, 1500);
         });
     }
@@ -36,7 +36,8 @@
             collapsibleTabs = tabsComponent.find('.collapsible-tabs'),
             collapsibleContent = tabsComponent.find('.collapsible-content'),
             collapsibleContentClass = collapsibleContent.attr('class'),
-            collapsibleTabsContainer = tabsComponent.find('[data-tabs-container]');
+            collapsibleTabsContainer = tabsComponent.find('[data-tabs-container]'),
+            headerHeight = $('.wega-sticky-header').height();
 
         component.init = function() {
             component.showTabContent();
@@ -59,7 +60,7 @@
         component.scrollToSection = function() {
             collapsibleContent.fadeIn();
             $("html, body").animate({
-                scrollTop: collapsibleContent.offset().top
+                scrollTop: collapsibleContent.offset().top - headerHeight / 2
             });
         }
 
@@ -74,7 +75,7 @@
 
             closeBtn.on('click', function() {
                 $("html, body").animate({
-                    scrollTop: collapsibleTabsContainer.offset().top
+                    scrollTop: collapsibleTabsContainer.offset().top - headerHeight / 2
                 });
                 collapsibleContent.fadeOut();
             })
