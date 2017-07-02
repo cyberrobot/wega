@@ -78,23 +78,23 @@ include_once "header.php";
                                 <div class="tabs col-sm-10 col-sm-offset-1">
                                     <div class="row">
                                         <div class="tab" data-name="horizontal-media-text">
-                                            <i class="icon icon-more"></i>
-                                            <span class="tab-title">Bank card</span>
+                                            <i class="icon icon-speaker"></i>
+                                            <span class="tab-title">More than a Bank Card</span>
                                         </div>
                                         <div class="tab" data-name="vertical-media-text">
-                                            <i class="icon icon-more"></i>
-                                            <span class="tab-title">3DSA</span>
+                                            <i class="icon icon-padlock"></i>
+                                            <span class="tab-title">Enhanced security with 3DSA 2.0</span>
                                         </div>
                                         <div class="tab" data-name="horizontal-media-text">
-                                            <i class="icon icon-more"></i>
+                                            <i class="icon icon-gears"></i>
                                             <span class="tab-title">Services</span>
                                         </div>
                                         <div class="tab" data-name="vertical-media-text">
-                                            <i class="icon icon-more"></i>
+                                            <i class="icon icon-check-list"></i>
                                             <span class="tab-title">Features</span>
                                         </div>
                                         <div class="tab" data-name="horizontal-media-text">
-                                            <i class="icon icon-more"></i>
+                                            <i class="icon icon-safe"></i>
                                             <span class="tab-title">Facebox</span>
                                         </div>
                                     </div>

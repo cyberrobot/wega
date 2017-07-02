@@ -27,56 +27,6 @@
     }
 }
 
-.icon {
-    width: 94px;
-    height: 94px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: 100% auto;
-
-    @media screen and (max-width: $screen-xl-max) {
-        width: 70px;
-        height: 70px;
-    }
-
-    &.icon-crown {
-        background-image: url('../img/icons/crown.png');
-    }
-
-    &.icon-speaker {
-        background-image: url('../img/icons/speaker.png');
-    }
-
-    &.icon-more {
-        background-image: url('../img/icons/more.png');
-    }
-
-    &.icon-globe {
-        background-image: url('../img/icons/globe.png');
-    }
-
-    &.icon-people {
-        background-image: url('../img/icons/people.png');
-    }
-
-    &.icon-package {
-        background-image: url('../img/icons/package.png');
-    }
-
-    &.icon-phone {
-        background-image: url('../img/icons/phone.png');
-    }
-
-    &.icon-rocket {
-        background-image: url('../img/icons/rocket.png');
-    }
-
-    &.icon-padlock {
-        background-image: url('../img/icons/padlock.png');
-    }
-}
-
 .media-with-text {
     margin: 30px 0;
     overflow: hidden;
