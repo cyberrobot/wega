@@ -146,7 +146,7 @@ include_once "header.php";
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/iphone-card-transfer.png" alt="3DSA 2.0 Secure Certified, enhanced protection">
+                                            <img class="img-responsive" src="img/3dsa-enhanced-protection.png" alt="3DSA 2.0 Secure Certified, enhanced protection">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-5">
@@ -156,8 +156,8 @@ include_once "header.php";
                                             out-of-the-ordinary.
                                             Your acoustic and contactless Manchester City
                                             Wega Prepaid Mastercard marks the start of a
-                                            new era in the payment card history.
-                                            For the very first time you will be able to
+                                            new era in the payment card history.<p>
+                                            <p>For the very first time you will be able to
                                             authenticate your transactions by using
                                             multiple technologies in addition to your usual
                                             secured PIN code.
@@ -170,11 +170,6 @@ include_once "header.php";
                                             fraud prevention technology for In App, In Web
                                             and In Store acceptance.</p>
                                         </div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="" class="btn blue scroll-link">Get started</a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
