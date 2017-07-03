@@ -336,18 +336,20 @@ include_once "header.php";
                             <div class="collapsible-tabs" >
                                 <div class="tabs col-sm-10 col-sm-offset-1">
                                     <div class="row">
-                                        <div class="tab" data-name="vertical-media-text">
-                                            <i class="icon icon-more"></i>
+                                        <div class="tab hidden-xs"></div>
+                                        <div class="tab" data-style="vertical-media-text centered">
+                                            <i class="icon icon-check-list"></i>
                                             <span class="tab-title">Features</span>
                                         </div>
-                                        <div class="tab" data-name="vertical-media-text">
-                                            <i class="icon icon-more"></i>
+                                        <div class="tab" data-style="vertical-media-text">
+                                            <i class="icon icon-safe"></i>
                                             <span class="tab-title">Facebox</span>
                                         </div>
-                                        <div class="tab" data-name="vertical-media-text">
-                                            <i class="icon icon-more"></i>
+                                        <div class="tab" data-style="horizontal-media-text centered">
+                                            <i class="icon icon-shield"></i>
                                             <span class="tab-title">Data Protection</span>
                                         </div>
+                                        <div class="tab hidden-xs"></div>
                                     </div>
                                 </div>
                             </div>
@@ -360,26 +362,61 @@ include_once "header.php";
                     <div class="wega-bg"></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 wega-sm-padding">
+                    <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                         <div class="wega-content compensate-footer">
                             <span class="close" data-target="collapsible-content"></span>
+                            <div class="pane hidden-xs"></div>
                             <div class="pane">
                                 <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-5">
+                                    <div class="col-sm-12">
                                         <div class="wega-text-container">
                                             <h1>Features</h1>
-                                            <p>Content awaiting approval</p>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="media-with-text icon-right">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-rocket"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Instant Money Transfer</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="media-with-text icon-right">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-single-use"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Single Use</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6 hidden-xs hidden-sm">
+                                                <div class="wega-image-container">
+                                                    <img class="img-responsive" src="img/iphone-card-account.png" alt="Features">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="media-with-text">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-control"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Control</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="media-with-text">
+                                                    <div class="media-container">
+                                                        <i class="icon icon-people"></i>
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h3>Family Pack</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="" class="btn blue scroll-link">Get started</a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -422,27 +459,25 @@ include_once "header.php";
                             </div>
                             <div class="pane">
                                 <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="Data Protection">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <div class="col-sm-12">
+                                            <div class="wega-image-container">
+                                                <h1>Data Protection</h1>
+                                                <img class="img-responsive" src="img/iphone-card-account.png" alt="Data Protection">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-5">
-                                        <div class="wega-text-container">
-                                            <h1>Data Protection</h1>
-                                            <p>$24.71 billion is the worldwide cost on credit
-                                            card fraud in 2016. One answer never to
-                                            reveal your card number when paying online?
-                                            Instantly generate a Wega single-use card.</p>
+                                        <div class="col-sm-12">
+                                            <div class="wega-text-container center-text">
+                                                <p>$24.71 billion is the worldwide cost on credit
+                                                card fraud in 2016. One answer never to
+                                                reveal your card number when paying online?
+                                                Instantly generate a Wega single-use card.</p>
+                                            </div>
                                         </div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="" class="btn blue scroll-link">Find out more</a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
+                            <div class="pane hidden-xs"></div>
                         </div>
                     </div>
                 </div>

@@ -614,7 +614,11 @@ $screen-xl-max: 1440px;
 
     .tabs {
         .tab {
-            width: 33.33%;
+            width: 20%;
+
+            @media screen and (max-width: $screen-xs-max) {
+                width: 33.33%;
+            }
         }
     }
 }
@@ -795,6 +799,12 @@ $screen-xl-max: 1440px;
                 margin-right: 0;
                 text-align: center;
             }
+
+            // .wega-text-container {
+            //     p {
+            //         text-align: center;
+            //     }
+            // }
         }
     }
 }
