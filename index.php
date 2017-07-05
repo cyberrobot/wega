@@ -93,7 +93,7 @@ include_once "header.php";
                                             <i class="icon icon-check-list"></i>
                                             <span class="tab-title">Features</span>
                                         </div>
-                                        <div class="tab" data-style="horizontal-media-text">
+                                        <div class="tab" data-style="multiple-bg facebox">
                                             <i class="icon icon-safe"></i>
                                             <span class="tab-title">Facebox</span>
                                         </div>
@@ -281,38 +281,35 @@ include_once "header.php";
                             </div>
                             <div class="pane">
                                 <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-5">
+                                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                                         <div class="wega-text-container">
-                                            <h1>Facebox</h1>
-                                            <p>1 Wega® is not just a bank card. It is also the key that opens your digital safe where you can store your sensitive and
-                                            confidential documents and data that can only be accessed via
-                                            strong authentication with your Wega® audio payment card.
-                                            ( Wega 3DSA card ?)
-                                            FaceBox® is a one-of-a-kind, secure sensitive data collection
-                                            and sharing service, accessible 24/7, where you can: √ Save your passwords, credit card codes, bank accounts, etc.<br> 
-                                            2 √ Keep your pay slips, copies of your ID, legal documents,
-                                            etc. safe <br>
-                                            3 √ Share your organ donor pledge forms, insurance policies,
-                                            etc. in case of emergency <br>
-                                            4 √ Disclose your will, your organ donor pledge forms,
-                                            medical documents, inheritance planning in the event of death.
-                                            Your loved ones will not need to spend time looking for your
-                                            documents or figuring out your last wishes.
-                                            FaceBox® is a genuine secret space that provides an
-                                            incomparable level of service that protects the authenticity,
-                                            integrity, confidentiality and privacy of your personal and
-                                            confidential data.</p>
+                                            <h1>Facebox, your private digital safe </h1>
+                                            <p>Wega® is not just a payment card. It is also the key that opens your digital safe where you can store your secure sensitive documents and passwords, available at all times  via strong authentication with your Wega card.</p>
                                         </div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="" class="btn blue scroll-link">Get started</a>
-                                            </li>
-                                        </ul>
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-key"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Save and manage your passwords, credit card codes and bank account details</p>
+                                            </div>
+                                        </div>
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-documents"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Save your payslips, copies of your identity papers and legal documents</p>
+                                            </div>
+                                        </div>
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-book"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Share your organ donor pledge forms, insurance policies, your will and more in case of an emergency</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +338,7 @@ include_once "header.php";
                                             <i class="icon icon-check-list"></i>
                                             <span class="tab-title">Features</span>
                                         </div>
-                                        <div class="tab" data-style="vertical-media-text">
+                                        <div class="tab" data-style="multiple-bg facebox">
                                             <i class="icon icon-safe"></i>
                                             <span class="tab-title">Facebox</span>
                                         </div>
@@ -422,38 +419,35 @@ include_once "header.php";
                             </div>
                             <div class="pane">
                                 <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-5">
+                                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                                         <div class="wega-text-container">
-                                            <h1>Facebox</h1>
-                                            <p>1 Wega® is not just a bank card. It is also the key that opens your digital safe where you can store your sensitive and
-                                            confidential documents and data that can only be accessed via
-                                            strong authentication with your Wega® audio payment card.
-                                            ( Wega 3DSA card ?)
-                                            FaceBox® is a one-of-a-kind, secure sensitive data collection
-                                            and sharing service, accessible 24/7, where you can: √ Save your passwords, credit card codes, bank accounts, etc.<br> 
-                                            2 √ Keep your pay slips, copies of your ID, legal documents,
-                                            etc. safe <br>
-                                            3 √ Share your organ donor pledge forms, insurance policies,
-                                            etc. in case of emergency <br>
-                                            4 √ Disclose your will, your organ donor pledge forms,
-                                            medical documents, inheritance planning in the event of death.
-                                            Your loved ones will not need to spend time looking for your
-                                            documents or figuring out your last wishes.
-                                            FaceBox® is a genuine secret space that provides an
-                                            incomparable level of service that protects the authenticity,
-                                            integrity, confidentiality and privacy of your personal and
-                                            confidential data.</p>
+                                            <h1>Facebox, your private digital safe </h1>
+                                            <p>Wega® is not just a payment card. It is also the key that opens your digital safe where you can store your secure sensitive documents and passwords, available at all times  via strong authentication with your Wega card.</p>
                                         </div>
-                                        <ul class="horizontal-menu wega-align">
-                                            <li>
-                                                <a href="" class="btn blue scroll-link">Get started</a>
-                                            </li>
-                                        </ul>
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-key"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Save and manage your passwords, credit card codes and bank account details</p>
+                                            </div>
+                                        </div>
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-documents"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Save your payslips, copies of your identity papers and legal documents</p>
+                                            </div>
+                                        </div>
+                                        <div class="media-with-text">
+                                            <div class="media-container">
+                                                <i class="icon icon-book"></i>
+                                            </div>
+                                            <div class="text-container">
+                                                <p>Share your organ donor pledge forms, insurance policies, your will and more in case of an emergency</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

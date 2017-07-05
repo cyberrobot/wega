@@ -1,3 +1,5 @@
+$screen-xl-max: 1440px;
+
 .wega-flex-layout {
     display: flex;
 
@@ -28,7 +30,7 @@
 }
 
 .media-with-text {
-    margin: 0 0 60px;
+    margin: 0 0 40px;
     overflow: hidden;
 
     .media-container {
@@ -88,7 +90,7 @@
     }
 
     @media screen and (max-width: $screen-sm-max) {
-        margin: 0 0 20px;
+        margin: 0 0 30px;
     }
 }
 

@@ -799,12 +799,46 @@ $screen-xl-max: 1440px;
                 margin-right: 0;
                 text-align: center;
             }
+        }
+    }
 
-            // .wega-text-container {
-            //     p {
-            //         text-align: center;
-            //     }
-            // }
+    &.multiple-bg.facebox {
+        .wega-skew {
+            .wega-bg {
+                background-image: url('../img/wega-mastercard-face.png'), -webkit-linear-gradient(#0e2f60, #6096c5);
+                background-image: url('../img/wega-mastercard-face.png'), -moz-linear-gradient(#0e2f60, #6096c5);
+                background-image: url('../img/wega-mastercard-face.png'), -o-linear-gradient(#0e2f60, #6096c5);
+                background-image: url('../img/wega-mastercard-face.png'), linear-gradient(#0e2f60, #6096c5);
+                background-repeat: no-repeat, no-repeat;
+                background-position: -140px 100%, 0 0;
+                background-size: 400px auto, 100% auto;
+
+                @media screen and (max-width: $screen-md-max) {
+                    background-position: -60px 99%, 0 0;
+                    background-size: 360px auto, 100% auto;
+                }
+
+                @media screen and (max-width: $screen-sm-max) {
+                    background-position: -60px 106%, 0 0;
+                    background-size: 300px auto, 100% auto;
+                }
+            }
+        }
+
+        .media-with-text {
+            .media-container {
+                margin-top: 0;
+            }
+
+            .text-container {
+                p {
+                    margin-top: 10px;
+
+                    @media screen and (max-width: $screen-xs-min) {
+                        margin-top: 0;
+                    }
+                }
+            }
         }
     }
 }
