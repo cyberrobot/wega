@@ -110,7 +110,7 @@ include_once "header.php";
                 </div>
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 wega-sm-padding">
-                        <div class="wega-content">
+                        <div class="wega-content compensate-footer">
                             <span class="close" data-target="collapsible-content"></span>
                             <div class="pane">
                                 <div class="row">
