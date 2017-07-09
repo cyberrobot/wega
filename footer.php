@@ -10,9 +10,6 @@
                                         <li><a href="" class="subtitle">Contact</a></li>
                                         <li><a href="faq.php" class="subtitle">FAQ</a></li>
                                         <li><a href="press.php" class="subtitle">Press</a></li>
-                                        <li><a href="terms-and-conditions.php">Terms of Service</a></li>
-                                        <li><a href="disclaimer.php">Disclaimer</a></li>
-                                        <li><a href="privacy-policy.php">Privacy policy</a></li>
                                     </ul>
                                 </div>
                             </div>        
@@ -21,30 +18,12 @@
                                     <h3 class="title">Contact</h3>
                                     <ul>
                                         <li>
-                                            <p>
-                                                We are on-hand to help you.
-                                                Do you have queries about our services or products?
-                                                Do you have suggestions to help us improve our services or would you like to propose a partnership?
-                                                Do you need assistance?
-                                            </p>
-                                        </li>
-                                        <li>
                                             <div class="subtitle address">
                                                 <span>Mail:</span>
                                                 <span>TRUXTUN Capital SA</span>
                                                 <span>Rue du Nant 6</span>
                                                 <span>1207 Geneva</span> 
                                                 <span>Switzerland</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="subtitle">
-                                                Chat:&nbsp;&nbsp;<a href="" class="subtitle">click here</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="subtitle">
-                                                Contact Form: &nbsp;&nbsp;<a href="" class="subtitle">click here</a>
                                             </div>
                                         </li>
                                     </ul>
@@ -74,7 +53,7 @@
                     </div>  
                     <div class="footer_bottom clear">
                         <ul class="center_horizontal_menu horizontal-line">
-                            <li><a href="terms-and-conditions.php">T&C</a></li>
+                            <li><a href="terms-and-conditions.php">Terms of Service</a></li>
                             <li><a href="disclaimer.php">Disclaimer</a></li>
                             <li><a href="privacy-policy.php">Privacy policy</a></li>
                         </ul>
