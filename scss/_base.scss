@@ -40,6 +40,28 @@ ul, ol {
   clear: both;
 }
 
+.pull-top-80 {
+    @media screen and (max-width: $screen-sm-max) {
+        margin-top: -80px;
+    }
+}
+
+.pull-top-60 {
+    @media screen and (max-width: $screen-sm-max) {
+        margin-top: -60px;
+    }
+}
+
+.pull-top-40 {
+    @media screen and (max-width: $screen-sm-max) {
+        margin-top: -40px;
+    }
+}
+
+.push-top-20 {
+    margin-top: 20px;
+}
+
 .right_horizontal_menu {
     text-align: right;
 }

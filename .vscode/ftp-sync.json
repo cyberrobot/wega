@@ -1,0 +1,19 @@
+{
+    "remotePath": "/www/staging",
+    "host": "ftp.cluster020.hosting.ovh.net",
+    "username": "wegagifthh",
+    "password": "y2MM6q4htBn3",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ]
+}

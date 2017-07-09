@@ -76,7 +76,7 @@
                             <li><a href="privacy-policy.php">Privacy policy</a></li>
                         </ul>
                         <p class="center-text">
-                            The Manchester City Wega 3DSA Prepaid Mastercard is issued by Transact Payments Limited pursuant to licence by Mastercard International. Transact Payments Limited is authorised and regulated by the Gibraltar Financial Services Commission. Registered Office: Unit 4A- 4th Floor, Leisure Island Business Centre, 23 Ocean Village Promenade, Gibraltar. Registered No. 108217. This program is managed by Truxtun Capital SA,  Member of Fido Alliance and Technical Associate of EMVCo. Exclusive UK distributor: Gleevest Capital Limited.
+                            Mastercard and the Mastercard circles design are trademarks of Mastercard International Incorporated. The Manchester City Wega Mastercard is issued by Transact Payments Limited pursuant to license by Mastercard International. Transact Payments Limited is authorised and regulated by the Gibraltar Financial Services Commission. Registered Office: Unit 4A- 4th Floor, Leisure Island Business Centre, 23 Ocean Village Promenade, Gibraltar. Registered No.108217. The Manchester City Wega Mastercard program is managed by Truxtun Capital SA, technical associate of EMVCo and member of the FIDO Alliance. Exclusive distributor for the UK is Gleevest Capital Limited.
                         </p>
                         <p class="center-text">
                             All Rights reserved Wega© 2017

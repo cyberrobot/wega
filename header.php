@@ -22,8 +22,8 @@
         <nav class="nav">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="#wega-3dsa-card" class="scroll-link">3DSA Card</a></li>
-                <li><a href="#wega-virtual-card" class="scroll-link">WEGA Digital</a></li>
+                <li><a href="#wega-3dsa-card" class="scroll-link">3DSA 2.0 Wega Mastercard ®</a></li>
+                <li><a href="#wega-virtual-card" class="scroll-link">Wega Virtual Card</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Get the App</a></li>
                 <li class="visible-sm"><a href="login.php">Login</a></li>

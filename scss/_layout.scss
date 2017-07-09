@@ -879,6 +879,19 @@ $screen-xl-max: 1440px;
         }
 
         input.form-control {
+            @media screen and (max-width: $screen-xs-max) {
+                padding-left: 5px;
+            }
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .phone-input {
+        input.form-control {
             padding-top: 0;
             padding-bottom: 0;
             
@@ -904,7 +917,6 @@ $screen-xl-max: 1440px;
 
             @media screen and (max-width: $screen-xs-max) {
                 font-size: 1.5rem;
-                padding-left: 5px;
 
                 &::-webkit-input-placeholder {
                     font-size: 1.5rem;
@@ -932,11 +944,6 @@ $screen-xl-max: 1440px;
                 padding-left: 10px;
                 padding-right: 10px;
             }
-        }
-
-        @media screen and (max-width: $screen-xs-max) {
-            margin-left: auto;
-            margin-right: auto;
         }
     }
 
