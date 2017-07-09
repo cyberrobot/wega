@@ -342,7 +342,7 @@ include_once "header.php";
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Instant Money Transfer</h3>
-                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                        <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again. (Ajouter un peu plus de détail ?) Par ex. : You only need to enter the email of your mate to refund him or sth…</p>
                                                     </div>
                                                 </div>
                                                 <div class="media-with-text icon-right">
@@ -351,7 +351,7 @@ include_once "header.php";
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Single Use</h3>
-                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                        <p>$24.71 billion is the worldwide cost on credit card fraud in 2016. One answer never to reveal your card number when paying online? Instantly generate a Wega single-use card from your mobile that will expire right after your purchase</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -367,7 +367,7 @@ include_once "header.php";
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Control</h3>
-                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                        <p>Get total and instant control over your card options in your Wega app : change your PIN and allow or disable contactless payments, ATM withdrawals, online payments and payments abroad.</p>
                                                     </div>
                                                 </div>
                                                 <div class="media-with-text">
@@ -376,7 +376,7 @@ include_once "header.php";
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Family Pack</h3>
-                                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed ametdiam.</p>
+                                                        <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
                                                     </div>
                                                 </div>
                                             </div>

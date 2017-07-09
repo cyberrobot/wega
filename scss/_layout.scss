@@ -635,6 +635,10 @@ $screen-xl-max: 1440px;
     padding: 60px 0;
 
     .tabs {
+        .row {
+            margin: 0;
+        }
+        
         .tab {
             float: left;
             margin-bottom: 20px;

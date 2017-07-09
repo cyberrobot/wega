@@ -7,9 +7,12 @@
                                 <div class="content vertical-line">
                                     <h3 class="title">Company</h3>
                                     <ul>
-                                        <li><a href="" class="subtitle">Contact & Support</a></li>
+                                        <li><a href="" class="subtitle">Contact</a></li>
                                         <li><a href="faq.php" class="subtitle">FAQ</a></li>
                                         <li><a href="press.php" class="subtitle">Press</a></li>
+                                        <li><a href="terms-and-conditions.php">Terms of Service</a></li>
+                                        <li><a href="disclaimer.php">Disclaimer</a></li>
+                                        <li><a href="privacy-policy.php">Privacy policy</a></li>
                                     </ul>
                                 </div>
                             </div>        
@@ -53,10 +56,10 @@
                                         Email:&nbsp;&nbsp;<a href="mailto:support@wegamc.com" class="subtitle">support@wegamc.com</a>
                                     </div>
                                     <div class="phone clear">
-                                        Support phone:&nbsp;&nbsp;<a href="tel:+441618831501" class="subtitle white">+44 (0) 161 883 1501</a>
+                                        Switzerland:&nbsp;&nbsp;<a href="tel:+441618831501" class="subtitle white">+41 (0) 22 849 7172</a>
                                     </div>
                                     <div class="phone clear">
-                                        Lost or stolen card:&nbsp;&nbsp;<a href="tel:08004337015" class="subtitle white">0800 433 7015</a>
+                                        UK:&nbsp;&nbsp;<a href="tel:08004337015" class="subtitle white">+44 (0) 203 637 6240</a>
                                     </div>
                                     <div class="social">
                                         <a href="#"><img src="img/logo/facebook.png" class="facebook" alt="facebook logo"></a>
