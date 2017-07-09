@@ -46,6 +46,9 @@
                         <a href="login.php" class="btn">Login</a>
                     </li>
                     <li>
+                        <a href="how-does-it-work.php#activate-card" class="btn">Register card</a>
+                    </li>
+                    <li>
                         <a href="register.php" class="btn blue">Sign Up</a>
                     </li>
                     <li>
