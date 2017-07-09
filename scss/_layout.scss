@@ -445,6 +445,52 @@ $screen-xl-max: 1440px;
             }
         }
 
+        .wega-slide4 {
+            background: url('../img/slider/waves.png') no-repeat center center;
+            background-size: 100% auto;
+
+            .wega-align {
+                text-align: center;
+            }
+
+            h1 {
+                margin-bottom: 60px;
+
+                @media screen and (max-width: $screen-sm-max) {
+                    margin-bottom: 40px;
+                }
+            }
+
+            .wega-image-container {
+                text-align: center;
+
+                img {
+                    display: inline-block;
+                    max-width: 35%;
+
+                    @media screen and (max-width: $screen-md-max) {
+                        max-width: 36%;
+                    }
+
+                    @media screen and (max-width: $screen-sm-max) {
+                        max-width: 36%;
+                    }
+
+                    @media screen and (max-width: $screen-xs-max) {
+                        max-width: 100%;
+                    }
+                }
+            }
+
+            @media screen and (max-width: $screen-xs-max) {
+                background-size: 250% auto;
+            }
+
+            @media screen and (max-width: $screen-xs-min) {
+                background-size: 350% auto;
+            }
+        }
+
         @media screen and (max-width: $screen-md-max) {
             margin: 120px 0 -80px;
         }

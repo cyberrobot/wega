@@ -41,25 +41,29 @@ ul, ol {
 }
 
 .pull-top-80 {
-    @media screen and (max-width: $screen-sm-max) {
+    @media screen and (max-width: $screen-xs-max) {
         margin-top: -80px;
     }
 }
 
 .pull-top-60 {
-    @media screen and (max-width: $screen-sm-max) {
+    @media screen and (max-width: $screen-xs-max) {
         margin-top: -60px;
     }
 }
 
 .pull-top-40 {
-    @media screen and (max-width: $screen-sm-max) {
+    @media screen and (max-width: $screen-xs-max) {
         margin-top: -40px;
     }
 }
 
 .push-top-20 {
     margin-top: 20px;
+}
+
+.push-top-40 {
+    margin-top: 40px;
 }
 
 .right_horizontal_menu {

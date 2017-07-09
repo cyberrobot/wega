@@ -7,7 +7,7 @@ include_once "header.php";
             <div id="owl-demo" class="owl-carousel owl-theme">
                 <div class="wega-slide wega-slide1">
                     <div class="col-md-10 col-md-offset-1 wega-sm-padding">
-                        <h1 class="wega-align">Pay with the world's first acoustic card</h1>
+                        <h1 class="wega-align">Manchester City Wega Prepaid Mastercard<br>Pay with the world's first acoustic card</h1>
                         <div class="wega-image-container">
                             <img class="img-responsive" src="img/slider/worlds-first-acoustic-card.png" alt="Introducing the world’s first acoustic card">
                         </div>
@@ -37,6 +37,19 @@ include_once "header.php";
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="wega-slide wega-slide4">
+                    <div class="col-md-10 col-md-offset-1 wega-sm-padding">
+                        <h1 class="wega-align">How does it work</h1>
+                        <div class="wega-image-container">
+                            <img class="img-responsive" src="img/more-than-just-a-bank-card.png" alt="Introducing the world’s first acoustic card">
+                        </div>
+                        <ul class="horizontal-menu wega-align">
+                            <li>
+                                <a href="how-does-it-work.php" class="btn blue scroll-link push-top-40">Learn More</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="wega-slide wega-slide3">
@@ -112,7 +125,7 @@ include_once "header.php";
                     <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                         <div class="wega-content compensate-footer">
                             <span class="close" data-target="collapsible-content"></span>
-                            <div class="pane">
+                            <div id="unbelievably-more-than-just-a-payment-card" class="pane">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
