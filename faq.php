@@ -7,87 +7,36 @@ include_once "header.php";
             <h1>FAQ</h1>
             <h3>Your questions, our answers</h3>
             <div class="part">
-                <h2>What is the reloadable audio Manchester City Wega Mastercard®?</h2>
-                <p><strong>The Manchester City Wega Mastercard is a highly secured dual chip and PIN physical prepaid payment card that can be used globally in the Mastercard network. [ Wega Card Image?]. </strong></p>
-                <p>The Wega Card is a smart payment solution specifically designed for secure online and instore as well as contactless payments. It can be loaded via bank transfer, debit card or Neosurf electronic voucher and can be used for purchases  at over 29.4 million locations worldwide.</p>
-                <p>With more than 1.5 million ATMs in over 210 countries a Mastercard ATM is never far away. </p>
+                <h2>What is Wega?</h2>
+                <p>Wega is the trade name of Truxtun Capital SA, a fintech company specializing in the development and management of e-money programs in various currencies with several networks (Mastercard, Visa etc) and licensing its proprietary Wega 3DSA technology for highly secured transactions. Truxtun Capital is a prepaid program manager, member of Fido Alliance and technical partner of EMVCo. (<a href="www.truxtuncapital.com">www.truxtuncapital.com</a>)</p>
             </div>
             <div class="part">
-                <p>You can also use it to </p>
-                <ul class="point">
-                    <li>Share funds between one Wega Card and another Wega Card in real time and</li>
-                    <li>Add funds to your friend or family member’s Wega Card.</li>
-                </ul>
-                <p>Fast’n easy mobile app or online registration.</p>
+                <h2>What is Wega 3DSA?</h2>
+                <p>Wega 3DSA is a proprietary technology that adheres to the latest security standards.</p>
+                <p>It is based on an acoustic chip inserted in a payment card during manufacturing that generates a onetime password based on sound frequency, combined with PIN Code and other FIDO Certified authenticators. The Wega 3DSA 2.0’s application supports facial recognition, fingerprint biometrics and offers users a choice of authenticating a mobile payment with either their acoustic card, face or finger at the point of purchase. The purpose is to speed up ecommerce transactions in a more secure environment without the need to remember yet another password. Paying online with Wega 3DSA is faster, simpler, more convenient and more secure.</p>
             </div>
             <div class="part">
-                <h2>What is a reloadable virtual Manchester City Wega MasterCard?</h2>
-                <p>The reloadable virtual Manchester City Wega MasterCard is an electronic payment method for online, phone or mail order purchases. The virtual Wega Card does not exist in a physical form but provides the cardholder with the information required to execute one of the above mentioned types of transactions: cardholder’s name, card number, expiry date and CVC2 security code.</p>
+                <h2>What is FIDO Alliance?</h2>
+                <p>FIDO is the World’s Largest Ecosystem for Standards-Based, Interoperable Authentication. The specifications and certifications from the FIDO Alliance enable an interoperable ecosystem of hardware-, mobile- and biometrics-based authenticators that can be used with many apps and websites. This ecosystem enables enterprises and service providers to deploy strong authentication solutions that reduce reliance on passwords and protect against phishing, man-in-the-middle and replay attacks using stolen passwords.</p>
+                <p>Truxtun Capital SA is member of Fido Alliance at the sponsor level together with such other companies as Fijutsu, Goldman Sachs, Huawei, NEC, Symantec, Wells Fargo. Board members include Mastercard, Visa, Paypal, Google, Samsung, ING, etc.</p>
+                <p>(<a href="www.fidoalliance.org">www.fidoalliance.org</a>)</p>
             </div>
             <div class="part">
-                <h2>What is a single use virtual Manchester City Wega Mastercard?</h2>
-                <p>Via the dedicated  mobile and web apps the cardholder may create a single use virtual card for online, mail order or telephone payments only valid for the amount of the current transaction thus safeguarding the balance of the main Wega Card.</p>
+                <h2>What are Wega Payment Card Programs?</h2>
+                <p>Wega Payment Card Programs are consumer or corporate prepaid programs that are associated with either Mastercard or Visa. They can also be closed loop for direct acceptance by a program partner merchant. The programs are directed to program partners that have the ability to co-brand their corporate image or provide a generic payment solution as needed. They can be either physical or virtual cards. The physical Wega payment card programs may but do not necessarily need to include Wega 3DSA technology. Wega Payment Card Programs may be commercialized via distributors such as Gleevest Capital Ltd (www.gleevest.com) or program partners. Wega Payment Card Program may benefit from value added services, subject to contract, such as 3Dsecure, contactless, mobile app, Facebox®, Mobile top up. Please contact <a href="mailto:support@wega.co">support@wega.co</a> for further information.</p>
             </div>
             <div class="part">
-                <h2>What are the advantages of the Wega Card?</h2>
-                <ul class="point">
-                    <li>Multi-purpose payment solution</li>
-                    <li>No credit check</li> 
-                    <li>Easy to order via the mobile app or website</li>
-                    <li>Guaranteed approval if the applicant meets identification criteria</li>
-                    <li>Order up to 2 additional cards</li>
-                    <li>Withdraw cash at millions of ATMs worldwide. (Mastercard, Maestro, Cirrus, Visa, Plus, and Discover)</li>
-                    <li>The Wega Card is accepted at millions of locations worldwide.</li>
-                    <li>Flexible top up methods via bank transfer, debit card or Neosurf voucher</li>
-                    <li>Optimally-secure technology to reduce ri sk o online fraud. The Wega Card integrates groundbreaking audio encryption technology protecting the account against fraudulent use.</li>
-                    <li>All online transactions 3Dsecure enabled</li>
-                    <li>Enable/disable certain card functions (block, online, ATM, international, contactless)  </li>
-                    <li>Contactless payments</li>
-                    <li>Share funds between one Wega Card and another Wega Card anywhere in the world</li>
-                    <li>Send mobile credit to mobile phone numbers registered with more than [number] affiliated mobile operators a a variety of countries.</li>
-                    <li>Store receipts, invoices, deeds and other important documents in the Facebox electronic safe associated with the Wega Card account.</li>
-                    <li>Online and mobile app account management</li>
-                    <li>Customer support via email, contact page, phone and chat</li>
-                </ul>
+                <h2>What is Wega Program Management?</h2>
+                <p>Wega Program Management is the providing of turn-key e-money program services for third party program partners. It includes the set-up of the Program with the issuer, the network, the processor, the card vendor, fulfilments, load channels, KYC processing, transaction processing, customer support.  The programs can include physical and virtual cards. They can be used for personal use, payroll, expenses, travel, bill sharing, allowances for teens, gift cards etc.</p>
+                <p>Please contact <a href="mailto:support@wega.co">support@wega.co</a> for further information.</p>
             </div>
             <div class="part">
-                <h2>How much does the Wega Card cost?</h2>
-                <p>The issue price of the Wega Cards are as follows:</p>
-                <ul class="point">
-                    <li>Reloadable Audio Manchester City Wega Mastercard: £24.90</li>
-                    <li>Reloadable Virtual Manchester City Wega MastercardL £4.90</li>
-                    <li>Single use virtual Mastercard: £0.65 </li>
-                </ul>
-                <p>Click here for a detailed overview of all applicable fees and charges.</p>
+                <h2>What are Wega Corporate Solutions?</h2>
+                <p>Wega Corporate Solutions are specifically addressed to corporate clients that are interested in innovative, flexible and cross border payment solutions for wages, expenses, commissions, pay-outs etc.  Wega Corporate Solutions can be either generic or co-branded for the corporate client. Please contact support@wega.co for further information.</p>
             </div>
             <div class="part">
-                <h2>How can I apply for a  Wega Card?</h2>
-                <p>Anyone over the age of 18 years residing in the United Kingdom can apply for  a Wega Card. The Wega Card order may be completed via the Manchester City Wega mobile app or via <a href="mailto:www.wegamastercard.com">www.wegamastercard.com</a>. A Wega Card holder may apply for an additional card, the minimum holder’s age of which is 13 years.</p>
-            </div>
-            <div class="part">
-                <h2>Can I order additional several Wega Cards</h2>
-                <p>A Wega Card holder may order up to two additional cards. Additional Wega Cards fall under the responsibility of the primary cardholder.</p>
-            </div>
-            <div class="part">
-                <h2>How can I top up my Wega Card?</h2>
-                <p>The Wega Card is a prepaid electronic money account that you can top up via bank transfer, debit card, transfers from another Wega Card or by purchasing a Neosurf top-up voucher in a convenience store or tobacco shop.</p>
-                <p>An additional Wega Card is always topped up via card to card transfer by the primary Wega Card it is associated with.</p>
-            </div>
-            <div class="part">
-                <h2>Can I receive third party bank  transfers on Wega Card account?</h2>
-                <p>If you receive a transfer from a third party account, i.e. an account that is not in your name  we may require identity verification of the sender and the reason for paymentWega Card</p>
-            </div>
-            <div class="part">
-                <h2>Can I transfer funds to third party bank accounts from my Wega Card account?</h2>
-                <p>No, the Wega Card account can currently not be used to transfer money to third party accounts.</p>
-            </div>
-            <div class="part">
-                <h2>What happens to the account balance once my Wega Card expires?</h2>
-                <p>Your balance is fully secured. You will automatically receive a new Wega Card and you will be able to continue purchasing and paying as easily as before. Please view the detailed overview of fees and charges for information on charges that may be incurred.</p>
-            </div>                
-            <div class="part">
-                <h2>What happens if I do not use my Wega Card actively?</h2>
-                <p>After 6 months’ inactivity, monthly inactivity charges are debited from the Wega Card account for managing the remaining balance. Please view the detailed overview of fees and charges for information on charges that may be incurred.</p>
+                <h2>What is Wega 3DSA Licensing?</h2>
+                <p>Through an Wega 3DSA Licensing Agreement accepted parties are allowed to integrate Wega 3DSA technology and manufacturing provided by Truxtun Capital in their own business models and in association with the parties’ own services and providers. For example if Bank X wanted to license Wega 3DSA from Truxtun Capital SA, Truxtun Capital would provide the Wega 3DSA technology and manufacturing but Bank X would set up own issuing, processing etc. Please contact <a href="mailto:support@wega.co">support@wega.co</a> for further information.</p>
             </div>
         </div>
     </div>
