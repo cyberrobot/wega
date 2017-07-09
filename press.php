@@ -10,7 +10,7 @@ include_once "header.php";
                 <h2>Do you wish to:</h2>
                 <p>Ask a question to our press relations department.</p>
                 <p>Contact our press relations department by mail or phone. If so, please use the following contact details:</p>
-                <a href="mailto:presse@truxtuncapital.com">presse@truxtuncapital.com</a>
+                <a href="mailto:press@wega.co">press@wega.co</a>
                 <p>TRUXTUN Capital SA<br>
                 Press Relations<br>
                 Rue du Nant 6 – 1207 Geneva, Switzerland</p>
