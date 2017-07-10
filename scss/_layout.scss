@@ -184,7 +184,7 @@ $screen-xl-max: 1440px;
             h1 {
                 margin-bottom: 60px;
 
-                @media screen and (max-width: $screen-sm-max) {
+                @media screen and (max-width: $screen-xl-max) {
                     margin-bottom: 40px;
                 }
             }
@@ -456,7 +456,7 @@ $screen-xl-max: 1440px;
             h1 {
                 margin-bottom: 60px;
 
-                @media screen and (max-width: $screen-sm-max) {
+                @media screen and (max-width: $screen-xl-max) {
                     margin-bottom: 40px;
                 }
             }
@@ -502,6 +502,10 @@ $screen-xl-max: 1440px;
 
     .owl-controls {
         bottom: 120px;
+
+        @media screen and (max-width: $screen-xl-max) {
+            bottom: 100px;
+        }
 
         @media screen and (max-width: $screen-md-max) {
             bottom: 100px;
@@ -862,10 +866,10 @@ $screen-xl-max: 1440px;
     &.multiple-bg.facebox {
         .wega-skew {
             .wega-bg {
-                background-image: url('../img/wega-mastercard-face.png'), -webkit-linear-gradient(#0e2f60, #6096c5);
-                background-image: url('../img/wega-mastercard-face.png'), -moz-linear-gradient(#0e2f60, #6096c5);
-                background-image: url('../img/wega-mastercard-face.png'), -o-linear-gradient(#0e2f60, #6096c5);
-                background-image: url('../img/wega-mastercard-face.png'), linear-gradient(#0e2f60, #6096c5);
+                background-image: none, -webkit-linear-gradient(#0e2f60, #6096c5);
+                background-image: none, -moz-linear-gradient(#0e2f60, #6096c5);
+                background-image: none, -o-linear-gradient(#0e2f60, #6096c5);
+                background-image: none, linear-gradient(#0e2f60, #6096c5);
                 background-repeat: no-repeat, no-repeat;
                 background-position: -140px 100%, 0 0;
                 background-size: 400px auto, 100% auto;
@@ -876,8 +880,8 @@ $screen-xl-max: 1440px;
                 }
 
                 @media screen and (max-width: $screen-sm-max) {
-                    background-position: -60px 98%, 0 0;
-                    background-size: 300px auto, 100% auto;
+                    // background-position: -60px 98%, 0 0;
+                    // background-size: 300px auto, 100% auto;
                 }
             }
         }
@@ -1249,6 +1253,10 @@ $screen-xl-max: 1440px;
             a {
                 font-size: 1.8rem;
                 color: #fff;
+            }
+
+            @media screen and (max-width: $screen-sm-max) {
+                padding: 10px 0;
             }
         }
 

@@ -47,7 +47,7 @@ include_once "header.php";
                         </div>
                         <ul class="horizontal-menu wega-align">
                             <li>
-                                <a href="how-does-it-work.php" class="btn blue scroll-link push-top-40">Learn More</a>
+                                <a href="how-does-it-work.php" class="btn blue push-top-40">Learn More</a>
                             </li>
                         </ul>
                     </div>
@@ -92,11 +92,11 @@ include_once "header.php";
                                     <div class="row">
                                         <div class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-speaker"></i>
-                                            <span class="tab-title">More than a Bank Card</span>
+                                            <span class="tab-title">More than<br> a Bank Card</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text">
                                             <i class="icon icon-padlock"></i>
-                                            <span class="tab-title">Enhanced security with 3DSA 2.0</span>
+                                            <span class="tab-title">Enhanced security<br> with 3DSA 2.0</span>
                                         </div>
                                         <div class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-gears"></i>
@@ -198,7 +198,7 @@ include_once "header.php";
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Instant Money Transfer</h3>
-                                                        <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again. (Ajouter un peu plus de détail ?) Par ex. : You only need to enter the email of your mate to refund him or sth…</p>
+                                                        <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</p>
                                                     </div>
                                                 </div>
                                                 <div class="media-with-text icon-right">

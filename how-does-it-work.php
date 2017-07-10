@@ -48,27 +48,29 @@ include_once "header.php";
                 <h2>Strong Acoustic Authentication</h2>
                 <p><strong>Identifying</strong><br>While needing to access any account functionalities , the user choses to place its Wega card in front of the microphone and presses the button on the card. An audio sequence is issued to the card and then transmitted to the interactive server. This first step is used to identify the user and the holder of the card. No EMV related information are passed during this sequence. There are no technical relationship between the acoustic Chip and the EMV elements. The audio sequence only contains dynamic OTPs (One-Time-Password) and a unique token reference.</p>
                 <p><strong>Authenticating</strong><br>Once the user has been identified, the server asks the user to confirm their authentication by entering another dynamic FIDO certified element and the PIN. This PIN is validated on the FIDO Server then transmitted to the server, which checks that the audio identification sequence and the encrypted OTP match.</p>
-                <p>The a<strong>coustic chip</strong> is only used for internal account validation and confirmation of card ordering, mobile top up and card to card transfers. It is a dynamic token with an OTP replacing username and password as defined in the FIDO UAF specifications.</p>
+                <!-- Due to the header height -->
+                <p id="activate-card">The <strong>acoustic chip</strong> is only used for internal account validation and confirmation of card ordering, mobile top up and card to card transfers. It is a dynamic token with an OTP replacing username and password as defined in the FIDO UAF specifications.</p>
             </div>
-            <div id="activate-card" class="part">
+            <div class="part">
                 <h2>Activate Card</h2>
                 <p>In order to start using the card please undertake the following simple and secure steps:</p>
                 <p>Sign it at the back.</p>
-                <p><strong>Activate it as follows:<strong></p>
+                <p><strong>Activate it as follows:</strong></p>
                 <p>Via mobile application Manchester City Wega</p>
                 <ul class="point">
                     <li>You have downloaded the Manchester City Wega mobile app and registered your Wega 3DSA account on the app:
                         <ul class="point">
                             <li>Go to the Activation button.</li>
                             <li>Fill out the CID (The Cardholder ID is the 12 digit number printed on the front of you card under the cardholder’s name)</li>
+                            <li>Fill out your date of birth in the following format DD/MM/YY (plse check)</li>
                             <li>Push the X symbol on the corner of your Wega 3DSA card (check short or long?) close to the microphone of your mobile phone. When the Wega 3DSA system recognizes the unique acoustic password your cad will be activated now.</li>
                         </ul>
                     </li>
                     <li>You have not downloaded the Manchester City Wega mobile app available on Google Play and App Store yet. Please do so and go through the Wega 3DSA account registration process. Then please continue with steps a.i.1 through 4 above.</li>
                 </ul>
                 <p>Via the website <a href="www.wegamastercard.com"></a></p>
-                <p>lease call our number +44 (0) 161 883 1501</p>
-                <p class="helper-text">Please provide card number and DOB in DD/MM/YY format.</p>
+                <p>Please call our number +44 (0) 161 883 1501</p>
+                <ul class="point"><li>Please provide card number and DOB in DD/MM/YY format.</li></ul>
             </div>
             <div class="part">
                 <h2>Load your card in one of three ways:</h2>
@@ -81,14 +83,10 @@ include_once "header.php";
                 <p>You can pay for goods and services now at millions of locations worldwide instead of cash and checks and at any ATM that displays the Mastercard acceptance mark.</p>
                 <p> You retain full cost control of the money you spend.</p>
                 <p>Apply for extra cards for you partner relatives or business associates.</p>
-                <p>Check your balance or review a list of transactions on your mobile app, via the website or IVR.</p>
+                <p>Check your balance or review a list of transactions on your mobile app, via the website.</p>
                 <p>Accept payments whenever and wherever you want, via bank transfer from other accounts or from other cardholders.</p>
                 <p>Share money with another cardholder. This replaces many other, more expensive money transfer methods you may have been using previously.</p>
                 <p>You have access to Facebox , your digital safe to store all your confidential documents</p>
-            </div>
-            <div class="part">
-                <h2>What is Wega 3DSA Licensing?</h2>
-                <p>Through an Wega 3DSA Licensing Agreement accepted parties are allowed to integrate Wega 3DSA technology and manufacturing provided by Truxtun Capital in their own business models and in association with the parties’ own services and providers. For example if Bank X wanted to license Wega 3DSA from Truxtun Capital SA, Truxtun Capital would provide the Wega 3DSA technology and manufacturing but Bank X would set up own issuing, processing etc. Please contact <a href="mailto:support@wega.co">support@wega.co</a> for further information.</p>
             </div>
         </div>
     </div>

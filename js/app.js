@@ -96,6 +96,7 @@
         component.showMenu = function () {
             var hamburger = $('#ham_button_nav');
             hamburger.on('click', function(e) {
+                jQuery('body, html').css({'overflow': 'hidden'});
                 modalNav.addClass('is-visible');
                 return false;
             });
@@ -105,6 +106,7 @@
             var modalNavClose = $('#close-button-nav');
             modalNavClose.on('click', function(e) {
                 modalNav.removeClass('is-visible');
+                jQuery('body, html').removeAttr('style');
             });
         }
 
