@@ -23,11 +23,22 @@
     function scrollLink() {
         $(document).on('click', '.scroll-link', function(event) {
             event.preventDefault();
-            $('#nav-primary').removeClass('is-visible');
-            var headerHeight = $('.wega-sticky-header').height();
-            $('html, body').animate({
-                scrollTop: $($.attr(this, 'href')).offset().top - headerHeight / 2
-            }, 1500);
+            var htmlBody = $('body, html');
+
+            hideMenu();
+            scrollToTarget();
+
+            function hideMenu() {
+                $('#nav-primary').removeClass('is-visible');
+                htmlBody.removeAttr('style');
+            }
+            
+            function scrollToTarget() {
+                var headerHeight = $('.wega-sticky-header').height();
+                htmlBody.animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top - headerHeight / 2
+                }, 1500);
+            }
         });
     }
 
@@ -96,7 +107,7 @@
         component.showMenu = function () {
             var hamburger = $('#ham_button_nav');
             hamburger.on('click', function(e) {
-                jQuery('body, html').css({'overflow': 'hidden'});
+                $('body, html').css({'overflow': 'hidden'});
                 modalNav.addClass('is-visible');
                 return false;
             });
@@ -106,7 +117,7 @@
             var modalNavClose = $('#close-button-nav');
             modalNavClose.on('click', function(e) {
                 modalNav.removeClass('is-visible');
-                jQuery('body, html').removeAttr('style');
+                $('body, html').removeAttr('style');
             });
         }
 
