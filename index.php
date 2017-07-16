@@ -92,13 +92,13 @@ include_once "header.php";
                                     <div class="row">
                                         <div class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-speaker"></i>
-                                            <span class="tab-title">More than<br> a Bank Card</span>
+                                            <span class="tab-title">More than<br> a payment card</span>
                                         </div>
-                                        <div class="tab" data-style="vertical-media-text">
+                                        <div class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-padlock"></i>
                                             <span class="tab-title">Enhanced security<br> with 3DSA 2.0</span>
                                         </div>
-                                        <div class="tab" data-style="horizontal-media-text">
+                                        <div class="tab" data-style="vertical-media-text">
                                             <i class="icon icon-gears"></i>
                                             <span class="tab-title">Services</span>
                                         </div>
@@ -175,7 +175,7 @@ include_once "header.php";
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/realm-of-on-the-go-services.png" alt="An unparalleled realm of on-the-go services">
+                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-5">
@@ -207,7 +207,7 @@ include_once "header.php";
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Single Use</h3>
-                                                        <p>$24.71 billion is the worldwide cost on credit card fraud in 2016. One answer never to reveal your card number when paying online? Instantly generate a Wega single-use card from your mobile that will expire right after your purchase</p>
+                                                        <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase</p>
                                                     </div>
                                                 </div>
                                                 <div class="media-with-text icon-right">
@@ -322,7 +322,7 @@ include_once "header.php";
                                             <i class="icon icon-safe"></i>
                                             <span class="tab-title">Facebox</span>
                                         </div>
-                                        <div class="tab" data-style="horizontal-media-text centered">
+                                        <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-shield"></i>
                                             <span class="tab-title">Data Protection</span>
                                         </div>
@@ -355,7 +355,7 @@ include_once "header.php";
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Instant Money Transfer</h3>
-                                                        <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again. (Ajouter un peu plus de détail ?) Par ex. : You only need to enter the email of your mate to refund him or sth…</p>
+                                                        <p>As a Wega© card holder, you can transfer money instantly to another Wega MasterCard®, in the UK and abroad. Never wait 3 days to get your money back again.</p>
                                                     </div>
                                                 </div>
                                                 <div class="media-with-text icon-right">
@@ -364,7 +364,7 @@ include_once "header.php";
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Single Use</h3>
-                                                        <p>$24.71 billion is the worldwide cost on credit card fraud in 2016. One answer never to reveal your card number when paying online? Instantly generate a Wega single-use card from your mobile that will expire right after your purchase</p>
+                                                        <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -443,10 +443,7 @@ include_once "header.php";
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container center-text pull-top-40">
-                                                <p>$24.71 billion is the worldwide cost on credit
-                                                card fraud in 2016. One answer never to
-                                                reveal your card number when paying online?
-                                                Instantly generate a Wega single-use card.</p>
+                                                <p>$24.71 billion is the worldwide cost on credit card fraud in 2016 with millions of online shoppers that were victims of identity theft committed over the internet. To make online shopping safe again, Wega allows you to instantly generate a single-use card with unique numbers expiring right after your purchase. Combined with Wega FIDO certified multi-factor authenticators, access the safest and most private way to pay.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -458,7 +455,7 @@ include_once "header.php";
                 </div>
             </section>
         </div>
-        <section class="section get-the-app">
+        <section id="get-the-app" class="section get-the-app">
             <div class="wega-skew">
                 <div class="wega-bg"></div>
             </div>
