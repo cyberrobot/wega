@@ -75,9 +75,9 @@ include_once "header.php";
             <div class="part">
                 <h2>Load your card in one of three ways:</h2>
                 <ul class="point">
-                    <li>Via bank transfer – please check information and process on the mobile app under __________or website www.wegamastercard.com under _____________</li>
-                    <li>Via debit card - please check information and process on the mobile app under __________or website www.wegamastercard.com under _____________</li>
-                    <li>Via Neosurf voucher – please check information and process on the mobile app under __________or website www.wegamastercard.com under </li>
+                    <li>Via bank transfer</li>
+                    <li>Via debit card</li>
+                    <li>Via Neosurf voucher</li>
                 </ul>
                 <p>Now that you card is activated and loaded here are some of the things you can do with your Wega 3DSA payment card.</p>
                 <p>You can pay for goods and services now at millions of locations worldwide instead of cash and checks and at any ATM that displays the Mastercard acceptance mark.</p>
