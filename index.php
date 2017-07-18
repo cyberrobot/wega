@@ -94,7 +94,7 @@ include_once "header.php";
                                             <i class="icon icon-speaker"></i>
                                             <span class="tab-title">More than<br> a payment card</span>
                                         </div>
-                                        <div class="tab" data-style="horizontal-media-text">
+                                        <div id="services-tab" class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-padlock"></i>
                                             <span class="tab-title">Enhanced security<br> with 3DSA 2.0</span>
                                         </div>
@@ -140,7 +140,7 @@ include_once "header.php";
                                     </div>
                                 </div>
                             </div>
-                            <div class="pane">
+                            <div id="#services" class="pane">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">

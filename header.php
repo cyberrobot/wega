@@ -24,7 +24,7 @@
                 <li><a href="/staging">Home</a></li>
                 <li><a href="#wega-3dsa-card" class="scroll-link">3DSA 2.0 Wega Mastercard ®</a></li>
                 <li><a href="#wega-virtual-card" class="scroll-link">Wega Virtual Card</a></li>
-                <li><a href="">Services</a></li>
+                <li><a id="services-trigger" href="#services">Services</a></li>
                 <li><a href="#get-the-app" class="scroll-link">Get the App</a></li>
                 <li><a href="how-does-it-work.php">How does it work</a></li>
                 <li class="visible-xs visible-sm"><a href="how-does-it-work.php#activate-card">Activate card</a></li>

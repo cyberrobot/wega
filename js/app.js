@@ -17,7 +17,9 @@
 
         $('[data-tabs-component]').each(function() {
             new collapsibleItems($(this));
-        })
+        });
+
+        scrollToServices();
     });
 
     function scrollLink() {
@@ -36,7 +38,7 @@
             function scrollToTarget() {
                 var headerHeight = $('.wega-sticky-header').height();
                 htmlBody.animate({
-                    scrollTop: $($.attr(this, 'href')).offset().top - headerHeight / 2
+                    scrollTop: $(event.target.hash).offset().top - headerHeight / 2
                 }, 1500);
             }
         });
@@ -122,5 +124,18 @@
         }
 
         component.init();
+    }
+
+    function scrollToServices() {
+        var trigger = $('#services-trigger');
+        var tab = $('#services-tab');
+        var modalNav = $('#nav-primary');
+
+        trigger.on('click', function (e) {
+            e.preventDefault();
+            tab.trigger('click');
+            modalNav.removeClass('is-visible');
+            $('body, html').removeAttr('style');
+        });
     }
 })()
