@@ -1,4 +1,4 @@
-AuthUserFile /home/wegagifthh/www/staging/.htpasswd
+AuthUserFile /kunden/homepages/8/d372560266/htdocs/.htpasswd 
 AuthGroupFile /dev/null
 AuthName "Accès Restreint"
 AuthType Basic
