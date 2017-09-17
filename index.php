@@ -135,7 +135,7 @@ include_once "header.php";
                                     <div class="col-sm-6 col-md-5">
                                         <div class="wega-text-container">
                                             <h1>Unbelievably more than just a payment card</h1>
-                                            <p>The Wega® prepaid payment card integrates audio technology that endows it with the most optimal cutting-edge bank card security. And, it is the only one in the world to propose an across-the-board range of benefits and services that will make your life much easier. You can use Wega® for your everyday banking transactions such as direct payment with over 30 million merchants or cash withdrawal from over a million MasterCard International® network-connected ATMs across the globe. Unbelievable service and security for everyone, everywhere. Condition-free. You can become a prepaid Wega Mastercard® holder, whether you have a bank account or not.</p>
+                                            <p>The Wega® prepaid payment card integrates audio technology that endows it with the most optimal cutting-edge bank card security. And, it is the only one in the world to propose an across-the-board range of benefits and services that will make your life much easier. You can use Wega® for your everyday banking transactions such as direct payment with over 30 million merchants or cash withdrawal from over a million Mastercard International® network-connected ATMs across the globe. Unbelievable service and security for everyone, everywhere. Condition-free. You can become a prepaid Wega Mastercard® holder, whether you have a bank account or not.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -155,18 +155,11 @@ include_once "header.php";
                                             Your acoustic and contactless Manchester City
                                             Wega Prepaid Mastercard marks the start of a
                                             new era in the payment card history.<p>
-                                            <p>For the very first time you will be able to
-                                            authenticate your transactions by using
-                                            multiple technologies in addition to your usual
-                                            secured PIN code.
-                                            You can choose among different FIDO®
-                                            Certified payment authentications built in your
-                                            Wega App such as Acoustic card, Finger print,
-                                            Voice and Face recognition.
-                                            With your Wega Mastercard you have a secure
-                                            payment card that combines state-of- the-art
-                                            fraud prevention technology for In App, In Web
-                                            and In Store acceptance.</p>
+                                            <p>With your Wega Mastercard you have a secure payment card with multifactor state of the art technology and processes aimed at fraud
+prevention for In App and in Web acceptance. For the very first time you will be able to authenticate your Wega account usage with multiple technologies in addition to your usual
+secured PIN code. You can choose among different FIDO® Certified payment authentications built in your Wega app such as acoustic card, finger print, voice and face recognition.</p>
+<p>Thanks to the Wega 3DSA 2.0 acoustic technology you have the ability to send money to your loved ones, top up your mobile, purchase
+online, enjoy exclusive advantages and check your accounts remotely in a simple and fast way with an additional security layer.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -206,7 +199,7 @@ include_once "header.php";
                                                         <i class="icon icon-single-use"></i>
                                                     </div>
                                                     <div class="text-container">
-                                                        <h3>Single Use</h3>
+                                                        <h3>Single Use Card</h3>
                                                         <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase</p>
                                                     </div>
                                                 </div>
