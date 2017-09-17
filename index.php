@@ -463,19 +463,19 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                     <div class="row">
                                         <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-shield"></i>
-                                            <span class="tab-title">Section 1</span>
+                                            <span class="tab-title">How an acoustic payment card works</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-shield"></i>
-                                            <span class="tab-title">Section 2</span>
+                                            <span class="tab-title">Strong acoustic authentication</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-shield"></i>
-                                            <span class="tab-title">Section 3</span>
+                                            <span class="tab-title">FIDO certified</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-shield"></i>
-                                            <span class="tab-title">Section 4</span>
+                                            <span class="tab-title">Activate and load Wega card</span>
                                         </div>
                                     </div>
                                 </div>
@@ -496,7 +496,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
-                                            <h1>Section 1</h1>
+                                            <h1>How an acoustic payment card works</h1>
                                             <div class="wega-image-container">
                                                 <img src="img/icon-cardhand.png" alt="">
                                             </div>
@@ -526,7 +526,7 @@ The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directi
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
-                                            <h1>Section 2</h1>
+                                            <h1>Strong acoustic authentication</h1>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container pull-top-40">
@@ -548,7 +548,7 @@ The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directi
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
-                                            <h1>Section 2</h1>
+                                            <h1>FIDO certified</h1>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container pull-top-40">
@@ -578,7 +578,7 @@ Fido ignites a thriving ecosystem of client authentication methods such as biome
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
-                                            <h1>Section 4</h1>
+                                            <h1>Activate and load Wega card</h1>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container pull-top-40">
