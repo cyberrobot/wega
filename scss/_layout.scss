@@ -554,7 +554,8 @@ $screen-xl-max: 1440px;
 }
 
 .wega-3dsa-card,
-.wega-virtual-card {
+.wega-virtual-card,
+.how-does-it-work {
     .wega-skew {
         .wega-bg {
             background: #0a1b2b url('../img/section-3dsa-pitch-bg.jpg') no-repeat center center;
@@ -675,6 +676,18 @@ $screen-xl-max: 1440px;
 
             @media screen and (max-width: $screen-xs-max) {
                 width: 33.33%;
+            }
+        }
+    }
+}
+
+.how-does-it-work {
+    .tabs {
+        .tab {
+            width: 25%;
+
+            @media screen and (max-width: $screen-xs-max) {
+                width: 50%;
             }
         }
     }
@@ -1286,7 +1299,8 @@ $screen-xl-max: 1440px;
     }
 
     a {
-        color: #54a8f0;
+        color: #51A7F0;
+        border-bottom: none;
     }
 
 }

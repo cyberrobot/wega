@@ -7,7 +7,14 @@ body {
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
+}
+
+p {
+    a {
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
 }
 
 ul, ol {
@@ -114,6 +121,11 @@ ul, ol {
     }
 }
 
+ul.bullet {
+    padding-left: 40px;
+    list-style: disc;
+}
+
 .btn {
   padding: 9px 20px;
   font-weight: bold;
@@ -188,14 +200,15 @@ h3 {
     }
 }
 
-p {
+p, .bullet, .tel {
     color: #fff;
 }
 
 p,
 ul.point,
 ol.point,
-a {
+a,
+.bullet {
     font-size: 16px;
     letter-spacing: -0.3px;
 
