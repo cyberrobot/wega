@@ -42,7 +42,7 @@ include_once "header.php";
                 <p>This ecosystem enables enterprises and service providers to deploy strong authentication solutions that reduce reliance on passwords and protect against phishing, man-in-the-middle and replay attacks using stolen passwords.</p>
                 <p>The acoustic chip embedded in Wega Card has been FIDO CERTIFIED and thus becomes a 3DSA 2.0 authenticator (<a href="https://fidoalliance.org/certification/fido-certified-products/">https://fidoalliance.org/certification/fido-certified-products/</a>)</p>
                 <p>(<a href="www.fidoalliance.org">www.fidoalliance.org</a>)</p>
-                <p>As such, Fido ignites a thriving ecosystem of client authentication methods such as biometrics, PINs and second–factors that can be used with a variety of online services in an interoperable manner. For complete PSD2 Wega has chosed to select qualified FIDO certified biometrics authenticators in the 3DSA 2.0 platform for integration with Wega apps</p>
+                <p id="about-strong-authentication">As such, Fido ignites a thriving ecosystem of client authentication methods such as biometrics, PINs and second–factors that can be used with a variety of online services in an interoperable manner. For complete PSD2 Wega has chosed to select qualified FIDO certified biometrics authenticators in the 3DSA 2.0 platform for integration with Wega apps</p>
             </div>
             <div class="part">
                 <h2>Strong Acoustic Authentication</h2>
