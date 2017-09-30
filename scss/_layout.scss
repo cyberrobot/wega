@@ -365,10 +365,6 @@ $screen-xl-max: 1440px;
             h1 {
                 span {
                     display: block;
-
-                    // @media screen and (max-width: $screen-sm-max) {
-                    //     display: inline;
-                    // }
                 }
             }
 
@@ -466,14 +462,10 @@ $screen-xl-max: 1440px;
 
                 img {
                     display: inline-block;
-                    max-width: 35%;
-
-                    @media screen and (max-width: $screen-md-max) {
-                        max-width: 36%;
-                    }
+                    max-width: 70%;
 
                     @media screen and (max-width: $screen-sm-max) {
-                        max-width: 36%;
+                        max-width: 85%;
                     }
 
                     @media screen and (max-width: $screen-xs-max) {
