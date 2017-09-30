@@ -470,11 +470,11 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                             <span class="tab-title">Strong acoustic authentication</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-shield"></i>
+                                            <i class="icon icon-fido"></i>
                                             <span class="tab-title">FIDO certified</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-shield"></i>
+                                            <i class="icon icon-card-tick"></i>
                                             <span class="tab-title">Activate and load Wega card</span>
                                         </div>
                                     </div>

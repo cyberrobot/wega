@@ -674,6 +674,27 @@ $screen-xl-max: 1440px;
 }
 
 .how-does-it-work {
+  h1 {
+    margin-bottom: 60px;
+
+    @media screen and (max-width: $screen-xl-max) {
+        margin-bottom: 40px;
+    }
+  }
+    .wega-image-container {        
+        img {
+          display: inline-block;
+          max-width: 70%;
+
+          @media screen and (max-width: $screen-sm-max) {
+              max-width: 85%;
+          }
+
+          @media screen and (max-width: $screen-xs-max) {
+              max-width: 100%;
+          }
+        }
+    }
     .tabs {
         .tab {
             width: 25%;
