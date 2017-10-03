@@ -462,12 +462,12 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                 <div class="tabs col-sm-10 col-sm-offset-1">
                                     <div class="row">
                                         <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-shield"></i>
-                                            <span class="tab-title">How an acoustic payment card works</span>
+                                            <i class="icon icon-scales"></i>
+                                            <span class="tab-title">What is PSD2</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-shield"></i>
-                                            <span class="tab-title">Strong acoustic authentication</span>
+                                            <i class="icon icon-star-shield"></i>
+                                            <span class="tab-title">Strong acoustic Authentication</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-fido"></i>
@@ -475,7 +475,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-card-tick"></i>
-                                            <span class="tab-title">Activate and load Wega card</span>
+                                            <span class="tab-title">How to activate my  Wega Card</span>
                                         </div>
                                     </div>
                                 </div>
