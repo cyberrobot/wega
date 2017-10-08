@@ -591,23 +591,66 @@ $screen-xl-max: 1440px;
         }
     }
 
-    .wega-image-container {        
-        img {
-            display: inline-block;
-            max-width: 40%;            
+    
 
-            @media screen and (max-width: $screen-xl-max) {
-                max-width: 30%;
-            }
+    .wega-card-cta {
+      text-align: left;
 
-            @media screen and (max-width: $screen-xs-max) {
-                max-width: 55%;
-            }
+      .wega-from {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        text-transform: uppercase;
+        margin: 40px 0 0;
 
-            @media screen and (max-width: $screen-xs-min) {
-                max-width: 100%;
-            }
+        @media screen and (max-width: $screen-sm-max) {
+          margin: 0;
+          text-align: center;
         }
+      } 
+
+      .wega-value {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        display: block;
+        text-transform: uppercase;
+        margin: 0 0 15px;
+
+        @media screen and (max-width: $screen-sm-max) {
+            text-align: center;
+        }
+      }
+
+      @media screen and (max-width: $screen-sm-max) {
+          text-align: center;
+      }
+    }
+
+    .wega-image-container {   
+      text-align: right;
+
+      img {
+        max-width: 355px;
+        display: inline-block;
+
+        @media screen and (max-width: $screen-md-max) {
+            max-width: 300px;
+        }
+
+        @media screen and (max-width: $screen-sm-max) {
+            max-width: 320px;
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            max-width: 80%;
+        }
+      }
+
+      @media screen and (max-width: $screen-sm-max) {
+          text-align: center;
+      }
     }
 
     .tabs {

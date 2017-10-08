@@ -82,8 +82,19 @@ include_once "header.php";
                     <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                         <div class="wega-content center-text">
                             <h1>3DSA 2.0 Wega Mastercard ®</h1>
-                            <div class="wega-image-container">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="wega-image-container">
                                 <img class="img-responsive" src="img/wega-mastercard-face.png" alt="Gift Card image">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="wega-card-cta">
+                                      <span class="wega-from">from</span>
+                                      <span class="wega-value">£24.90</span>
+                                      <a href="apply.php" class="btn blue">Buy Now</a>
+                                  </div>
+                              </div>
                             </div>
                             <div class="collapsible-tabs">
                                 <div class="tabs col-sm-10 col-sm-offset-1">
@@ -298,8 +309,19 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                     <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                         <div class="wega-content center-text">
                             <h1>Wega Virtual Card</h1>
-                            <div class="wega-image-container">
+                            <div class="row">
+                              <div class="col-md-6">
+                              <div class="wega-image-container">
                                 <img class="img-responsive" src="img/iphone-card-account.png" alt="Wega card online account">
+                              </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="wega-card-cta">
+                                      <span class="wega-from">from</span>
+                                      <span class="wega-value">£4.90</span>
+                                      <a href="apply.php" class="btn blue">Buy Now</a>
+                                  </div>
+                              </div>
                             </div>
                             <div class="collapsible-tabs" >
                                 <div class="tabs col-sm-10 col-sm-offset-1">
