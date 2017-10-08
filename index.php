@@ -41,7 +41,11 @@ include_once "header.php";
                     <div class="col-md-10 col-md-offset-1 wega-sm-padding">
                         <h1 class="wega-align">How does it work</h1>
                         <div class="wega-image-container">
-                            <img class="img-responsive" src="img/more-than-just-a-bank-card.png" alt="Introducing the world’s first acoustic card">
+                        <picture>
+                          <source media="(max-width: 767px)" srcset="img/more-than-just-a-bank-card-v.png">
+                          <source media="(min-width: 768px)" srcset="img/more-than-just-a-bank-card.png">
+                          <img src="img/more-than-just-a-bank-card.png" alt="Introducing the world’s first acoustic card">
+                        </picture>
                         </div>
                         <ul class="horizontal-menu wega-align">
                             <li>
