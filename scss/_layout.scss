@@ -749,22 +749,22 @@ $screen-xl-max: 1440px;
     margin-bottom: 60px;
 
     @media screen and (max-width: $screen-xl-max) {
-        margin-bottom: 40px;
+      margin-bottom: 40px;
     }
   }
     .wega-image-container {        
-        img {
-          display: inline-block;
-          max-width: 70%;
+      img {
+        display: inline-block;
+        max-width: 70%;
 
-          @media screen and (max-width: $screen-sm-max) {
-              max-width: 85%;
-          }
-
-          @media screen and (max-width: $screen-xs-max) {
-              max-width: 100%;
-          }
+        @media screen and (max-width: $screen-sm-max) {
+            max-width: 85%;
         }
+
+        @media screen and (max-width: $screen-xs-max) {
+            max-width: 40%;
+        }
+      }
     }
     .tabs {
         .tab {

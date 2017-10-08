@@ -482,7 +482,11 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                         <div class="wega-content center-text">
                             <h1>How does it work</h1>
                             <div class="wega-image-container">
-                                <img class="img-responsive" src="img/more-than-just-a-bank-card.png" alt="">
+                            <picture>
+                              <source media="(max-width: 767px)" srcset="img/more-than-just-a-bank-card-v.png">
+                              <source media="(min-width: 768px)" srcset="img/more-than-just-a-bank-card.png">
+                              <img src="img/more-than-just-a-bank-card.png" alt="Introducing the world’s first acoustic card">
+                            </picture>
                             </div>
                             <div class="collapsible-tabs" >
                                 <div class="tabs col-sm-10 col-sm-offset-1">
