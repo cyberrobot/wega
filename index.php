@@ -340,7 +340,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                             <span class="tab-title">Facebox</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-shield"></i>
+                                            <i class="icon icon-card-hand"></i>
                                             <span class="tab-title">Data Protection</span>
                                         </div>
                                         <div class="tab hidden-xs"></div>
@@ -454,13 +454,13 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
                                             <div class="wega-image-container">
-                                                <h1>Data Protection</h1>
+                                                <h1>Single Use Card</h1>
                                                 <img class="img-responsive" src="img/iphone-card-account.png" alt="Data Protection">
                                             </div>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container center-text pull-top-40">
-                                                <p>$24.71 billion is the worldwide cost on credit card fraud in 2016 with millions of online shoppers that were victims of identity theft committed over the internet. To make online shopping safe again, Wega allows you to instantly generate a single-use card with unique numbers expiring right after your purchase. Combined with Wega FIDO certified multi-factor authenticators, access the safest and most private way to pay.</p>
+                                                <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase.</p>
                                             </div>
                                         </div>
                                     </div>
