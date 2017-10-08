@@ -486,24 +486,28 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                             </div>
                             <div class="collapsible-tabs" >
                                 <div class="tabs col-sm-10 col-sm-offset-1">
-                                    <div class="row">
-                                        <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-scales"></i>
-                                            <span class="tab-title">What is PSD2</span>
-                                        </div>
-                                        <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-star-shield"></i>
-                                            <span class="tab-title">Strong acoustic Authentication</span>
-                                        </div>
-                                        <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-fido"></i>
-                                            <span class="tab-title">FIDO certified</span>
-                                        </div>
-                                        <div class="tab" data-style="vertical-media-text centered">
-                                            <i class="icon icon-card-tick"></i>
-                                            <span class="tab-title">How to activate my  Wega Card</span>
-                                        </div>
+                                  <div class="row">
+                                    <div class="tab" data-style="vertical-media-text centered">
+                                      <i class="icon icon-card-hand"></i>
+                                      <span class="tab-title">How an acoustic payment card works</span>
                                     </div>
+                                    <div class="tab" data-style="vertical-media-text centered">
+                                        <i class="icon icon-scales"></i>
+                                        <span class="tab-title">What is PSD2</span>
+                                    </div>
+                                    <div class="tab" data-style="vertical-media-text centered">
+                                        <i class="icon icon-star-shield"></i>
+                                        <span class="tab-title">Strong acoustic Authentication</span>
+                                    </div>
+                                    <div class="tab" data-style="vertical-media-text centered">
+                                        <i class="icon icon-fido"></i>
+                                        <span class="tab-title">FIDO certified</span>
+                                    </div>
+                                    <div class="tab" data-style="vertical-media-text centered">
+                                        <i class="icon icon-card-tick"></i>
+                                        <span class="tab-title">How to activate my  Wega Card</span>
+                                    </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -523,9 +527,6 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
                                             <h1>How an acoustic payment card works</h1>
-                                            <div class="wega-image-container">
-                                                <img src="img/icon-cardhand.png" alt="">
-                                            </div>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container pull-top-40">
@@ -537,7 +538,19 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
 The authentication server demodulates the acoustic signal to check card integrity and validity, then asks for users additional authentication factors (PIN code or Biometrics), also called strong multi-factor authentication.
 Once signature and additional password (s) are verified by the authentication server, access to the specific services is granted.  
 This process certifies to the bank that the shown card is valid and that the person processing the operation is truly the card holder. This represents the new legal requirement for Electronic and Mobile Commerce known as Strong Customer Authentication according to PSD2.</p>
-<h3>What is the PSD2?</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pane">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <div class="col-sm-12">
+                                            <h1>What is PSD2s</h1>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="wega-text-container pull-top-40">
 <p>Directive 2007/64/CE (hereinafter "PSD") 1, as it is known, regulated the information requirements, the rights and the obligations of payment services users, as well as the prudential requirements for entering the market of entities qualified to provide these services (payment service providers or "PSP"). The establishment of uniform rules for the provision of payment services, has encouraged the creation of a EU internal market for payments. 
 The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directive”) represents a step further towards complete harmonisation of the EU payments market.This introduces new regulations and standards both to the European existing payment services regime and the authentication landscape.</p>
 <p><strong>Article 97</strong> of the Directive establishes a strong customer authentication (SCA) procedure that applies when the payer:</br>
@@ -556,7 +569,6 @@ The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directi
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container pull-top-40">
-                                            <h3>Strong Acoustic Authentication</h3>
                                             <p>One Outcome to the lack of user authentication in electronic commerce is a greater incidence of payment card fraud. A notable attempt by the payment card industry to reduce this problem is to secure electronic operations. Wega strong objective is to meet this challenge while fully comply with PSD2</p>
                                             
                                             <h3>Identifying with Wega</h3>
@@ -604,11 +616,10 @@ Fido ignites a thriving ecosystem of client authentication methods such as biome
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
-                                            <h1>Activate and load Wega card</h1>
+                                            <h1>How to activate my  Wega Card</h1>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container pull-top-40">
-                                            <h3>How to activate my Wega card</h3>
                                             <p>In order to start using the card please undertake the following simple and secure steps:
 Sign it at the back and activate it as follows:</p>
 <p><ul class="bullet">
