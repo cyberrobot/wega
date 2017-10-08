@@ -672,37 +672,65 @@ $screen-xl-max: 1440px;
 }
 
 .wega-virtual-card {
-    .collapsible-tabs {
-        padding-top: 0;
+    .wega-card-cta {
+      text-align: left;
+
+      .wega-from {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        text-transform: uppercase;
+        margin: 140px 0 0;
+
+        @media screen and (max-width: $screen-sm-max) {
+          margin: 0;
+          text-align: center;
+        }
+      } 
+
+      .wega-value {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        display: block;
+        text-transform: uppercase;
+        margin: 0 0 15px;
+
+        @media screen and (max-width: $screen-sm-max) {
+            text-align: center;
+        }
+      }
+
+      @media screen and (max-width: $screen-sm-max) {
+          text-align: center;
+      }
     }
 
     .wega-image-container {
-        text-align: center;
-        margin-bottom: -30px;
-        
-        img {
-            display: inline-block;
+      text-align: right;
+      margin-bottom: -30px;
+      
+      img {
+        max-width: 200px;
+        display: inline-block;
 
-            @media screen and (max-width: $screen-xl-max) {
-                max-width: 20%;
-            }
-
-            @media screen and (max-width: $screen-lg-min) {
-                max-width: 25%;
-            }
-
-            @media screen and (max-width: $screen-sm-max) {
-                max-width: 30%;
-            }
-
-            @media screen and (max-width: $screen-xs-max) {
-                max-width: 35%;
-            }
-
-            @media screen and (max-width: $screen-xs-min) {
-                max-width: 55%;
-            }
+        @media screen and (max-width: $screen-md-max) {
+            max-width: 200px;
         }
+
+        @media screen and (max-width: $screen-sm-max) {
+          max-width: 160px;
+        }
+
+        @media screen and (max-width: $screen-xs-min) {
+            max-width: 45%;
+        }
+      }
+
+      @media screen and (max-width: $screen-sm-max) {
+        text-align: center;
+      }
     }
 
     .tabs {
