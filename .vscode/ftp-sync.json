@@ -1,19 +1,25 @@
 {
-    "remotePath": "./",
-    "host": "home372560266.1and1-data.host",
-    "username": "u63891846",
-    "password": "Macartewega007!",
-    "port": 22,
-    "secure": false,
-    "protocol": "sftp",
+  "remotePath": "./",
+  "host": "home372560266.1and1-data.host",
+  "username": "u63891846",
+  "password": "Macartewega007!",
+  "port": 22,
+  "secure": false,
+  "protocol": "sftp",
+  "uploadOnSave": true,
+  "passive": false,
+  "debug": false,
+  "privateKeyPath": null,
+  "passphrase": null,
+  "ignore": [
+    "\\.vscode",
+    "\\.git",
+    "\\.DS_Store",
+    "\\*.scss"
+  ],
+  "generatedFiles": {
     "uploadOnSave": true,
-    "passive": false,
-    "debug": false,
-    "privateKeyPath": null,
-    "passphrase": null,
-    "ignore": [
-        "\\.vscode",
-        "\\.git",
-        "\\.DS_Store"
-    ]
+    "path": "/css",
+    "extensionsToInclude": [".scss"]
+  }
 }
