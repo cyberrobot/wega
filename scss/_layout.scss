@@ -1350,11 +1350,11 @@ $screen-xl-max: 1440px;
     }
 
     .nav ul {
-        padding: 120px 0 20px 30px;
+        padding: 100px 0 20px 30px;
         
         li {
             border-top: 1px solid #2a333c;
-            padding: 20px 0;
+            padding: 15px 0;
 
             &:last-child {
                 border-bottom: 1px solid #2a333c;
@@ -1365,7 +1365,7 @@ $screen-xl-max: 1440px;
                 color: #fff;
             }
 
-            @media screen and (max-width: $screen-sm-max) {
+            @media screen and (max-width: $screen-md-max) {
                 padding: 10px 0;
             }
         }
