@@ -209,11 +209,11 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                                 </div>
                                                 <div class="media-with-text icon-right">
                                                     <div class="media-container">
-                                                        <i class="icon icon-single-use"></i>
+                                                        <i class="icon icon-card-hand"></i>
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Single Use Card</h3>
-                                                        <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase</p>
+                                                        <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase.</p>
                                                     </div>
                                                 </div>
                                                 <div class="media-with-text icon-right">
@@ -377,11 +377,11 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                                 </div>
                                                 <div class="media-with-text icon-right">
                                                     <div class="media-container">
-                                                        <i class="icon icon-single-use"></i>
+                                                        <i class="icon icon-card-hand"></i>
                                                     </div>
                                                     <div class="text-container">
-                                                        <h3>Single Use</h3>
-                                                        <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase</p>
+                                                        <h3>Single Use Card</h3>
+                                                        <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase.</p>
                                                     </div>
                                                 </div>
                                             </div>
