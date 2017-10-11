@@ -23,7 +23,7 @@
           trigger: $('#services-trigger'),
           tab: $('#services-tab')
         }, {
-          trigger: $('#activate-trigger'),
+          trigger: $('#activate-trigger:not(hidden)'),
           tab: $('#activate-tab')
         }, {
           trigger: $('#strong-authentication-trigger'),

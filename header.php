@@ -27,7 +27,7 @@
                 <li><a id="services-trigger" href="#services">Services</a></li>
                 <li><a href="#get-the-app" class="scroll-link">Get the App</a></li>
                 <li><a href="#how-does-it-work" class="scroll-link">How does it work</a></li>
-                <li><a id="activate-trigger" href="#activate-card">Activate card</a></li>
+                <li class="visible-xs visible-sm"><a id="activate-trigger" href="#activate-card">Activate card</a></li>
                 <li class="visible-xs visible-sm"><a href="login.php">Login</a></li>
                 <li class="visible-xs visible-sm"><a href="register.php">Get Started</a></li>
                 <li><a href="javascript:void(0)" data-trigger-support>Contact</a></li>
@@ -46,7 +46,7 @@
                 <div class="tagline left"><img src="img/logo/mastercard.svg" alt="Mastercard"></div>
                 <ul id="nav" class="right right_horizontal_menu">
                     <li>
-                        <a href="how-does-it-work.php#activate-card" class="btn">Activate card</a>
+                        <a id="activate-trigger" href="#activate-card" class="btn">Activate card</a>
                     </li>
                     <li>
                         <a href="login.php" class="btn">Login</a>
