@@ -30,7 +30,7 @@
                 <li><a id="activate-trigger" href="#activate-card">Activate card</a></li>
                 <li class="visible-xs visible-sm"><a href="login.php">Login</a></li>
                 <li class="visible-xs visible-sm"><a href="register.php">Get Started</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="javascript:void(0)" data-trigger-support>Contact</a></li>
                 <li><a id="strong-authentication-trigger" href="#strong-authentication">About Strong Authentication</a></li>
             </ul>
         </nav>

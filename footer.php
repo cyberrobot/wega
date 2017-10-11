@@ -7,7 +7,7 @@
                                 <div class="content vertical-line">
                                     <h3 class="title">Company</h3>
                                     <ul>
-                                        <li><a href="" class="subtitle">Contact</a></li>
+                                        <li><a href="javascript:void(0)" data-trigger-support class="subtitle">Contact</a></li>
                                         <li><a href="faq.php" class="subtitle">FAQ</a></li>
                                         <li><a href="press.php" class="subtitle">Press</a></li>
                                     </ul>

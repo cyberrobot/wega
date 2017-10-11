@@ -34,6 +34,7 @@
           scrollToSubsection(item.trigger, item.tab);
         });
         
+        triggerSupportWidget();
     });
 
     function scrollLink() {
@@ -149,5 +150,13 @@
             modalNav.removeClass('is-visible');
             $('body, html').removeAttr('style');
         });
+    }
+
+    function triggerSupportWidget() {
+      var trigger = $('[data-trigger-support]');
+      trigger.on('click', function (e) {
+        e.preventDefault();
+        groove.widget('open');
+      });
     }
 })()
