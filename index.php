@@ -49,7 +49,7 @@ include_once "header.php";
                         </div>
                         <ul class="horizontal-menu wega-align">
                             <li>
-                                <a href="how-does-it-work.php" class="btn blue push-top-40">Learn More</a>
+                                <a href="#how-does-it-work" class="btn blue push-top-40 scroll-link">Learn More</a>
                             </li>
                         </ul>
                     </div>
