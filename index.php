@@ -551,7 +551,7 @@ This process certifies to the bank that the shown card is valid and that the per
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
-                                            <h1>What is PSD2s</h1>
+                                            <h1>What is PSD2</h1>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container pull-top-40">
