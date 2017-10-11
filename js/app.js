@@ -19,7 +19,21 @@
             new collapsibleItems($(this));
         });
 
-        scrollToServices();
+        var array = [{
+          trigger: $('#services-trigger'),
+          tab: $('#services-tab')
+        }, {
+          trigger: $('#activate-trigger'),
+          tab: $('#activate-tab')
+        }, {
+          trigger: $('#strong-authentication-trigger'),
+          tab: $('#strong-authentication-tab')
+        }]
+
+        $.each(array, function(index, item) {
+          scrollToSubsection(item.trigger, item.tab);
+        });
+        
     });
 
     function scrollLink() {
@@ -126,9 +140,7 @@
         component.init();
     }
 
-    function scrollToServices() {
-        var trigger = $('#services-trigger');
-        var tab = $('#services-tab');
+    function scrollToSubsection(trigger, tab) {
         var modalNav = $('#nav-primary');
 
         trigger.on('click', function (e) {

@@ -26,12 +26,12 @@
                 <li><a href="#wega-virtual-card" class="scroll-link">Wega Virtual Card</a></li>
                 <li><a id="services-trigger" href="#services">Services</a></li>
                 <li><a href="#get-the-app" class="scroll-link">Get the App</a></li>
-                <li><a href="how-does-it-work.php">How does it work</a></li>
-                <li class="visible-xs visible-sm"><a href="how-does-it-work.php#activate-card">Activate card</a></li>
+                <li><a href="#how-does-it-work" class="scroll-link">How does it work</a></li>
+                <li><a id="activate-trigger" href="#activate-card">Activate card</a></li>
                 <li class="visible-xs visible-sm"><a href="login.php">Login</a></li>
                 <li class="visible-xs visible-sm"><a href="register.php">Get Started</a></li>
                 <li><a href="">Contact</a></li>
-                <li><a href="how-does-it-work.php#about-strong-authentication">About Strong Authentication</a></li>
+                <li><a id="strong-authentication-trigger" href="#strong-authentication">About Strong Authentication</a></li>
             </ul>
         </nav>
     </div>

@@ -153,7 +153,7 @@ include_once "header.php";
                                     </div>
                                 </div>
                             </div>
-                            <div id="#services" class="pane">
+                            <div class="pane">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
@@ -177,7 +177,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                     </div>
                                 </div>
                             </div>
-                            <div class="pane">
+                            <div id="#services" class="pane">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
@@ -499,7 +499,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                         <i class="icon icon-scales"></i>
                                         <span class="tab-title">What is PSD2</span>
                                     </div>
-                                    <div class="tab" data-style="vertical-media-text centered">
+                                    <div id="strong-authentication-tab" class="tab" data-style="vertical-media-text centered">
                                         <i class="icon icon-star-shield"></i>
                                         <span class="tab-title">Strong acoustic Authentication</span>
                                     </div>
@@ -507,7 +507,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                         <i class="icon icon-fido"></i>
                                         <span class="tab-title">FIDO certified</span>
                                     </div>
-                                    <div class="tab" data-style="vertical-media-text centered">
+                                    <div id="activate-tab" class="tab" data-style="vertical-media-text centered">
                                         <i class="icon icon-card-tick"></i>
                                         <span class="tab-title">How to activate my  Wega Card</span>
                                     </div>
@@ -565,7 +565,7 @@ The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directi
                                     </div>
                                 </div>
                             </div>
-                            <div class="pane">
+                            <div id="#strong-authentication" class="pane">
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
@@ -616,7 +616,7 @@ Fido ignites a thriving ecosystem of client authentication methods such as biome
                                     </div>
                                 </div>
                             </div>
-                            <div class="pane">
+                            <div id="#activate-card" class="pane">
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
