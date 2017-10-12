@@ -73,16 +73,17 @@
         }
 
         component.showTabContent = function() {
-            collapsibleTabs.on('click', '.tab', component.selectTab);
+          collapsibleTabs.on('click', '.tab', component.selectTab);
         }
 
         component.selectTab = function(e) {
-            var tab = $(this),
-                tabStyle = tab.attr('data-style'),
-                tabIndex = collapsibleTabs.find('.tab').index(tab);
+          collapsibleTabs.find('.tab').removeClass('active');
+          var tab = $(this).addClass('active'),
+              tabStyle = tab.attr('data-style'),
+              tabIndex = collapsibleTabs.find('.tab').index(tab);
             
-            component.scrollToSection();
-            component.switchTab(tabIndex, tabStyle);
+          component.scrollToSection();
+          component.switchTab(tabIndex, tabStyle);
         }
 
         component.scrollToSection = function() {
@@ -102,10 +103,11 @@
             var closeBtn = collapsibleContent.find('.close[data-target]');
 
             closeBtn.on('click', function() {
-                $("html, body").animate({
-                    scrollTop: collapsibleTabsContainer.offset().top - headerHeight / 2
-                });
-                collapsibleContent.fadeOut();
+              collapsibleTabs.find('.tab').removeClass('active');
+              $("html, body").animate({
+                  scrollTop: collapsibleTabsContainer.offset().top - headerHeight / 2
+              });
+              collapsibleContent.fadeOut();
             })
         }
 

@@ -809,6 +809,13 @@ $screen-xl-max: 1440px;
                 display: block;
                 margin: 15px 0 0;
             }
+
+            &.active {
+              .icon {
+                border-radius: 50%;
+                background-color: #79b1e0;
+              }
+            }
         }
 
         @media screen and (max-width: $screen-xs-max) {
