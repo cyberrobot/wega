@@ -22,16 +22,16 @@
         <nav class="nav">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="#wega-3dsa-card" class="scroll-link">3DSA 2.0 Wega Mastercard ®</a></li>
-                <li><a href="#wega-virtual-card" class="scroll-link">Wega Virtual Card</a></li>
-                <li><a id="services-trigger" href="#services">Services</a></li>
-                <li><a href="#get-the-app" class="scroll-link">Get the App</a></li>
-                <li><a href="#how-does-it-work" class="scroll-link">How does it work</a></li>
-                <li class="visible-xs visible-sm"><a id="activate-trigger" href="#activate-card">Activate card</a></li>
+                <li><a href="index.php#wega-3dsa-card" class="scroll-link">3DSA 2.0 Wega Mastercard ®</a></li>
+                <li><a href="index.php#wega-virtual-card" class="scroll-link">Wega Virtual Card</a></li>
+                <li><a id="services-trigger" href="index.php#services">Services</a></li>
+                <li><a href="index.php#get-the-app" class="scroll-link">Get the App</a></li>
+                <li><a href="index.php#how-does-it-work" class="scroll-link">How does it work</a></li>
+                <li class="visible-xs visible-sm"><a id="activate-trigger" href="index.php#activate-card">Activate card</a></li>
                 <li class="visible-xs visible-sm"><a href="login.php">Login</a></li>
                 <li class="visible-xs visible-sm"><a href="register.php">Get Started</a></li>
                 <li><a href="javascript:void(0)" data-trigger-support>Contact</a></li>
-                <li><a id="strong-authentication-trigger" href="#strong-authentication">About Strong Authentication</a></li>
+                <li><a id="strong-authentication-trigger" href="index.php#strong-authentication">About Strong Authentication</a></li>
             </ul>
         </nav>
     </div>
@@ -46,7 +46,7 @@
                 <div class="tagline left"><img src="img/logo/mastercard.svg" alt="Mastercard"></div>
                 <ul id="nav" class="right right_horizontal_menu">
                     <li>
-                        <a id="activate-trigger" href="#activate-card" class="btn">Activate card</a>
+                        <a id="activate-trigger" href="index.php#activate-card" class="btn">Activate card</a>
                     </li>
                     <li>
                         <a href="login.php" class="btn">Login</a>

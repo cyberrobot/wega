@@ -145,7 +145,6 @@
         var modalNav = $('#nav-primary');
 
         trigger.on('click', function (e) {
-            e.preventDefault();
             tab.trigger('click');
             modalNav.removeClass('is-visible');
             $('body, html').removeAttr('style');

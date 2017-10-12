@@ -107,13 +107,13 @@ include_once "header.php";
                                             <i class="icon icon-speaker"></i>
                                             <span class="tab-title">More than<br> a payment card</span>
                                         </div>
-                                        <div id="services-tab" class="tab" data-style="horizontal-media-text">
-                                            <i class="icon icon-padlock"></i>
-                                            <span class="tab-title">Enhanced security<br> with 3DSA 2.0</span>
-                                        </div>
                                         <div class="tab" data-style="vertical-media-text">
                                             <i class="icon icon-gears"></i>
                                             <span class="tab-title">Services</span>
+                                        </div>
+                                        <div id="services-tab" class="tab" data-style="horizontal-media-text">
+                                            <i class="icon icon-padlock"></i>
+                                            <span class="tab-title">Enhanced security<br> with 3DSA 2.0</span>
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-check-list"></i>
@@ -177,7 +177,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                     </div>
                                 </div>
                             </div>
-                            <div id="#services" class="pane">
+                            <div id="services" class="pane">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="wega-image-container">
