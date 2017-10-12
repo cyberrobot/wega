@@ -58,9 +58,9 @@ include_once "header.php";
                     <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 wega-sm-padding">
                         <div class="row">
                             <div class="col-sm-4 col-sm-offset-1 col-md-5 col-md-offset-0 col-lg-4 spacer">
-                                <div class="wega-align">
+                                <div class="left-text">
                                     <h1>Become an <span>unconditional</span> <span>citizen</span></h1>
-                                    <ul class="horizontal-menu wega-align">
+                                    <ul class="horizontal-menu">
                                         <li>
                                             <a href="#advantages" class="btn blue scroll-link">Discover</a>
                                         </li>
