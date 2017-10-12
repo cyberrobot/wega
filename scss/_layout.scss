@@ -530,6 +530,7 @@ $screen-xl-max: 1440px;
 
     .wega-content {
         margin: 100px 0;
+        overflow: hidden;
 
         &.compensate-footer {
             margin-bottom: 180px;
@@ -547,7 +548,8 @@ $screen-xl-max: 1440px;
 
 .wega-3dsa-card,
 .wega-virtual-card,
-.how-does-it-work {
+.how-does-it-work,
+.become-unconditional-citizen {
     .wega-skew {
         .wega-bg {
             background: #0a1b2b url('../img/section-3dsa-pitch-bg.jpg') no-repeat center center;
@@ -584,14 +586,34 @@ $screen-xl-max: 1440px;
     }
 }
 
+.become-unconditional-citizen {
+  .wega-image-container {
+    margin-top: 240px;
+
+    @media screen and (max-width: $screen-md-max) {
+      margin-top: 340px;
+    }
+
+    @media screen and (max-width: $screen-sm-max) {
+      margin-top: 20px;
+    }
+  }
+
+  .wega-content {
+    margin-bottom: 0;
+
+    @media screen and (max-width: $screen-sm-max) {
+      margin-bottom: -20px;
+    }
+  }
+}
+
 .wega-3dsa-card {
     h1 {
         @media screen and (max-width: $screen-xl-max) {
             margin-bottom: 30px;
         }
-    }
-
-    
+    }    
 
     .wega-card-cta {
       text-align: left;

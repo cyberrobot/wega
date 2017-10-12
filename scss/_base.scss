@@ -245,10 +245,6 @@ ol.point {
     @media screen and (max-width: $screen-sm-max) {
         margin: 0 0 15px;
     }
-
-    @media screen and (max-width: $screen-xs-max) {
-        padding-left: 0;
-    }
 }
 
 ul.point {
@@ -269,20 +265,20 @@ ol.point {
 
 ul.point,
 ol.point {
-    li {
-        color: #fff;
-        margin-bottom: 20px;
-    }
+  li {
+      color: #fff;
+      margin-bottom: 15px;
+  }
 
-    ul.point,
-    ol.point {
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
+  ul.point,
+  ol.point {
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
 
-    ul.no-bullets {
-        list-style: none;
-    }
+  ul.no-bullets {
+      list-style: none;
+  }
 }
 
 dl {

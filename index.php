@@ -472,6 +472,42 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                 </div>
             </section>
         </div>
+        <section class="section become-unconditional-citizen">
+          <div class="wega-skew">
+            <div class="wega-bg"></div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1 wega-sm-padding">
+              <div class="row">
+                <div class="wega-content">
+                  <div class="col-md-5 spacer">
+                    <div class="left-text">
+                      <h1>Become an <span>unconditional</span> <span>citizen</span></h1>
+                      <p>Access exclusive gifts throughout the season and enjoy the best plays of your favourite team!</p>
+                      <p>Wega will offer Mancity Wega cardholders along the season to participate into a lucky draw and try to win:</p>
+                      <ul class="point">
+                        <li>Tickets to Premier League game at Etihad Stadium</li>
+                        <li>VIP tickets to Champions League away trip including: Return travel from Manchester with the Official Travel Party Hotel accommodation for the duration of the trip VIP tickets to the game</li>
+                        <li>Luxury gift boxes with Jersey signed by Manchester City’s squad</li>
+                        <li>All year long enjoy 10% discount on the Citizen Store</li>
+                      </ul>
+                      <ul class="horizontal-menu">
+                        <li>
+                          <a href="#advantages" class="btn blue scroll-link">Discover</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="wega-image-container">
+                      <img class="img-responsive" src="img/slider/3-players-hugging.png" alt="Players image">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <div data-tabs-component>
             <section id="how-does-it-work" class="how-does-it-work section" data-tabs-container>
                 <div class="wega-skew">
