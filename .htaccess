@@ -3,3 +3,5 @@ AuthGroupFile /dev/null
 AuthName "Accès Restreint"
 AuthType Basic
 require valid-user
+RewriteEngine on
+RedirectMatch 301 ^/how-does-it-work\.php$ /index\.php#how-does-it-work
