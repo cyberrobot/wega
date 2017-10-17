@@ -4,4 +4,6 @@ AuthName "Accès Restreint"
 AuthType Basic
 require valid-user
 RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [NE,R,L]
 RedirectMatch 301 ^/how-does-it-work\.php$ /index\.php#how-does-it-work

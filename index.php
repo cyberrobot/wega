@@ -62,7 +62,7 @@ include_once "header.php";
                                     <h1>Become an <span>unconditional</span> <span>citizen</span></h1>
                                     <ul class="horizontal-menu">
                                         <li>
-                                            <a href="#advantages" class="btn blue scroll-link">Discover</a>
+                                            <a href="#become-unconditional-citizen" class="btn blue scroll-link">Discover</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -107,11 +107,11 @@ include_once "header.php";
                                             <i class="icon icon-speaker"></i>
                                             <span class="tab-title">More than<br> a payment card</span>
                                         </div>
-                                        <div class="tab" data-style="vertical-media-text">
+                                        <div id="services-tab" class="tab" data-style="vertical-media-text">
                                             <i class="icon icon-gears"></i>
                                             <span class="tab-title">Services</span>
                                         </div>
-                                        <div id="services-tab" class="tab" data-style="horizontal-media-text">
+                                        <div class="tab" data-style="horizontal-media-text">
                                             <i class="icon icon-padlock"></i>
                                             <span class="tab-title">Enhanced security<br> with 3DSA 2.0</span>
                                         </div>
@@ -153,6 +153,21 @@ include_once "header.php";
                                     </div>
                                 </div>
                             </div>
+                            <div id="services" class="pane">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="wega-image-container">
+                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="wega-text-container pull-top-60">
+                                            <h1>An unparalleled realm of on-the-go services</h1>
+                                            <p>And, what if your most unexpected wishes were to come true for the first time ever? It’s now absolutely possible with the Wega® prepaid Mastercard. You can transfer money to your loved ones, top up your mobile, purchase online and enjoy exclusive advantages, check your accounts remotely, all totally securely... The Wega Mastercard® allows you to be decisively mobile and to access all the advantages of the digital world online via your smartphone or your tablet, easily, rapidly and safely. When you register for a Wega® offer, you will have access to a Facebox® service where you can archive and store all your data in your personal space securely.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="pane">
                                 <div class="row">
                                     <div class="col-sm-6">
@@ -173,21 +188,6 @@ prevention for In App and in Web acceptance. For the very first time you will be
 secured PIN code. You can choose among different FIDO® Certified payment authentications built in your Wega app such as acoustic card, finger print, voice and face recognition.</p>
 <p>Thanks to the Wega 3DSA 2.0 acoustic technology you have the ability to send money to your loved ones, top up your mobile, purchase
 online, enjoy exclusive advantages and check your accounts remotely in a simple and fast way with an additional security layer.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="services" class="pane">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img class="img-responsive" src="img/iphone-card-account.png" alt="An unparalleled realm of on-the-go services">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-5">
-                                        <div class="wega-text-container pull-top-60">
-                                            <h1>An unparalleled realm of on-the-go services</h1>
-                                            <p>And, what if your most unexpected wishes were to come true for the first time ever? It’s now absolutely possible with the Wega® prepaid Mastercard. You can transfer money to your loved ones, top up your mobile, purchase online and enjoy exclusive advantages, check your accounts remotely, all totally securely... The Wega Mastercard® allows you to be decisively mobile and to access all the advantages of the digital world online via your smartphone or your tablet, easily, rapidly and safely. When you register for a Wega® offer, you will have access to a Facebox® service where you can archive and store all your data in your personal space securely.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -341,7 +341,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                         </div>
                                         <div class="tab" data-style="vertical-media-text centered">
                                             <i class="icon icon-card-hand"></i>
-                                            <span class="tab-title">Data Protection</span>
+                                            <span class="tab-title">Single Use Card</span>
                                         </div>
                                         <div class="tab hidden-xs"></div>
                                     </div>
@@ -472,7 +472,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                 </div>
             </section>
         </div>
-        <section class="section become-unconditional-citizen">
+        <section id="become-unconditional-citizen" class="section become-unconditional-citizen">
           <div class="wega-skew">
             <div class="wega-bg"></div>
           </div>
@@ -490,11 +490,6 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                         <li>VIP tickets to Champions League away trip including: Return travel from Manchester with the Official Travel Party Hotel accommodation for the duration of the trip VIP tickets to the game</li>
                         <li>Luxury gift boxes with Jersey signed by Manchester City’s squad</li>
                         <li>All year long enjoy 10% discount on the Citizen Store</li>
-                      </ul>
-                      <ul class="horizontal-menu">
-                        <li>
-                          <a href="#advantages" class="btn blue scroll-link">Discover</a>
-                        </li>
                       </ul>
                     </div>
                   </div>
