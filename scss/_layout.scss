@@ -824,6 +824,7 @@ $screen-xl-max: 1440px;
         .tab {
             float: left;
             margin-bottom: 20px;
+            cursor: pointer;
 
             .tab-title {
                 font-size: 1.6rem;
@@ -832,9 +833,18 @@ $screen-xl-max: 1440px;
                 margin: 15px 0 0;
             }
 
+            .icon {
+              border-radius: 50%;
+            }
+
             &.active {
               .icon {
-                border-radius: 50%;
+                background-color: #79b1e0;
+              }
+            }
+
+            &:hover {
+              .icon {
                 background-color: #79b1e0;
               }
             }
@@ -866,6 +876,7 @@ $screen-xl-max: 1440px;
         background-size: 100% auto;
         position: relative;
         left: 50%;
+        cursor: pointer;
 
         @media screen and (max-width: $screen-sm-max) {
             margin-bottom: 30px
