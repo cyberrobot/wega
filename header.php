@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <!--Include CSS-->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=b3da9e923023b141ec8a22066a874081">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=f12f8fbbc8f6adeac4f791d100f07502">
 
     <!-- Include js -->
 
     <script src="js/jquery-3.1.1.min.js?v=e071abda8fe61194711cfc2ab99fe104" defer=""></script>
     <script src="js/owl.carousel.min.js?v=88d0fe722f04973e2888b58a63aa0570" defer=""></script>
-    <script src="js/app.js?v=92c6a5f8b265d5845f7a8544ecac1ffa" defer=""></script>
+    <script src="js/app.js?v=9b9fc9e08337f5dd34e2cc6e3e42595c" defer=""></script>
 </head>
 
 <body>

@@ -31,32 +31,32 @@
         }]
 
         $.each(array, function(index, item) {
-          scrollToSubsection(item.trigger, item.tab);
+          if (item.trigger.length && item.tab.length) {
+            scrollToSubsection(item.trigger, item.tab);
+          }
         });
         
         triggerSupportWidget();
     });
 
     function scrollLink() {
-        $(document).on('click', '.scroll-link', function(event) {
-            event.preventDefault();
-            var htmlBody = $('body, html');
+      var htmlBody = $('body, html');
+      $(document).on('click', '.scroll-link', function(event) {
+          hideMenu();
+          scrollToTarget();
 
-            hideMenu();
-            scrollToTarget();
-
-            function hideMenu() {
-                $('#nav-primary').removeClass('is-visible');
-                htmlBody.removeAttr('style');
-            }
-            
-            function scrollToTarget() {
-                var headerHeight = $('.wega-sticky-header').height();
-                htmlBody.animate({
-                    scrollTop: $(event.target.hash).offset().top - headerHeight / 2
-                }, 1500);
-            }
-        });
+          function hideMenu() {
+              $('#nav-primary').removeClass('is-visible');
+              htmlBody.removeAttr('style');
+          }
+          
+          function scrollToTarget() {
+              var headerHeight = $('.wega-sticky-header').height();
+              htmlBody.animate({
+                  scrollTop: $(event.target.hash).offset().top - headerHeight / 2
+              }, 1500);
+          }
+      });
     }
 
     function collapsibleItems(tabsComponent) {
@@ -144,13 +144,18 @@
     }
 
     function scrollToSubsection(trigger, tab) {
-        var modalNav = $('#nav-primary');
+      var modalNav = $('#nav-primary');
+      var htmlBody = $('body, html');
 
-        trigger.on('click', function (e) {
-            tab.trigger('click');
-            modalNav.removeClass('is-visible');
-            $('body, html').removeAttr('style');
-        });
+      trigger.on('click', function (e) {
+        hideMenu();
+        tab.trigger('click');
+      });
+
+      function hideMenu() {
+        $('#nav-primary').removeClass('is-visible');
+        htmlBody.removeAttr('style');
+      }
     }
 
     function triggerSupportWidget() {
