@@ -212,7 +212,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                                         <i class="icon icon-card-hand"></i>
                                                     </div>
                                                     <div class="text-container">
-                                                        <h3>Single Use Card</h3>
+                                                        <h3>Data Protection</h3>
                                                         <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase.</p>
                                                     </div>
                                                 </div>
@@ -380,7 +380,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                                         <i class="icon icon-card-hand"></i>
                                                     </div>
                                                     <div class="text-container">
-                                                        <h3>Single Use Card</h3>
+                                                        <h3>Data Protection</h3>
                                                         <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase.</p>
                                                     </div>
                                                 </div>
