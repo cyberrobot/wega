@@ -103,7 +103,7 @@ include_once "header.php";
                             <div class="collapsible-tabs">
                                 <div class="tabs col-sm-10 col-sm-offset-1">
                                     <div class="row">
-                                        <div class="tab" data-style="horizontal-media-text">
+                                        <div class="tab" data-style="vertical-media-text">
                                             <i class="icon icon-speaker"></i>
                                             <span class="tab-title">More than<br> a payment card</span>
                                         </div>
@@ -141,8 +141,8 @@ include_once "header.php";
                             <div id="unbelievably-more-than-just-a-payment-card" class="pane">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <div class="wega-image-container">
-                                            <img src="img/more-than-just-a-bank-card.png" alt="Unbelievably more than just a payment card">
+                                        <div class="wega-image-container narrow-width">
+                                            <img src="img/more-than-just-a-bank-card-v.png" alt="Unbelievably more than just a payment card">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-5">

@@ -937,6 +937,24 @@ $screen-xl-max: 1440px;
                     }
                 }
 
+                &.narrow-width {
+                  img {
+                    max-width: 45%;
+          
+                    @media screen and (max-width: $screen-md-max) {
+                      max-width: 60%;
+                    }
+          
+                    @media screen and (max-width: $screen-sm-max) {
+                        max-width: 70%;
+                    }
+          
+                    @media screen and (max-width: $screen-xs-max) {
+                        max-width: 40%;
+                    }
+                  }
+                }
+
                 @media screen and (max-width: $screen-xs-max) {
                     margin-right: 0;
                     margin-bottom: 60px;
