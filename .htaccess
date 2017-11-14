@@ -1,4 +1,4 @@
-AuthUserFile /kunden/homepages/8/d372560266/htdocs/.htpasswd 
+AuthUserFile /home/wegamccoli/www/.htpasswd 
 AuthGroupFile /dev/null
 AuthName "Accès Restreint"
 AuthType Basic
@@ -6,5 +6,5 @@ require valid-user
 RewriteEngine on
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [NE,R,L]
-RedirectMatch 301 ^/$ /index\.php
-RedirectMatch 301 ^/how-does-it-work\.php$ /index\.php#how-does-it-work
+RedirectMatch 301 ^/$ /index.php
+RedirectMatch 301 ^/how-does-it-work\.php$ /index.php#how-does-it-work
