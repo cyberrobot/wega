@@ -213,7 +213,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Data Protection</h3>
-                                                        <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase.</p>
+                                                        <p>Thanks to Wega single use card, which you generate instantly from the app, never reveal your primary card numbers when paying online.</p>
                                                     </div>
                                                 </div>
                                                 <div class="media-with-text icon-right">
@@ -381,7 +381,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Data Protection</h3>
-                                                        <p>Never reveal your card number when paying online. Instead, instantly generate a Wega single-use card from your mobile with unique numbers that will expire right after your purchase.</p>
+                                                        <p>Thanks to Wega single use card, which you generate instantly from the app, never reveal your primary card numbers when paying online.</p>
                                                     </div>
                                                 </div>
                                             </div>
