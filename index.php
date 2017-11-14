@@ -590,7 +590,7 @@ This process certifies to the bank that the shown card is valid and that the per
 The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directive”) represents a step further towards complete harmonisation of the EU payments market.This introduces new regulations and standards both to the European existing payment services regime and the authentication landscape.</p>
 <p><strong>Article 97</strong> of the Directive establishes a strong customer authentication (SCA) procedure that applies when the payer:</br>
 - access their online payment account</br>
-- initiates an electronic payment transaction;</p>
+- initiates an electronic payment transaction</p>
                                             </div>
                                         </div>
                                     </div>
