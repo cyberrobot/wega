@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Wega Mastercard</title>
     <!--Include CSS-->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css?v=f12f8fbbc8f6adeac4f791d100f07502">
