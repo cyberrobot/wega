@@ -564,7 +564,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                             <h1>How an acoustic payment card works</h1>
                                         </div>
                                         <div class="col-sm-12">
-                                            <div class="wega-text-container pull-top-40">
+                                            <div class="wega-text-container">
                                                 <p>To use acoustic function, press the button bottom right under the Mastercard logo. In case the button does not work properly, contact customer support at <a class="tel" href="tel:+441618831591">+44(0)161 883 1591</a></p>
                                                 <p>Wega 3DSA 2.0 card is a regular Mastercard payment card with EMV functionalities and embedded NFC (Near Field Communication) functionalities. It features particularly on top a button, a loudspeaker and a battery that powers unique and patented acoustic functionality.</p>
 
@@ -585,7 +585,7 @@ This process certifies to the bank that the shown card is valid and that the per
                                             <h1>What is PSD2</h1>
                                         </div>
                                         <div class="col-sm-12">
-                                            <div class="wega-text-container pull-top-40">
+                                            <div class="wega-text-container">
 <p>Directive 2007/64/CE (hereinafter "PSD") 1, as it is known, regulated the information requirements, the rights and the obligations of payment services users, as well as the prudential requirements for entering the market of entities qualified to provide these services (payment service providers or "PSP"). The establishment of uniform rules for the provision of payment services, has encouraged the creation of a EU internal market for payments. 
 The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directive”) represents a step further towards complete harmonisation of the EU payments market.This introduces new regulations and standards both to the European existing payment services regime and the authentication landscape.</p>
 <p><strong>Article 97</strong> of the Directive establishes a strong customer authentication (SCA) procedure that applies when the payer:</br>
@@ -603,7 +603,7 @@ The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directi
                                             <h1>Strong acoustic authentication</h1>
                                         </div>
                                         <div class="col-sm-12">
-                                            <div class="wega-text-container pull-top-40">
+                                            <div class="wega-text-container">
                                             <p>One Outcome to the lack of user authentication in electronic commerce is a greater incidence of payment card fraud. A notable attempt by the payment card industry to reduce this problem is to secure electronic operations. Wega strong objective is to meet this challenge while fully comply with PSD2</p>
                                             
                                             <h3>Identifying with Wega</h3>
@@ -624,7 +624,7 @@ The Directive (EU) 2015/2366 (hereinafter “PSD 2” or the “new Directi
                                             <h1>FIDO certified</h1>
                                         </div>
                                         <div class="col-sm-12">
-                                            <div class="wega-text-container pull-top-40">
+                                            <div class="wega-text-container">
                                             <h3>About FIDO Alliance and FIDO standards</h3>
                                             <p>The Fast Identity Online (FIDO) Alliance was formed in 2013 to revolutionize online authentication by developing open, interoperable industry standards that leverage proven public key cryptography for stronger security and device-based user verification for better usability. Through the collaborative efforts of FIDO, new standards and specifications have emerged that enable strong, easy-to-use authentication to be built into devices.</br>
 In a typical deployment of these standards, a user swipes a finger, speaks a phrase, looks at a camera on a device to login, pay for an item, or use another service.</br>
@@ -654,7 +654,7 @@ Fido ignites a thriving ecosystem of client authentication methods such as biome
                                             <h1>How to activate my Wega Card</h1>
                                         </div>
                                         <div class="col-sm-12">
-                                            <div class="wega-text-container pull-top-40">
+                                            <div class="wega-text-container">
                                             <?php 
                                             include_once "how-to-activate.php";
                                             ?>
