@@ -247,7 +247,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Family Pack</h3>
-                                                        <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
+                                                        <p>Get a family pack with your primary physical card, the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
                                                     </div>
                                                 </div>
                                                 <div class="media-with-text">
@@ -406,7 +406,7 @@ online, enjoy exclusive advantages and check your accounts remotely in a simple 
                                                     </div>
                                                     <div class="text-container">
                                                         <h3>Family Pack</h3>
-                                                        <p>Our Family Pack is the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
+                                                        <p>Get a family pack with your primary physical card, the easiest way to instantly get money to your child with multiple cards and under your watchful eye</p>
                                                     </div>
                                                 </div>
                                             </div>
