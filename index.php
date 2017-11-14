@@ -651,48 +651,13 @@ Fido ignites a thriving ecosystem of client authentication methods such as biome
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="col-sm-12">
-                                            <h1>How to activate my  Wega Card</h1>
+                                            <h1>How to activate my Wega Card</h1>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="wega-text-container pull-top-40">
-                                            <p>In order to start using the card please undertake the following simple and secure steps:
-Sign it at the back and activate it as follows:</p>
-<p><ul class="bullet">
-    <li>Via mobile application Manchester City Wega</br>
-You have downloaded the Manchester City Wega mobile app and registered your Wega 3DSA account on the app:
-        <ul class="bullet">
-            <li>Go to the Activation button.</li>    
-            <li>Fill out the CID (The Cardholder ID is the 12 digit number printed on the front of you card under the cardholder’s name)
-</li>
-            <li>Fill out your date of birth in the following format DD/MM/YY (plse check)</li>
-            <li>Push the X symbol on the corner of your Wega 3DSA card  close to the microphone of your mobile phone. When the Wega</li>
-            <li>3DSA system recognizes the unique acoustic password your card will be then activated.</li>
-
-        </ul>
-        You have not downloaded the Manchester City Wega mobile app available on Google Play and App Store yet. Please do so and go through the Wega 3DSA account registration process. Then please continue with steps a.i.1 through 4 above.
-    </li>
-    <li>Via the website</li>
-    <li>By calling us on our number <a class="tel" href="tel:+441618831501">+44 (0) 161 883 1501</a></li>
-</ul></p>
-<p>Then you will need to provide your card number and DOB in DD/MM/YY format.</p>
-<h3>How to load your Wega card?</h3>
-<p>There are three ways:</p>
-    <ul class="bullet">
-        <li>Via bank transfer</li>
-        <li>Via debit card</li>
-        <li>Via Neosurf voucher</li>
-    </ul>
-<p>Now that you card  is activated and loaded below are some operations you can do securely with your Wega 3DSA 2.0 payment card.</p>
-    <ul class="bullet">
-        <li>You can pay for goods and services now at millions of locations worldwide instead of cash and checks and at any ATM that displays the Mastercard acceptance mark.</li>
-        <li>You retain full cost control of the money you spend.</li>
-        <li>Apply for extra cards for you partner relatives or business associates.</li>
-        <li>Check your balance or review a list of transactions on your mobile app, via the website.</li>
-        <li>Accept payments whenever and wherever you want, via bank transfer from other accounts or from other cardholders.</li>
-        <li>Share money with another cardholder. This replaces many other, more expensive money transfer methods you may have been using previously.</li>
-    </ul>
-    <p>You have access to Facebox, your digital safe to store all your confidential documents</p>
-
+                                            <?php 
+                                            include_once "how-to-activate.php";
+                                            ?>
                                             </div>
                                         </div>
                                     </div>
